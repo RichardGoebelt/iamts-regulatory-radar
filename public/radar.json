@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T10:01:23Z",
-  "previousMonitoringRun": "2026-08-28T09:52:36Z",
+  "updatedAt": "2026-08-28T10:41:58Z",
+  "previousMonitoringRun": "2026-08-28T10:01:23Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -1305,6 +1305,26 @@
       "change": "No change"
     },
     {
+      "id": "4d6b411021c37ffc110b",
+      "region": "EU",
+      "sourceId": "eu-ccam",
+      "sourceName": "European Commission – CCAM / Automotive legislation",
+      "sourceUrl": "https://transport.ec.europa.eu/transport-themes/intelligent-transport-systems/cooperative-connected-and-automated-mobility-ccam_en",
+      "title": "Communication between vehicles, infrastructure and other road users is also crucial to increase the safety of future automated vehicles and their full integration in the overall transport system",
+      "date": "2019-03-13",
+      "status": "Status unclear",
+      "summary": "Official European Commission – CCAM / Automotive legislation page content matching the monitoring scope.",
+      "relevance": "May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+      "contentHash": "45e60d2f4dfe7b844fb0",
+      "tc": 2,
+      "urgency": 0,
+      "impact": 1,
+      "total": 3,
+      "priority": "Medium",
+      "change": "New"
+    },
+    {
       "id": "9463715eab14f2d01921",
       "region": "USA",
       "sourceId": "usa-federal-register",
@@ -1352,11 +1372,11 @@
       "name": "UNECE GRVA",
       "url": "https://unece.org/transport/vehicle-regulations/working-party-automatedautonomous-and-connected-vehicles-introduction",
       "status": "unavailable",
-      "message": "Currently unavailable · RuntimeError: UNECE event and document pages could not be retrieved",
+      "message": "Currently unavailable · RuntimeError: UNECE official pages could not be retrieved. unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/transport/vehicle-regulations: unece.org retrieval failed — urllib…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:01:23Z",
+      "checkedAt": "2026-08-28T10:41:58Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 72
+      "elapsedMs": 786
     },
     {
       "id": "unece-wp29",
@@ -1364,11 +1384,11 @@
       "name": "UNECE WP.29",
       "url": "https://unece.org/transport/vehicle-regulations",
       "status": "unavailable",
-      "message": "Currently unavailable · RuntimeError: UNECE event and document pages could not be retrieved",
+      "message": "Currently unavailable · RuntimeError: UNECE official pages could not be retrieved. unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/transport/vehicle-regulations: unece.org retrieval failed — urllib…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:01:23Z",
+      "checkedAt": "2026-08-28T10:41:58Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 38
+      "elapsedMs": 652
     },
     {
       "id": "eu-grow-publications",
@@ -1378,9 +1398,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T10:01:23Z",
-      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
-      "elapsedMs": 1671
+      "checkedAt": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "elapsedMs": 1997
     },
     {
       "id": "eu-ccam",
@@ -1389,10 +1409,10 @@
       "url": "https://transport.ec.europa.eu/transport-themes/intelligent-transport-systems/cooperative-connected-and-automated-mobility-ccam_en",
       "status": "success",
       "message": "Successfully checked",
-      "count": 1,
-      "checkedAt": "2026-08-28T10:01:23Z",
-      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
-      "elapsedMs": 800
+      "count": 2,
+      "checkedAt": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "elapsedMs": 2209
     },
     {
       "id": "usa-federal-register",
@@ -1402,9 +1422,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 48,
-      "checkedAt": "2026-08-28T10:01:23Z",
-      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
-      "elapsedMs": 1597
+      "checkedAt": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "elapsedMs": 2243
     },
     {
       "id": "usa-nhtsa",
@@ -1412,23 +1432,23 @@
       "name": "NHTSA – Automated Vehicle Safety",
       "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety",
       "status": "unavailable",
-      "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved",
+      "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved. www.nhtsa.gov/vehicle-safety/automated-vehicle-safety: www.nhtsa.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;vehicle&#45;s… | www.nhtsa.gov/automated-vehicle-safety/resources: www.nhtsa.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;automated&#45… | www.nhtsa.gov/vehicle-ma…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:01:23Z",
+      "checkedAt": "2026-08-28T10:41:58Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 197
+      "elapsedMs": 233
     },
     {
       "id": "usa-usdot",
       "region": "USA",
       "name": "U.S. DOT – Automated Vehicles",
-      "url": "https://www.transportation.gov/automated-vehicles",
+      "url": "https://www.transportation.gov/AV",
       "status": "unavailable",
-      "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved",
+      "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved. www.transportation.gov/AV: www.transportation.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;transportation&#46;gov… | www.transportation.gov/taxonomy/term/12981: www.transportation.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;transportation&#46;gov… | www.transportation.gov/tags/automated-vehicles: www.transp…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:01:23Z",
+      "checkedAt": "2026-08-28T10:41:58Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 120
+      "elapsedMs": 265
     },
     {
       "id": "china-miit",
@@ -1438,9 +1458,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T10:01:23Z",
-      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
-      "elapsedMs": 1428
+      "checkedAt": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "elapsedMs": 1554
     },
     {
       "id": "china-samr",
@@ -1450,9 +1470,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T10:01:23Z",
-      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
-      "elapsedMs": 7264
+      "checkedAt": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "elapsedMs": 6042
     }
   ],
   "regionalSignals": {
@@ -1462,9 +1482,9 @@
       "dominantTopic": "No dominant topic"
     },
     "EU": {
-      "developments": 3,
+      "developments": 4,
       "highPriority": 2,
-      "dominantTopic": "Vehicle Connectivity & Data"
+      "dominantTopic": "Automated Driving Regulation"
     },
     "USA": {
       "developments": 48,
