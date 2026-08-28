@@ -14,7 +14,10 @@ import hashlib
 import html as html_lib
 import json
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -29,6 +32,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_FILE = ROOT / "public" / "radar.json"
 STATE_FILE = ROOT / "data" / "state.json"
+CURRENT_YEAR = datetime.now(timezone.utc).year
 
 # ============================================================================
 # EDITABLE SOURCE CONFIGURATION
@@ -44,6 +48,16 @@ SOURCES: list[dict[str, Any]] = [
         "page_url": "https://unece.org/transport/vehicle-regulations/working-party-automatedautonomous-and-connected-vehicles-introduction",
         "list_urls": [
             "https://unece.org/info/events/unece-meetings-and-events/vehicle-regulations"
+        ],
+        # Alternative official UNECE indexes. These are important because some
+        # UNECE event pages intermittently reject requests from cloud runners.
+        "document_search_urls": [
+            f"https://unece.org/media/documents?key=&symbol=ECE%2FTRANS%2FWP.29%2FGRVA%2F{CURRENT_YEAR}&title=",
+            "https://unece.org/media/documents?key=automated&symbol=ECE%2FTRANS%2FWP.29%2FGRVA&title=",
+        ],
+        "fallback_urls": [
+            "https://unece.org/transport/vehicle-regulations",
+            "https://unece.org/media/transport/Vehicle-Regulations/news/recent",
         ],
         # Seed pages make the first deployment useful even if the event-list
         # markup changes. New meetings are also discovered from list_urls.
@@ -63,8 +77,17 @@ SOURCES: list[dict[str, Any]] = [
         "list_urls": [
             "https://unece.org/info/events/unece-meetings-and-events/vehicle-regulations"
         ],
+        "document_search_urls": [
+            f"https://unece.org/media/documents?key=&symbol=ECE%2FTRANS%2FWP.29%2F{CURRENT_YEAR}&title=",
+            f"https://unece.org/media/documents?key=GRVA&symbol=ECE%2FTRANS%2FWP.29%2F{CURRENT_YEAR}&title=",
+        ],
+        "fallback_urls": [
+            "https://unece.org/transport/vehicle-regulations",
+            "https://unece.org/media/transport/Vehicle-Regulations/news/recent",
+        ],
         "seed_urls": [
             "https://unece.org/info/Transport/events/412348",
+            "https://unece.org/info/Transport/Vehicle-Regulations/events/412348",
         ],
         "event_needles": [
             "(WP.29) World Forum",
@@ -117,6 +140,8 @@ SOURCES: list[dict[str, Any]] = [
         "page_url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety",
         "urls": [
             "https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety",
+            "https://www.nhtsa.gov/automated-vehicle-safety/resources",
+            "https://www.nhtsa.gov/vehicle-manufacturers/automated-driving-systems",
             "https://www.nhtsa.gov/press-releases",
         ],
     },
@@ -125,8 +150,13 @@ SOURCES: list[dict[str, Any]] = [
         "region": "USA",
         "name": "U.S. DOT – Automated Vehicles",
         "adapter": "official_pages",
-        "page_url": "https://www.transportation.gov/automated-vehicles",
-        "urls": ["https://www.transportation.gov/automated-vehicles"],
+        "page_url": "https://www.transportation.gov/AV",
+        "urls": [
+            "https://www.transportation.gov/AV",
+            "https://www.transportation.gov/taxonomy/term/12981",
+            "https://www.transportation.gov/tags/automated-vehicles?page=0",
+            "https://www.transportation.gov/newsroom/press-releases?keys=automated%20vehicle",
+        ],
     },
     {
         "id": "china-miit",
@@ -190,12 +220,25 @@ TOPIC_RULES = [
 ]
 
 FETCH_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; IAMTS-Regulatory-Radar/1.0; +https://iamts.org/)",
-    "Accept": "application/json,application/rss+xml,application/atom+xml,application/xml,text/xml,text/html;q=0.9,*/*;q=0.8",
+    # Use a normal browser user agent. Several public-sector sites treat generic
+    # Python user agents differently from interactive browsers.
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json,application/rss+xml,application/atom+xml;q=0.8,*/*;q=0.7",
     "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
 }
+USER_AGENTS = [
+    FETCH_HEADERS["User-Agent"],
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0",
+]
 MAX_BYTES = 6_000_000
-TIMEOUT = 25
+TIMEOUT = 20
+FETCH_RETRIES = 2
+
+
+class FetchFailure(RuntimeError):
+    """Raised with useful diagnostics after all retrieval strategies fail."""
 
 
 def now_iso() -> str:
@@ -236,7 +279,7 @@ def extract_date(text: str) -> str:
     for fmt in ("%d %B %Y", "%d %b %Y", "%B %d, %Y", "%b %d, %Y"):
         for token in re.findall(r"[A-Za-z]+\s+\d{1,2},?\s+20\d{2}|\d{1,2}\s+[A-Za-z]+\s+20\d{2}", text):
             try:
-                return datetime.strptime(token.replace(",", ","), fmt).date().isoformat()
+                return datetime.strptime(token, fmt).date().isoformat()
             except ValueError:
                 pass
     return ""
@@ -263,14 +306,103 @@ def resolve_url(href: str, base: str) -> str:
         return base
 
 
-def fetch_bytes(url: str, timeout: int = TIMEOUT) -> tuple[bytes, str]:
-    req = urllib.request.Request(url, headers=FETCH_HEADERS, method="GET")
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        content_type = response.headers.get("Content-Type", "")
-        data = response.read(MAX_BYTES + 1)
+def _body_snippet(data: bytes) -> str:
+    return truncate(data[:500].decode("utf-8", errors="replace").replace("\n", " "), 180)
+
+
+def _urllib_fetch(url: str, timeout: int, user_agent: str) -> tuple[bytes, str]:
+    headers = dict(FETCH_HEADERS)
+    headers["User-Agent"] = user_agent
+    # A same-origin Referer helps with a few public Drupal/WAF configurations.
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.scheme and parsed.netloc:
+        headers["Referer"] = f"{parsed.scheme}://{parsed.netloc}/"
+    req = urllib.request.Request(url, headers=headers, method="GET")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            content_type = response.headers.get("Content-Type", "")
+            data = response.read(MAX_BYTES + 1)
+            if len(data) > MAX_BYTES:
+                raise FetchFailure(f"response exceeds {MAX_BYTES // 1_000_000} MB limit")
+            return data, content_type
+    except urllib.error.HTTPError as exc:
+        try:
+            snippet = _body_snippet(exc.read(600))
+        except Exception:
+            snippet = ""
+        suffix = f" · {snippet}" if snippet else ""
+        raise FetchFailure(f"HTTP {exc.code} {norm(exc.reason)}{suffix}") from exc
+    except urllib.error.URLError as exc:
+        raise FetchFailure(f"network error: {norm(getattr(exc, 'reason', exc))}") from exc
+    except TimeoutError as exc:
+        raise FetchFailure("request timed out") from exc
+
+
+def _curl_fetch(url: str, timeout: int) -> tuple[bytes, str]:
+    """Fallback for sites that reject urllib but accept a normal curl client.
+
+    GitHub-hosted Ubuntu runners include curl. This keeps the Python project free
+    of third-party packages while giving government sites a second HTTP stack.
+    """
+    if not shutil.which("curl"):
+        raise FetchFailure("curl fallback is not available on this runner")
+    with tempfile.TemporaryDirectory(prefix="iamts-radar-") as td:
+        body = Path(td) / "body.bin"
+        headers = Path(td) / "headers.txt"
+        cmd = [
+            "curl", "--location", "--silent", "--show-error", "--compressed",
+            "--fail-with-body", "--retry", "2", "--retry-delay", "2",
+            "--connect-timeout", "12", "--max-time", str(timeout),
+            "--user-agent", USER_AGENTS[0],
+            "--header", f"Accept: {FETCH_HEADERS['Accept']}",
+            "--header", f"Accept-Language: {FETCH_HEADERS['Accept-Language']}",
+            "--header", "Cache-Control: no-cache",
+            "--output", str(body), "--dump-header", str(headers), url,
+        ]
+        proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=timeout + 10)
+        data = body.read_bytes() if body.exists() else b""
         if len(data) > MAX_BYTES:
-            raise RuntimeError(f"Response exceeds {MAX_BYTES // 1_000_000} MB limit")
+            raise FetchFailure(f"curl response exceeds {MAX_BYTES // 1_000_000} MB limit")
+        header_text = headers.read_text(encoding="iso-8859-1", errors="replace") if headers.exists() else ""
+        statuses = re.findall(r"HTTP/\S+\s+(\d{3})(?:\s+([^\r\n]+))?", header_text)
+        final_status = statuses[-1][0] if statuses else ""
+        ctype_matches = re.findall(r"(?im)^content-type:\s*([^\r\n]+)", header_text)
+        content_type = ctype_matches[-1].strip() if ctype_matches else ""
+        if proc.returncode != 0:
+            detail = norm(proc.stderr.decode("utf-8", errors="replace"))
+            snippet = _body_snippet(data) if data else ""
+            bits = [f"curl exit {proc.returncode}"]
+            if final_status:
+                bits.append(f"HTTP {final_status}")
+            if detail:
+                bits.append(detail)
+            if snippet:
+                bits.append(snippet)
+            raise FetchFailure(" · ".join(bits))
         return data, content_type
+
+
+def fetch_bytes(url: str, timeout: int = TIMEOUT) -> tuple[bytes, str]:
+    errors: list[str] = []
+    # Retry transient failures and rotate a realistic browser UA.
+    for attempt in range(FETCH_RETRIES):
+        try:
+            return _urllib_fetch(url, timeout, USER_AGENTS[attempt % len(USER_AGENTS)])
+        except Exception as exc:
+            message = norm(exc)
+            errors.append(f"urllib #{attempt + 1}: {message}")
+            # Authentication/permission/not-found responses normally will not
+            # improve on an immediate retry. Move straight to the curl fallback.
+            if re.search(r"HTTP (?:401|403|404|410)\b", message):
+                break
+            if attempt < FETCH_RETRIES - 1:
+                time.sleep(1.5 * (attempt + 1))
+    try:
+        return _curl_fetch(url, timeout)
+    except Exception as exc:
+        errors.append(f"curl: {norm(exc)}")
+    host = urllib.parse.urlsplit(url).netloc or url
+    raise FetchFailure(f"{host} retrieval failed — " + " | ".join(errors[-4:]))
 
 
 def fetch_text(url: str, timeout: int = TIMEOUT) -> str:
@@ -283,6 +415,24 @@ def fetch_text(url: str, timeout: int = TIMEOUT) -> str:
         return data.decode(charset, errors="replace")
     except LookupError:
         return data.decode("utf-8", errors="replace")
+
+
+def html_to_text(value: str) -> str:
+    value = re.sub(r"(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>", " ", value)
+    value = re.sub(r"(?i)</?(?:p|div|li|tr|td|th|h[1-6]|article|section|br)\b[^>]*>", "\n", value)
+    value = re.sub(r"<[^>]+>", " ", value)
+    return norm(html_lib.unescape(value))
+
+
+def error_summary(errors: list[tuple[str, Exception]], limit: int = 4) -> str:
+    if not errors:
+        return "no successful response"
+    parts=[]
+    for url, exc in errors[-limit:]:
+        p=urllib.parse.urlsplit(url)
+        short=(p.netloc + p.path) if p.netloc else url
+        parts.append(f"{short}: {truncate(norm(exc), 240)}")
+    return " | ".join(parts)
 
 
 @dataclass
@@ -485,6 +635,7 @@ def english_china_title(chinese: str, standard_no: str = "") -> str:
 def adapter_federal_register(source: dict[str, Any]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     successes = 0
+    errors: list[tuple[str, Exception]] = []
     for term in source["search_terms"]:
         params = urllib.parse.urlencode({
             "per_page": "40",
@@ -509,22 +660,25 @@ def adapter_federal_register(source: dict[str, Any]) -> list[dict[str, Any]]:
                     "url": r.get("html_url") or source["page_url"],
                     "raw_status": norm(r.get("type")),
                 })
-        except Exception:
+        except Exception as exc:
+            errors.append((url, exc))
             continue
     if not successes:
-        raise RuntimeError("Federal Register API requests failed")
+        raise RuntimeError("Federal Register API requests failed. " + error_summary(errors))
     return out
 
 
 def adapter_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     successes = 0
+    errors: list[tuple[str, Exception]] = []
     for url in source["feed_urls"]:
         try:
             xml_bytes, _ = fetch_bytes(url)
             root = ET.fromstring(xml_bytes)
             successes += 1
-        except Exception:
+        except Exception as exc:
+            errors.append((url, exc))
             continue
         items = list(root.findall(".//item")) + list(root.findall(".//{http://www.w3.org/2005/Atom}entry"))
         for node in items:
@@ -544,18 +698,21 @@ def adapter_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
             if in_scope(title + " " + desc):
                 out.append({"key": link or title, "title": title, "summary": desc, "date": date, "url": link or source["page_url"]})
     if not successes:
-        raise RuntimeError("Official RSS feeds could not be retrieved")
+        raise RuntimeError("Official RSS feeds could not be retrieved. " + error_summary(errors))
     return out
 
 
 def adapter_official_pages(source: dict[str, Any]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     successes = 0
+    errors: list[tuple[str, Exception]] = []
     for url in source["urls"]:
         try:
-            parser = parse_html(fetch_text(url), url)
+            html_text = fetch_text(url)
+            parser = parse_html(html_text, url)
             successes += 1
-        except Exception:
+        except Exception as exc:
+            errors.append((url, exc))
             continue
         for a in parser.anchors:
             t = norm(a.text)
@@ -570,68 +727,173 @@ def adapter_official_pages(source: dict[str, Any]) -> list[dict[str, Any]]:
                 "date": extract_date(t),
                 "url": a.url,
             })
+        # Some landing pages contain the relevant development in their own
+        # headline/body rather than as a separate child link. Do not invent an
+        # item, but preserve an explicit dated regulatory headline if present.
+        page_text = html_to_text(html_text)
+        if in_scope(page_text) and text_has_any(page_text, REGULATORY_TERMS):
+            for pattern in [
+                r"([^.!?]{15,220}(?:automated vehicle|automated driving|driver assistance|vehicle cybersecurity|software update)[^.!?]{0,220})",
+                r"([^.!?]{15,220}(?:AV Framework|AV safety|ADS)[^.!?]{0,220})",
+            ]:
+                m = re.search(pattern, page_text, re.I)
+                if m:
+                    candidate = norm(m.group(1))
+                    if in_scope(candidate) and text_has_any(candidate, REGULATORY_TERMS):
+                        out.append({
+                            "key": url + "#page-content",
+                            "title": truncate(candidate, 280),
+                            "summary": f"Official {source['name']} page content matching the monitoring scope.",
+                            "date": extract_date(page_text),
+                            "url": url,
+                        })
+                    break
     if not successes:
-        raise RuntimeError("Official source pages could not be retrieved")
+        raise RuntimeError("Official source pages could not be retrieved. " + error_summary(errors))
+    return out
+
+def _unece_document_from_text(text: str, url: str, source: dict[str, Any], date: str = "") -> dict[str, Any] | None:
+    """Create a conservative UNECE record from a document-labelled text block."""
+    t = norm(text)
+    if not t or not in_scope(t):
+        return None
+    if source["id"] == "unece-grva":
+        symbol_re = r"ECE[/_\s-]*TRANS[/_\s-]*WP\.?29[/_\s-]*GRVA[/_\s-]*20\d{2}[/_\s-]*\d+(?:[/_\s-]*Rev\.?\s*\d+)?|GRVA-\d{1,3}-\d+"
+    else:
+        symbol_re = r"ECE[/_\s-]*TRANS[/_\s-]*WP\.?29[/_\s-]*20\d{2}[/_\s-]*\d+(?:[/_\s-]*Rev\.?\s*\d+)?|WP\.29-\d{1,3}-\d+"
+    m = re.search(symbol_re, t, re.I)
+    if not m:
+        return None
+    symbol = norm(m.group(0)).replace("_", "/")
+    return {
+        "key": symbol,
+        "title": truncate(t, 340),
+        "summary": f"UNECE working or informal document identified on an official {source['name']} page.",
+        "date": date or extract_date(t),
+        "url": url,
+        "raw_status": "working document",
+    }
+
+
+def _extract_unece_page(html_text: str, url: str, source: dict[str, Any]) -> list[dict[str, Any]]:
+    parser = parse_html(html_text, url)
+    page_text = html_to_text(html_text)
+    page_date = extract_date(page_text)
+    out: list[dict[str, Any]] = []
+
+    # Most UNECE meeting pages expose document metadata in table rows.
+    for row in parser.rows:
+        item = _unece_document_from_text(row.text, url, source, page_date)
+        if not item:
+            continue
+        link = next((a.url for a in row.anchors if re.search(r"\.pdf(?:$|\?)|\.docx?(?:$|\?)|/transport/documents/", a.url, re.I)), None)
+        if link:
+            item["url"] = link
+        out.append(item)
+
+    # Fallback for lists rendered mostly as links.
+    for a in parser.anchors:
+        item = _unece_document_from_text(a.text, a.url, source, page_date)
+        if item:
+            out.append(item)
+
+    # The generic UNECE document index can render title and symbol as separate
+    # elements. Extract symbol-centred text windows as a final official-source
+    # fallback. Items are still required to match the CAD scope.
+    if source["id"] == "unece-grva":
+        plain_symbol = r"ECE/TRANS/WP\.29/GRVA/20\d{2}/\d+(?:/Rev\.\d+)?"
+    else:
+        plain_symbol = r"ECE/TRANS/WP\.29/20\d{2}/\d+(?:/Rev\.\d+)?"
+    for m in re.finditer(plain_symbol, page_text, re.I):
+        lo = max(0, m.start() - 260)
+        hi = min(len(page_text), m.end() + 360)
+        window = norm(page_text[lo:hi])
+        # Cut at the nearest previous/next document symbol to avoid combining
+        # several search results into one pseudo-title.
+        prev_matches = list(re.finditer(plain_symbol, window[: m.start()-lo], re.I))
+        if prev_matches:
+            window = window[prev_matches[-1].end():]
+        next_m = re.search(plain_symbol, window[m.end()-lo if m.end()-lo < len(window) else 0:], re.I)
+        item = _unece_document_from_text(window, url, source, page_date)
+        if item:
+            out.append(item)
+
+    # High-level UNECE news/fallback pages may contain a relevant dated headline
+    # without a formal document symbol. These are included only when clearly
+    # regulatory and in scope, and are explicitly labelled as UNECE page items.
+    if not out and in_scope(page_text) and text_has_any(page_text, REGULATORY_TERMS):
+        for a in parser.anchors:
+            t = norm(a.text)
+            if len(t) >= 20 and in_scope(t) and text_has_any(t, REGULATORY_TERMS):
+                out.append({
+                    "key": a.url,
+                    "title": truncate(t, 340),
+                    "summary": f"Official UNECE item matching the connected and automated driving regulatory scope.",
+                    "date": extract_date(t) or page_date,
+                    "url": a.url,
+                    "raw_status": "",
+                })
     return out
 
 
 def adapter_unece_events(source: dict[str, Any]) -> list[dict[str, Any]]:
     event_urls = set(source.get("seed_urls", []))
-    list_success = 0
+    successful_pages = 0
+    errors: list[tuple[str, Exception]] = []
+    out: list[dict[str, Any]] = []
+
+    # 1) Discover current meeting pages from the official vehicle-regulations
+    # event index. Failure here is not fatal because seed/search fallbacks exist.
     for list_url in source.get("list_urls", []):
         try:
-            parser = parse_html(fetch_text(list_url), list_url)
-            list_success += 1
-        except Exception:
-            continue
-        for a in parser.anchors:
-            if any(low(n) in low(a.text) for n in source.get("event_needles", [])) and "unece.org" in a.url and ("/event" in a.url or "/events" in a.url):
-                event_urls.add(a.url)
+            html_text = fetch_text(list_url)
+            parser = parse_html(html_text, list_url)
+            successful_pages += 1
+            for a in parser.anchors:
+                if any(low(n) in low(a.text) for n in source.get("event_needles", [])) and "unece.org" in a.url and ("/event" in a.url or "/events" in a.url):
+                    event_urls.add(a.url)
+        except Exception as exc:
+            errors.append((list_url, exc))
 
-    out: list[dict[str, Any]] = []
-    event_success = 0
-    for url in list(event_urls)[: source.get("max_events", 5)]:
+    # 2) Formal event pages / seeded current sessions.
+    for url in sorted(event_urls, reverse=True)[: source.get("max_events", 5)]:
         try:
             html_text = fetch_text(url)
-            parser = parse_html(html_text, url)
-            event_success += 1
-        except Exception:
-            continue
-        page_date = extract_date(re.sub(r"<[^>]+>", " ", html_text))
-        for row in parser.rows:
-            if not re.search(r"ECE\s*[/_-]?\s*TRANS\s*[/_-]?\s*WP\.?29|WP\.29|GRVA", row.text, re.I):
-                continue
-            if not in_scope(row.text):
-                continue
-            link = next((a.url for a in row.anchors if re.search(r"\.pdf$|\.docx?$|/transport/documents/", a.url, re.I)), None)
-            link = link or (row.anchors[0].url if row.anchors else url)
-            doc_no = re.search(r"ECE[/_\s-]*TRANS[/_\s-]*WP\.?29(?:[/_\s-]*GRVA)?[/_\s-]*20\d{2}[/_\s-]*\d+(?:[/_\s-]*Rev\.?\s*\d+)?", row.text, re.I)
-            key = norm(doc_no.group(0)) if doc_no else link
-            title = truncate(row.text, 340)
-            out.append({
-                "key": key,
-                "title": title,
-                "summary": f"UNECE working or informal document identified on an official {source['name']} meeting page.",
-                "date": page_date,
-                "url": link,
-                "raw_status": "working document",
-            })
-        # Fallback for UNECE document lists rendered mainly as links.
-        for a in parser.anchors:
-            if not re.search(r"ECE|WP\.29|GRVA", a.text, re.I) or not in_scope(a.text):
-                continue
-            out.append({
-                "key": a.url,
-                "title": truncate(a.text, 340),
-                "summary": f"UNECE document link identified on an official {source['name']} meeting page.",
-                "date": page_date,
-                "url": a.url,
-                "raw_status": "working document",
-            })
-    if not event_success and not list_success:
-        raise RuntimeError("UNECE event and document pages could not be retrieved")
-    return out
+            successful_pages += 1
+            out.extend(_extract_unece_page(html_text, url, source))
+        except Exception as exc:
+            errors.append((url, exc))
 
+    # 3) Generic official UNECE document search pages. This uses a different
+    # Drupal route and often remains available when event pages reject cloud IPs.
+    for url in source.get("document_search_urls", []):
+        try:
+            html_text = fetch_text(url)
+            successful_pages += 1
+            out.extend(_extract_unece_page(html_text, url, source))
+        except Exception as exc:
+            errors.append((url, exc))
+
+    # 4) Official vehicle-regulations/news landing pages. This is a limited
+    # fallback for high-level changes; it never fabricates missing formal docs.
+    for url in source.get("fallback_urls", []):
+        try:
+            html_text = fetch_text(url)
+            successful_pages += 1
+            out.extend(_extract_unece_page(html_text, url, source))
+        except Exception as exc:
+            errors.append((url, exc))
+
+    if not successful_pages:
+        raise RuntimeError("UNECE official pages could not be retrieved. " + error_summary(errors))
+
+    # Deduplicate by the source key before normalization.
+    unique: dict[str, dict[str, Any]] = {}
+    for item in out:
+        key = norm(item.get("key")) or norm(item.get("url")) or norm(item.get("title"))
+        if key and key not in unique:
+            unique[key] = item
+    return list(unique.values())
 
 def adapter_samr(source: dict[str, Any]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
@@ -734,7 +996,7 @@ def collect_source(source: dict[str, Any]) -> dict[str, Any]:
         return {
             "source": source,
             "status": "unavailable",
-            "message": f"Currently unavailable · {type(exc).__name__}: {norm(exc)}",
+            "message": truncate(f"Currently unavailable · {type(exc).__name__}: {norm(exc)}", 700),
             "entries": [],
             "elapsedMs": int((time.monotonic() - started) * 1000),
         }
