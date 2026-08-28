@@ -1,0 +1,44 @@
+name: Send IAMTS Radar email notifications
+
+on:
+  workflow_run:
+    workflows: ["Update and deploy IAMTS Radar"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  email-radar-update:
+    # Automatic mail only follows a successful Radar update/deployment.
+    # Manual workflow_dispatch runs are also allowed for testing.
+    if: >-
+      ${{ github.event_name == 'workflow_dispatch' ||
+          github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out latest published Radar state
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Send email digest when Radar changed
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          SMTP_REPLY_TO: ${{ secrets.SMTP_REPLY_TO }}
+          RADAR_EMAIL_RECIPIENTS: ${{ secrets.RADAR_EMAIL_RECIPIENTS }}
+          RADAR_SITE_URL: https://richardgoebelt.github.io/iamts-regulatory-radar/
+          RADAR_EMAIL_MAX_ITEMS: '15'
+          RADAR_EMAIL_SEND_EMPTY: 'false'
+        run: python scripts/send_email_digest.py
