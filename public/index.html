@@ -27,6 +27,7 @@ button{padding:8px 12px;font-weight:700;cursor:pointer}.primary{background:var(-
 button:disabled{opacity:.6;cursor:default}select,input{padding:7px 9px}input[type=search]{min-width:260px}
 .notice{padding:11px 14px;margin-bottom:12px;border-left:4px solid #ad7a00;background:#fffaf0;color:#47535e}
 .notice.ok{border-left-color:var(--green);background:#f3faf6}.notice.error{border-left-color:var(--red);background:#fff4f4}
+.intro{padding:15px 17px;margin-bottom:12px}.intro h2{font-size:17px;margin:0 0 7px}.intro p{margin:0;color:#475560}.intro-grid{display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:10px;margin-top:11px}.intro-step{border-left:3px solid #c6d7e3;padding:1px 0 1px 10px}.intro-step b{display:block;margin-bottom:2px}.intro-step span{color:var(--muted);font-size:12px}.intro-note{margin-top:11px!important;font-size:12px;color:var(--muted)!important}
 .summary{padding:15px;margin-bottom:12px}.summary h2,.signals h2,.sources h2{font-size:17px;margin:0 0 11px}
 .stats{display:flex;gap:18px;flex-wrap:wrap}.stat{min-width:115px}.stat b{font-size:22px;display:block}.stat span{font-size:12px;color:var(--muted)}
 details{margin-top:10px;color:var(--muted)}summary{cursor:pointer;font-weight:700;color:#475560}
@@ -41,7 +42,7 @@ a{color:#0e6095;text-decoration:none}a:hover{text-decoration:underline}.empty{te
 .signals,.sources{padding:15px;margin-top:12px}.signal-grid{display:grid;grid-template-columns:repeat(4,minmax(180px,1fr));gap:9px}.signal,.source{border:1px solid var(--line);border-radius:7px;padding:10px}.signal b{display:block;margin-bottom:4px}.signal small,.source small{color:var(--muted)}
 .source-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:8px}.source-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.source-head b{max-width:72%}.success{color:var(--green)}.unavailable{color:var(--red)}.unknown{color:var(--amber)}
 .loading{opacity:.6;pointer-events:none}
-@media(max-width:900px){main{padding:13px}header{padding:18px}.signal-grid{grid-template-columns:1fr 1fr}.stamp{width:100%}}
+@media(max-width:900px){main{padding:13px}header{padding:18px}.signal-grid{grid-template-columns:1fr 1fr}.intro-grid{grid-template-columns:1fr}.stamp{width:100%}}
 </style>
 </head>
 <body>
@@ -50,6 +51,17 @@ a{color:#0e6095;text-decoration:none}a:hover{text-decoration:underline}.empty{te
   <p>Connected &amp; Automated Driving</p>
 </header>
 <main>
+  <section class="panel intro" aria-labelledby="howToUseTitle">
+    <h2 id="howToUseTitle">How to use this Radar</h2>
+    <p>This weekly radar helps IAMTS members identify regulatory and standardization developments in connected and automated driving that may affect Testing &amp; Certification, future services and joint IAMTS activities.</p>
+    <div class="intro-grid">
+      <div class="intro-step"><b>1. Start with Priority &amp; Change</b><span>High flags the strongest Testing &amp; Certification / urgency / IAMTS impact. New and Updated are compared with the previous successful monitoring cycle.</span></div>
+      <div class="intro-step"><b>2. Filter and verify</b><span>Use Region, Status, Priority, Change and Search to focus the table. Open the linked official source before relying on an item for external decisions.</span></div>
+      <div class="intro-step"><b>3. Turn signals into IAMTS action</b><span>Use Testing &amp; Certification Relevance and IAMTS Questions / Implications to identify common methods, capabilities, engagement or collaboration opportunities.</span></div>
+    </div>
+    <p class="intro-note"><b>Reading source status:</b> “Successfully checked · 0 matching items” means the source was accessible but no relevant development matched the scope. “Currently unavailable” means the source could not be retrieved. For EU reference use, relevant EUR-Lex acts classified as <b>In force</b> are retained back to <b>1 January 2022</b>; choose Region = EU and Status = In force to display them.</p>
+  </section>
+
   <section class="toolbar" id="toolbar">
     <div>
       <div class="stamp" id="lastUpdated">Last updated: —</div>
@@ -63,6 +75,7 @@ a{color:#0e6095;text-decoration:none}a:hover{text-decoration:underline}.empty{te
   <section class="panel summary">
     <h2>Regulatory Radar – This Week</h2>
     <div class="stats" id="stats"></div>
+    <div class="monitoring-note" style="margin-top:8px">The current snapshot includes the EU in-force reference baseline from 1 January 2022; historical baseline entries are not treated as newly adopted developments.</div>
     <details>
       <summary>Priority scoring model</summary>
       <div style="margin-top:6px">Each entry receives 0–2 points for Testing &amp; Certification relevance, urgency and IAMTS impact. Total 5–6 = High, 3–4 = Medium, 0–2 = Low. The model is rule-based and transparent; uncertain regulatory status remains “Status unclear”.</div>
