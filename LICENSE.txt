@@ -1,0 +1,2 @@
+This project package is provided for IAMTS internal use and adaptation.
+Third-party source content remains subject to the terms of the respective official source.

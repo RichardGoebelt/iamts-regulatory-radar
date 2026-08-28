@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "",
+  "previousMonitoringRun": "",
+  "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
+  "entries": [],
+  "sources": [],
+  "regionalSignals": {
+    "UNECE": {"developments": 0, "highPriority": 0, "dominantTopic": "No dominant topic"},
+    "EU": {"developments": 0, "highPriority": 0, "dominantTopic": "No dominant topic"},
+    "USA": {"developments": 0, "highPriority": 0, "dominantTopic": "No dominant topic"},
+    "China": {"developments": 0, "highPriority": 0, "dominantTopic": "No dominant topic"}
+  }
+}

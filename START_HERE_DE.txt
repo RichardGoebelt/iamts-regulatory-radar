@@ -1,0 +1,22 @@
+IAMTS REGULATORY & POLICY RADAR – SCHNELLSTART
+
+1. Auf GitHub ein neues Repository anlegen, z. B.:
+   iamts-regulatory-radar
+
+2. Den kompletten Inhalt dieses Pakets in das Repository hochladen.
+   Wichtig: Die Ordnerstruktur inklusive .github/workflows muss erhalten bleiben.
+
+3. In GitHub öffnen:
+   Settings -> Pages -> Build and deployment -> Source -> GitHub Actions
+
+4. Danach öffnen:
+   Actions -> Update and deploy IAMTS Radar -> Run workflow
+
+5. Nach erfolgreichem Lauf zeigt GitHub unter Settings -> Pages die Webadresse an,
+   typischerweise:
+   https://IHR-NAME.github.io/iamts-regulatory-radar/
+
+Danach läuft der Radar automatisch jeden Montag um 07:17 Uhr (Europe/Berlin).
+Ein zusätzlicher manueller Lauf ist jederzeit über Actions -> Run workflow möglich.
+
+Es wird kein Cloudflare-Konto, kein Server, keine Datenbank und kein API-Key benötigt.
