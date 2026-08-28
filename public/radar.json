@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T11:56:35Z",
-  "previousMonitoringRun": "2026-08-28T11:31:22Z",
+  "updatedAt": "2026-08-28T11:57:51Z",
+  "previousMonitoringRun": "2026-08-28T11:56:35Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -594,9 +594,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official UNECE/UN document systems could not be retrieved. UN Digital Library (ECE/TRANS/WP.29/GRVA/2026): UN Digital Library search failed — JSON: UN Digital Library JSON response could not be parsed: Expecting value: line 1 column 1 (char 0) | MARCXML: UN Digital Library returned invalid XML: mismatched tag: line 21, …",
       "count": 0,
-      "checkedAt": "2026-08-28T11:56:35Z",
+      "checkedAt": "2026-08-28T11:57:51Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 8933
+      "elapsedMs": 5260
     },
     {
       "id": "unece-wp29",
@@ -606,9 +606,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official UNECE/UN document systems could not be retrieved. UN Digital Library (ECE/TRANS/WP.29/2026): UN Digital Library search failed — JSON: UN Digital Library JSON response could not be parsed: Expecting value: line 1 column 1 (char 0) | MARCXML: UN Digital Library returned invalid XML: mismatched tag: line 21, colum…",
       "count": 0,
-      "checkedAt": "2026-08-28T11:56:35Z",
+      "checkedAt": "2026-08-28T11:57:51Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 1753
+      "elapsedMs": 1179
     },
     {
       "id": "eu-grow-publications",
@@ -618,9 +618,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T11:56:35Z",
-      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
-      "elapsedMs": 1143
+      "checkedAt": "2026-08-28T11:57:51Z",
+      "lastSuccessfulCheck": "2026-08-28T11:57:51Z",
+      "elapsedMs": 2368
     },
     {
       "id": "eu-ccam",
@@ -630,9 +630,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T11:56:35Z",
-      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
-      "elapsedMs": 742
+      "checkedAt": "2026-08-28T11:57:51Z",
+      "lastSuccessfulCheck": "2026-08-28T11:57:51Z",
+      "elapsedMs": 537
     },
     {
       "id": "eu-eurlex-oj",
@@ -642,9 +642,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T11:56:35Z",
-      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
-      "elapsedMs": 1358
+      "checkedAt": "2026-08-28T11:57:51Z",
+      "lastSuccessfulCheck": "2026-08-28T11:57:51Z",
+      "elapsedMs": 3602
     },
     {
       "id": "usa-nhtsa",
@@ -654,9 +654,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-08-28T11:56:35Z",
-      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
-      "elapsedMs": 1147
+      "checkedAt": "2026-08-28T11:57:51Z",
+      "lastSuccessfulCheck": "2026-08-28T11:57:51Z",
+      "elapsedMs": 492
     },
     {
       "id": "usa-usdot",
@@ -666,9 +666,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T11:56:35Z",
-      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
-      "elapsedMs": 799
+      "checkedAt": "2026-08-28T11:57:51Z",
+      "lastSuccessfulCheck": "2026-08-28T11:57:51Z",
+      "elapsedMs": 893
     },
     {
       "id": "china-miit",
@@ -678,9 +678,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T11:56:35Z",
-      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
-      "elapsedMs": 1762
+      "checkedAt": "2026-08-28T11:57:51Z",
+      "lastSuccessfulCheck": "2026-08-28T11:57:51Z",
+      "elapsedMs": 2180
     },
     {
       "id": "china-samr",
@@ -690,9 +690,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T11:56:35Z",
-      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
-      "elapsedMs": 7294
+      "checkedAt": "2026-08-28T11:57:51Z",
+      "lastSuccessfulCheck": "2026-08-28T11:57:51Z",
+      "elapsedMs": 9843
     }
   ],
   "regionalSignals": {
