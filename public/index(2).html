@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="IAMTS Regulatory & Policy Radar for connected and automated driving.">
+<title>IAMTS Regulatory & Policy Radar</title>
+<style>
+:root{
+  --bg:#f5f7f9;--panel:#fff;--text:#1b2732;--muted:#667482;--line:#d9e0e6;
+  --navy:#113b59;--blue:#155f8d;--blue-bg:#eaf3f8;--red:#9f1f23;--red-bg:#fceced;
+  --green:#0a6c3a;--green-bg:#e9f7ef;--amber:#805a00;--amber-bg:#fff3d2;
+  --grey-bg:#eef1f3;--shadow:0 1px 3px rgba(0,0,0,.05)
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;color:var(--text);background:var(--bg);font:14px/1.45 Arial,Helvetica,sans-serif}
+header{background:var(--navy);color:white;padding:22px 28px}
+header h1{margin:0;font-size:27px;letter-spacing:.1px}
+header p{margin:4px 0 0;color:#d9e7ef;font-size:16px}
+main{max-width:1900px;margin:auto;padding:20px 24px 40px}
+.panel,.toolbar,.notice{background:var(--panel);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow)}
+.toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 14px;margin-bottom:12px}
+.stamp{font-weight:700;margin-right:auto}.monitoring-note{font-size:12px;color:var(--muted)}
+button,select,input{font:inherit;border:1px solid #bcc7d0;border-radius:6px;background:white;color:var(--text)}
+button{padding:8px 12px;font-weight:700;cursor:pointer}.primary{background:var(--blue);border-color:var(--blue);color:white}
+button:disabled{opacity:.6;cursor:default}select,input{padding:7px 9px}input[type=search]{min-width:260px}
+.notice{padding:11px 14px;margin-bottom:12px;border-left:4px solid #ad7a00;background:#fffaf0;color:#47535e}
+.notice.ok{border-left-color:var(--green);background:#f3faf6}.notice.error{border-left-color:var(--red);background:#fff4f4}
+.intro{padding:15px 17px;margin-bottom:12px}.intro h2{font-size:17px;margin:0 0 7px}.intro p{margin:0;color:#475560}.intro-grid{display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:10px;margin-top:11px}.intro-step{border-left:3px solid #c6d7e3;padding:1px 0 1px 10px}.intro-step b{display:block;margin-bottom:2px}.intro-step span{color:var(--muted);font-size:12px}.intro-note{margin-top:11px!important;font-size:12px;color:var(--muted)!important}
+.email-notify{padding:13px 15px;margin-bottom:12px;display:flex;align-items:center;gap:16px;justify-content:space-between}.email-notify h2{font-size:16px;margin:0 0 3px}.email-notify p{margin:0;color:var(--muted);font-size:12px}.email-notify .mail-btn{display:inline-block;background:#fff;border:1px solid #155f8d;color:#155f8d;padding:8px 12px;border-radius:6px;font-weight:700;white-space:nowrap;text-decoration:none}.email-notify .mail-btn:hover{background:var(--blue-bg);text-decoration:none}
+.summary{padding:15px;margin-bottom:12px}.summary h2,.signals h2,.sources h2{font-size:17px;margin:0 0 11px}
+.stats{display:flex;gap:18px;flex-wrap:wrap}.stat{min-width:115px}.stat b{font-size:22px;display:block}.stat span{font-size:12px;color:var(--muted)}
+details{margin-top:10px;color:var(--muted)}summary{cursor:pointer;font-weight:700;color:#475560}
+.filters{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:12px 0}.filter{display:flex;gap:5px;align-items:center}.filter label{font-size:12px;color:var(--muted)}
+.table-wrap{background:white;border:1px solid var(--line);border-radius:8px;overflow:auto;max-height:66vh;box-shadow:var(--shadow)}
+table{border-collapse:separate;border-spacing:0;min-width:1980px;width:100%}th,td{padding:8px 9px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);vertical-align:top;background:white}
+th{position:sticky;top:0;z-index:3;background:#edf2f5;text-align:left;font-size:12px;white-space:nowrap;cursor:pointer}th:last-child,td:last-child{border-right:0}
+tbody tr:hover td{background:#fafcfd}td:nth-child(4){min-width:290px;font-weight:700}td:nth-child(8){min-width:315px}td:nth-child(9),td:nth-child(10){min-width:310px}
+.badge{display:inline-block;padding:3px 7px;border-radius:999px;font-size:11px;font-weight:800;white-space:nowrap}.p-high{color:var(--red);background:var(--red-bg)}.p-medium{color:var(--amber);background:var(--amber-bg)}.p-low{color:#56636f;background:var(--grey-bg)}
+.c-new{color:var(--green);background:var(--green-bg)}.c-updated{color:var(--amber);background:var(--amber-bg)}.c-no-change{color:#56636f;background:var(--grey-bg)}.region{font-weight:800;color:var(--blue)}
+a{color:#0e6095;text-decoration:none}a:hover{text-decoration:underline}.empty{text-align:center;padding:28px;color:var(--muted)}
+.signals,.sources{padding:15px;margin-top:12px}.signal-grid{display:grid;grid-template-columns:repeat(4,minmax(180px,1fr));gap:9px}.signal,.source{border:1px solid var(--line);border-radius:7px;padding:10px}.signal b{display:block;margin-bottom:4px}.signal small,.source small{color:var(--muted)}
+.source-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:8px}.source-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.source-head b{max-width:72%}.success{color:var(--green)}.unavailable{color:var(--red)}.unknown{color:var(--amber)}
+.loading{opacity:.6;pointer-events:none}
+@media(max-width:900px){main{padding:13px}header{padding:18px}.signal-grid{grid-template-columns:1fr 1fr}.intro-grid{grid-template-columns:1fr}.email-notify{align-items:flex-start;flex-direction:column}.stamp{width:100%}}
+</style>
+</head>
+<body>
+<header>
+  <h1>IAMTS Regulatory &amp; Policy Radar</h1>
+  <p>Connected &amp; Automated Driving</p>
+</header>
+<main>
+  <section class="panel intro" aria-labelledby="howToUseTitle">
+    <h2 id="howToUseTitle">How to use this Radar</h2>
+    <p>This weekly radar helps IAMTS members identify regulatory and standardization developments in connected and automated driving that may affect Testing &amp; Certification, future services and joint IAMTS activities.</p>
+    <div class="intro-grid">
+      <div class="intro-step"><b>1. Start with Priority &amp; Change</b><span>High flags the strongest Testing &amp; Certification / urgency / IAMTS impact. New and Updated are compared with the previous successful monitoring cycle.</span></div>
+      <div class="intro-step"><b>2. Filter and verify</b><span>Use Region, Status, Priority, Change and Search to focus the table. Open the linked official source before relying on an item for external decisions.</span></div>
+      <div class="intro-step"><b>3. Turn signals into IAMTS action</b><span>Use Testing &amp; Certification Relevance and IAMTS Questions / Implications to identify common methods, capabilities, engagement or collaboration opportunities.</span></div>
+    </div>
+    <p class="intro-note"><b>Reading source status:</b> “Successfully checked · 0 matching items” means the source was accessible but no relevant development matched the scope. “Currently unavailable” means the source could not be retrieved. For EU reference use, relevant EUR-Lex acts classified as <b>In force</b> are retained back to <b>1 January 2022</b>; choose Region = EU and Status = In force to display them.</p>
+  </section>
+
+  <section class="panel email-notify" aria-labelledby="emailNotifyTitle">
+    <div>
+      <h2 id="emailNotifyTitle">Email Notifications</h2>
+      <p>IAMTS members can receive an email when the weekly Radar contains New or Updated developments. Recipient addresses are managed securely by the Radar administrator and are not stored on this website.</p>
+    </div>
+    <a class="mail-btn" href="mailto:richard.goebelt@iamts.org?subject=IAMTS%20Radar%20email%20notifications%20%E2%80%93%20subscription%20request&amp;body=Please%20add%20me%20to%20the%20IAMTS%20Regulatory%20%26%20Policy%20Radar%20email%20notification%20list.%0A%0AName%3A%0AOrganisation%3A%0AEmail%3A">Request email notifications</a>
+  </section>
+
+  <section class="toolbar" id="toolbar">
+    <div>
+      <div class="stamp" id="lastUpdated">Last updated: —</div>
+      <div class="monitoring-note" id="cycleNote">Weekly monitoring snapshot</div>
+    </div>
+    <button class="primary" id="refreshBtn">Refresh Radar</button>
+  </section>
+
+  <div class="notice" id="notice">Loading the latest published monitoring snapshot…</div>
+
+  <section class="panel summary">
+    <h2>Regulatory Radar – This Week</h2>
+    <div class="stats" id="stats"></div>
+    <div class="monitoring-note" style="margin-top:8px">The current snapshot includes the EU in-force reference baseline from 1 January 2022; historical baseline entries are not treated as newly adopted developments.</div>
+    <details>
+      <summary>Priority scoring model</summary>
+      <div style="margin-top:6px">Each entry receives 0–2 points for Testing &amp; Certification relevance, urgency and IAMTS impact. Total 5–6 = High, 3–4 = Medium, 0–2 = Low. The model is rule-based and transparent; uncertain regulatory status remains “Status unclear”.</div>
+    </details>
+  </section>
+
+  <div class="filters">
+    <div class="filter"><label for="regionFilter">Region</label><select id="regionFilter"><option>All</option><option>UNECE</option><option>EU</option><option>USA</option><option>China</option></select></div>
+    <div class="filter"><label for="statusFilter">Status</label><select id="statusFilter"><option>All</option><option>In progress</option><option>Draft</option><option>In force</option><option>Status unclear</option></select></div>
+    <div class="filter"><label for="priorityFilter">Priority</label><select id="priorityFilter"><option>All</option><option>High</option><option>Medium</option><option>Low</option></select></div>
+    <div class="filter"><label for="changeFilter">Change</label><select id="changeFilter"><option>All</option><option>New</option><option>Updated</option><option>No change</option></select></div>
+    <input id="searchBox" type="search" placeholder="Search radar entries…" aria-label="Search radar entries">
+  </div>
+
+  <div class="table-wrap">
+    <table aria-label="Regulatory radar entries">
+      <thead><tr>
+        <th data-key="priority">Priority</th><th data-key="change">Change</th><th data-key="region">Region</th><th data-key="title">Title</th><th data-key="sourceName">Source</th><th data-key="date">Date</th><th data-key="status">Status</th><th data-key="summary">Short Summary</th><th data-key="relevance">Testing &amp; Certification Relevance</th><th data-key="questions">IAMTS Questions / Implications</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <div class="empty" id="emptyState">No radar entries loaded.</div>
+  </div>
+
+  <section class="panel signals">
+    <h2>Regional Signals</h2>
+    <div class="signal-grid" id="signals"></div>
+  </section>
+
+  <section class="panel sources">
+    <h2>Source Status</h2>
+    <div class="source-grid" id="sourceGrid"></div>
+  </section>
+</main>
+<script>
+"use strict";
+let radar={entries:[],sources:[],regionalSignals:{},updatedAt:"",previousMonitoringRun:""};
+let sortState={key:"priority",dir:-1};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
+const low=s=>String(s??"").replace(/\s+/g," ").trim().toLowerCase();
+
+async function loadRadar(){
+  $("toolbar").classList.add("loading");
+  $("refreshBtn").disabled=true;
+  try{
+    const r=await fetch(`./radar.json?v=${Date.now()}`,{cache:"no-store"});
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    radar=await r.json();
+    radar.entries=Array.isArray(radar.entries)?radar.entries:[];
+    radar.sources=Array.isArray(radar.sources)?radar.sources:[];
+    renderAll();
+    if(!radar.updatedAt){
+      setNotice("The radar is installed, but the first automated monitoring run has not yet been completed. Run the GitHub Action once to retrieve the official sources.","warn");
+    }else{
+      const unavailable=radar.sources.filter(s=>s.status==="unavailable").length;
+      if(unavailable){
+        setNotice(`${unavailable} configured source${unavailable===1?" is":"s are"} currently unavailable. All other sources were still checked; unavailable sources have not been replaced with sample data.`,"warn");
+      }else{
+        setNotice(`Monitoring snapshot loaded successfully. ${radar.entries.length} relevant development${radar.entries.length===1?"":"s"} are included.`,"ok");
+      }
+    }
+  }catch(e){
+    radar={entries:[],sources:[],regionalSignals:{},updatedAt:"",previousMonitoringRun:""};
+    renderAll();
+    setNotice(`The published radar data could not be loaded: ${e.message}.`,"error");
+  }finally{
+    $("toolbar").classList.remove("loading");
+    $("refreshBtn").disabled=false;
+  }
+}
+function setNotice(text,type){const n=$("notice");n.textContent=text;n.className=`notice ${type==="ok"?"ok":type==="error"?"error":""}`}
+function filtered(){
+  const rf=$("regionFilter").value,sf=$("statusFilter").value,pf=$("priorityFilter").value,cf=$("changeFilter").value,q=low($("searchBox").value);
+  const weight={High:3,Medium:2,Low:1,New:3,Updated:2,"No change":1};
+  let arr=radar.entries.filter(e=>(rf==="All"||e.region===rf)&&(sf==="All"||e.status===sf)&&(pf==="All"||e.priority===pf)&&(cf==="All"||e.change===cf));
+  if(q)arr=arr.filter(e=>low(Object.values(e).join(" ")).includes(q));
+  arr.sort((a,b)=>{let av=a[sortState.key]??"",bv=b[sortState.key]??"";if(sortState.key==="priority"||sortState.key==="change"){av=weight[av]||0;bv=weight[bv]||0}const c=typeof av==="number"?av-bv:String(av).localeCompare(String(bv),undefined,{numeric:true,sensitivity:"base"});return c*sortState.dir});
+  return arr;
+}
+function renderTable(){
+  const arr=filtered();
+  $("tbody").innerHTML=arr.map(e=>`<tr>
+    <td><span class="badge p-${esc(low(e.priority))}" title="Score ${esc(e.total)}/6 — T&C ${esc(e.tc)}/2, Urgency ${esc(e.urgency)}/2, IAMTS impact ${esc(e.impact)}/2">${esc(e.priority)}</span></td>
+    <td><span class="badge c-${esc(low(e.change).replaceAll(" ","-"))}">${esc(e.change)}</span></td>
+    <td class="region">${esc(e.region)}</td><td>${esc(e.title)}</td>
+    <td><a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">${esc(e.sourceName)}</a></td>
+    <td>${esc(e.date||"—")}</td><td>${esc(e.status)}</td><td>${esc(e.summary||"No concise source summary available.")}</td><td>${esc(e.relevance)}</td><td>${esc(e.questions)}</td>
+  </tr>`).join("");
+  $("emptyState").style.display=arr.length?"none":"block";
+  if(!arr.length)$("emptyState").textContent=radar.entries.length?"No entries match the current filters.":"No live regulatory developments are included in the current snapshot.";
+}
+function renderStats(){
+  const c=f=>radar.entries.filter(f).length;
+  const items=[[c(e=>e.priority==="High"),"High Priority"],[c(e=>e.change==="New"),"New Developments"],[c(e=>e.change==="Updated"),"Updated Developments"],[c(e=>e.region==="UNECE"),"UNECE"],[c(e=>e.region==="EU"),"EU"],[c(e=>e.region==="USA"),"USA"],[c(e=>e.region==="China"),"China"]];
+  $("stats").innerHTML=items.map(([n,l])=>`<div class="stat"><b>${n}</b><span>${esc(l)}</span></div>`).join("");
+}
+function renderSignals(){
+  $("signals").innerHTML=["UNECE","EU","USA","China"].map(region=>{const s=radar.regionalSignals?.[region]||{};return `<div class="signal"><b>${region}</b><div>${s.developments||0} development${s.developments===1?"":"s"} · ${s.highPriority||0} High priority</div><small>Main signal: ${esc(s.dominantTopic||"No dominant topic")}</small></div>`}).join("");
+}
+function renderSources(){
+  $("sourceGrid").innerHTML=radar.sources.length?radar.sources.map(s=>`<div class="source"><div class="source-head"><b>${esc(s.name)}</b><span class="${esc(s.status)}">${s.status==="success"?"Successfully checked":"Currently unavailable"}</span></div><small>${esc(s.region)} · ${s.status==="success"?`${s.count} matching item${s.count===1?"":"s"} found`:s.message}</small>${s.lastSuccessfulCheck?`<small>Last successful check: ${esc(new Date(s.lastSuccessfulCheck).toLocaleString())}</small>`:""}<small><a href="${esc(s.url)}" target="_blank" rel="noopener">Open official source</a></small></div>`).join(""):`<div class="source"><div class="source-head"><b>Monitoring sources</b><span class="unknown">Not checked yet</span></div><small>The first GitHub Action run will populate source status.</small></div>`;
+}
+function renderMeta(){
+  $("lastUpdated").textContent="Last updated: "+(radar.updatedAt?new Date(radar.updatedAt).toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"}):"Never");
+  $("cycleNote").textContent=radar.previousMonitoringRun?`Compared with previous monitoring run: ${new Date(radar.previousMonitoringRun).toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"})}`:"Weekly monitoring snapshot";
+}
+function renderAll(){renderMeta();renderStats();renderTable();renderSignals();renderSources()}
+$("refreshBtn").addEventListener("click",loadRadar);
+["regionFilter","statusFilter","priorityFilter","changeFilter"].forEach(id=>$(id).addEventListener("change",renderTable));
+$("searchBox").addEventListener("input",renderTable);
+document.querySelectorAll("th[data-key]").forEach(th=>th.addEventListener("click",()=>{const key=th.dataset.key;if(sortState.key===key)sortState.dir*=-1;else sortState={key,dir:1};renderTable()}));
+loadRadar();
+</script>
+</body>
+</html>
