@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T17:02:29Z",
-  "previousMonitoringRun": "2026-08-28T17:00:09Z",
+  "updatedAt": "2026-08-28T18:32:05Z",
+  "previousMonitoringRun": "2026-08-28T17:02:29Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -573,16 +573,16 @@
       "title": "ECE/TRANS/WP.29/2026/10",
       "date": "",
       "status": "In progress",
-      "summary": "IIIExample of Certificate of Roadworthiness and Communication Form45 6.This document’s primary purpose is to provide inspection criteria for Used Vehicles in order to determine the roadworthiness of that vehicle. A list of used vehicle inspection chapters and groups is given in Annex 1. The recommended used inspection method with the minimum inspection requirements are given in Annex 2. It is proposed that communication between importer, or importing entity, and the testing facility or exporting entity should be attained prior to importation of vehicle. An example of a Certificate of Roadworthiness and Communication Form that could be used is given in Annex 3.",
-      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods; May require evidence and assessment methods for AI-based vehicle functions.",
+      "summary": "3.Functional check means a verification of the operability of the related part/subsystem/system related to the inspection item(s).",
+      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods.",
       "questions": "Could IAMTS develop a common testing or validation approach? Should IAMTS engage in this regulatory or standardization process?",
-      "contentHash": "656f9dbe16a19c8f12de",
+      "contentHash": "c2d0a1fe063c8b62d0f7",
       "tc": 2,
       "urgency": 1,
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "50a684015cca26a665bc",
@@ -4085,26 +4085,6 @@
       "change": "No change"
     },
     {
-      "id": "b3a7e14d1fbf105589e0",
-      "region": "USA",
-      "sourceId": "usa-nhtsa",
-      "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15459/mercedes-benz-usa-llc-grant-of-petition-for-decision-of-inconsequential-noncompliance",
-      "title": "Mercedes-Benz USA, LLC, Grant of Petition for Decision of Inconsequential Noncompliance",
-      "date": "2026-07-31",
-      "status": "In progress",
-      "summary": "Mercedes-Benz AG (MBAG) and Mercedes-Benz USA, LLC (MBUSA) (collectively, \"Mercedes-Benz\") has determined that certain model year (MY) 2019-2020 Mercedes-Benz CLA-Class, A-Class, GLA-Class, and GLB-Class motor vehicles do not fully comply with Federal Motor Vehicle Safety Standard (FMVSS) No. 135, Light Vehicle Brake Systems. Mercedes- Benz filed a noncompliance report dated January 27, 2020, and subsequently petitioned NHTSA on February 10, 2020, for a decision that the subject noncompliance is inconsequential as it relates to motor vehicle safety. This notice announces the grant of Mercedes-Benz's petition.",
-      "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Does this create a need for cross-regional harmonization? Should IAMTS engage in this regulatory or standardization process?",
-      "contentHash": "228d6f6cb3daf25095b8",
-      "tc": 1,
-      "urgency": 2,
-      "impact": 1,
-      "total": 4,
-      "priority": "Medium",
-      "change": "No change"
-    },
-    {
       "id": "81379dd21864a3d2eddd",
       "region": "UNECE",
       "sourceId": "unece-wp29",
@@ -4154,9 +4134,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 37,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 29941
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 26816
     },
     {
       "id": "unece-wp29",
@@ -4166,9 +4146,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 140,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 71498
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 50723
     },
     {
       "id": "eu-grow-publications",
@@ -4178,9 +4158,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 1321
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 1257
     },
     {
       "id": "eu-ccam",
@@ -4190,21 +4170,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 611
-    },
-    {
-      "id": "eu-oeil",
-      "region": "EU",
-      "name": "European Parliament – Legislative Observatory (OEIL)",
-      "url": "https://oeil.europarl.europa.eu/oeil/en/search",
-      "status": "success",
-      "message": "Successfully checked",
-      "count": 0,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 2614
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 1705
     },
     {
       "id": "eu-eurlex-oj",
@@ -4214,9 +4182,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 1574
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 1564
     },
     {
       "id": "usa-nhtsa",
@@ -4225,10 +4193,10 @@
       "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety",
       "status": "success",
       "message": "Successfully checked",
-      "count": 5,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 2171
+      "count": 4,
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 721
     },
     {
       "id": "usa-usdot",
@@ -4238,9 +4206,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 2003
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 700
     },
     {
       "id": "china-miit",
@@ -4250,9 +4218,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 1369
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 1787
     },
     {
       "id": "china-samr",
@@ -4262,9 +4230,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T17:02:29Z",
-      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
-      "elapsedMs": 5569
+      "checkedAt": "2026-08-28T18:32:05Z",
+      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
+      "elapsedMs": 6391
     }
   ],
   "regionalSignals": {
@@ -4279,7 +4247,7 @@
       "dominantTopic": "Automated Driving Regulation"
     },
     "USA": {
-      "developments": 10,
+      "developments": 9,
       "highPriority": 9,
       "dominantTopic": "Automated Driving Regulation"
     },
