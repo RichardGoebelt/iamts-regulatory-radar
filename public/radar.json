@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T19:11:18Z",
-  "previousMonitoringRun": "2026-08-28T18:54:28Z",
+  "updatedAt": "2026-08-28T19:19:20Z",
+  "previousMonitoringRun": "2026-08-28T19:11:18Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -34,17 +34,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2022-03-06",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-03-06. Recorded entry-into-force date: 2022-03-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2022-03-06. Recorded entry-into-force date: 2022-03-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "8e0eb71683f8023c3e95",
+      "contentHash": "b5d681beaddead15a991",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "65cc499f2cf116c2ae8b",
@@ -55,17 +55,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2022-03-06",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-03-06. Recorded entry-into-force date: 2022-03-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2022-03-06. Recorded entry-into-force date: 2022-03-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "8e0eb71683f8023c3e95",
+      "contentHash": "b5d681beaddead15a991",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "82fc06ffbf4a2b62452e",
@@ -139,17 +139,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2022-06-12",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR work dated 2022-06-12. Recorded entry-into-force date: 2022-06-12. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-06-12. Recorded entry-into-force date: 2022-06-12. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "791b13038cfebcda936b",
+      "contentHash": "fd174177a9de65e464a1",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "29a7e393695ad99b1f6a",
@@ -202,17 +202,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2022-07-06",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-07-06. Recorded entry-into-force date: 2022-07-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2022-07-06. Recorded entry-into-force date: 2022-07-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "87af39afa697f13a7e8a",
+      "contentHash": "e4fea780f0cbfd645a5a",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "a4f0bc69e16935e74551",
@@ -223,17 +223,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2022-07-06",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-07-06. Recorded entry-into-force date: 2022-07-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2022-07-06. Recorded entry-into-force date: 2022-07-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "f83fad3a5f307d5c1b0d",
+      "contentHash": "8331810b41b4cd63403c",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "c70f64b02609de2f6dc9",
@@ -244,17 +244,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2022-07-28",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR work dated 2022-07-28. Recorded entry-into-force date: 2022-07-28. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-07-28. Recorded entry-into-force date: 2022-07-28. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "7ed88301c6e38cd38419",
+      "contentHash": "28a6c2b3203552b38f27",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "a850372a6bf56261e83d",
@@ -307,17 +307,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2022-08-25",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR work dated 2022-08-25. Recorded entry-into-force date: 2022-08-25. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-08-25. Recorded entry-into-force date: 2022-08-25. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "a2f31623c5a4782fbf86",
+      "contentHash": "5ba63d84394100f12a8a",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "558160d6de2db109e290",
@@ -349,17 +349,17 @@
       "title": "Directive 2014/45/EU of the European Parliament and of the Council of 3 April 2014 on periodic roadworthiness tests for motor vehicles and their trailers and repealing Directive 2009/40/EC (Text with EEA relevance)",
       "date": "2022-09-27",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR work dated 2022-09-27. Recorded entry-into-force date: 2022-09-27. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-09-27. Recorded entry-into-force date: 2022-09-27. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "0cf48d67c25aa1650e19",
+      "contentHash": "25e2e7aa8e9fde0082be",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "fab655406b929b764216",
@@ -391,17 +391,17 @@
       "title": "Directive 2014/47/EU of the European Parliament and of the Council of 3 April 2014 on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union and repealing Directive 2000/30/EC (Text with EEA relevance)",
       "date": "2022-09-27",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-09-27. Recorded entry-into-force date: 2022-09-27. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2022-09-27. Recorded entry-into-force date: 2022-09-27. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "d1e5098725fe0a06d7c0",
+      "contentHash": "b0f66c70013e169cec54",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "ac79e78a8ac138534a07",
@@ -454,17 +454,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2022-12-06",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR work dated 2022-12-06. Recorded entry-into-force date: 2022-12-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR act consolidated dated 2022-12-06. Recorded entry-into-force date: 2022-12-06. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "892fd8f6b2874f3c1b40",
+      "contentHash": "cfe63ac31a65693bcd5a",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "54bb3ff88f82f71204c9",
@@ -496,17 +496,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2023-01-01",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2023-01-01. Recorded entry-into-force date: 2023-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2023-01-01. Recorded entry-into-force date: 2023-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "c8a541a152b7ab864595",
+      "contentHash": "5c3af103c12e7def285f",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "0646545c4485c609d67c",
@@ -517,17 +517,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2023-01-01",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2023-01-01. Recorded entry-into-force date: 2023-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2023-01-01. Recorded entry-into-force date: 2023-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "c8a541a152b7ab864595",
+      "contentHash": "5c3af103c12e7def285f",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "71398a82803b304f65d3",
@@ -538,17 +538,17 @@
       "title": "Commission Delegated Directive 2021/1717 amending Directive 2014/45/EU of the European Parliament and of the Council - the Roadworthiness Directive",
       "date": "2023-01-30",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR work dated 2023-01-30. Recorded entry-into-force date: 2023-01-17. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR resource legal dated 2023-01-30. Recorded entry-into-force date: 2023-01-17. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "8a0dffbc483f561cd236",
+      "contentHash": "9109b034c5c8ddfb5b55",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "e67c813f015ce06e5457",
@@ -580,17 +580,17 @@
       "title": "Directive 2014/45/EU of the European Parliament and of the Council of 3 April 2014 on periodic roadworthiness tests for motor vehicles and their trailers and repealing Directive 2009/40/EC (Text with EEA relevance)",
       "date": "2023-05-20",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2023-05-20. Recorded entry-into-force date: 2023-05-20. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2023-05-20. Recorded entry-into-force date: 2023-05-20. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "67f3ef0e5797dcf5b691",
+      "contentHash": "67e234d3f66697cdb315",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "78333e89d87efb604a3d",
@@ -601,17 +601,17 @@
       "title": "Directive 2014/45/EU of the European Parliament and of the Council of 3 April 2014 on periodic roadworthiness tests for motor vehicles and their trailers and repealing Directive 2009/40/EC (Text with EEA relevance)Text with EEA relevance",
       "date": "2023-05-20",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2023-05-20. Recorded entry-into-force date: 2023-05-20. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2023-05-20. Recorded entry-into-force date: 2023-05-20. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "bb2a3e89efd56f1d0ef3",
+      "contentHash": "b2e00406b300c71b269f",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "70b43d4ae1f16c6a0602",
@@ -622,17 +622,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2023-07-30",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2023-07-30. Recorded entry-into-force date: 2023-07-30. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2023-07-30. Recorded entry-into-force date: 2023-07-30. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "0a59548f49714de443bb",
+      "contentHash": "dc18b0a1dfba64c25fdc",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "ff8be76142d6e22d54b1",
@@ -643,17 +643,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2023-07-30",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2023-07-30. Recorded entry-into-force date: 2023-07-30. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2023-07-30. Recorded entry-into-force date: 2023-07-30. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "d7d6ae766ec757e44995",
+      "contentHash": "30fd43e7a6b5289eeb6c",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "d85291ac166047000041",
@@ -664,17 +664,17 @@
       "title": "Commission Implementing Regulation (EU) 2020/683 of 15 April 2020 implementing Regulation (EU) 2018/858 of the European Parliament and of the Council with regards to the administrative requirements for the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles",
       "date": "2024-01-01",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR work dated 2024-01-01. Recorded entry-into-force date: 2024-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR act consolidated dated 2024-01-01. Recorded entry-into-force date: 2024-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "ce15f23cf1093df97908",
+      "contentHash": "a86e23048452d953276d",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "a63826c588c4cb479ea3",
@@ -706,17 +706,17 @@
       "title": "Motor Vehicle Roadworthiness Test (Amendment) Regulations, 2024",
       "date": "2024-03-22",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR resource legal dated 2024-03-22. Recorded entry-into-force date: 2024-03-22. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2024-03-22. Recorded entry-into-force date: 2024-03-22. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "de6cb82451ffceb36c62",
+      "contentHash": "7c5af92cefaa21ae80a5",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "dbcf2fa12f841f3a73f1",
@@ -748,17 +748,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2024-05-28",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2024-05-28. Recorded entry-into-force date: 2024-05-28. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2024-05-28. Recorded entry-into-force date: 2024-05-28. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "e26e30f15535a2d42585",
+      "contentHash": "f1f6680050d160b72854",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "e80304a8e6b207d63e9a",
@@ -769,17 +769,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2024-05-28",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2024-05-28. Recorded entry-into-force date: 2024-05-28. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2024-05-28. Recorded entry-into-force date: 2024-05-28. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "e26e30f15535a2d42585",
+      "contentHash": "f1f6680050d160b72854",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "aa34893d06793662431d",
@@ -790,17 +790,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2024-07-01",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2024-07-01. Recorded entry-into-force date: 2024-07-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2024-07-01. Recorded entry-into-force date: 2024-07-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "913d497cb949b95ee97b",
+      "contentHash": "4cd98337cb861d384aa0",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "06a4f565774c57277508",
@@ -811,17 +811,17 @@
       "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA re…",
       "date": "2024-07-01",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2024-07-01. Recorded entry-into-force date: 2024-07-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR work dated 2024-07-01. Recorded entry-into-force date: 2024-07-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "913d497cb949b95ee97b",
+      "contentHash": "4cd98337cb861d384aa0",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "253ae1e2281bf755a438",
@@ -832,17 +832,17 @@
       "title": "Commission Delegated Regulation (EU) 2024/2220 of 26 July 2024 supplementing Regulation (EU) 2019/2144 of the European Parliament and of the Council by laying down detailed rules concerning the specific test procedures and technical requirements for the type-approval of heavy-duty motor vehicles with regard to their event data recorder and for the type-appr…",
       "date": "2024-07-26",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR official-journal-act dated 2024-07-26. Recorded entry-into-force date: 2026-01-07. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR legislation secondary dated 2024-07-26. Recorded entry-into-force date: 2026-01-07. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May create data-access, data-recording or vehicle-connectivity test requirements.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "7957d6fa58c2c54319e6",
+      "contentHash": "4ef298d79e89aeaa919d",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "8b996f9cefa918260483",
@@ -958,17 +958,17 @@
       "title": "Commission Regulation (EU) 2025/258 of 7 February 2025 amending Regulation (EU) 2017/2400 as regards the determination of the CO2 emissions and fuel consumption of medium and heavy lorries and heavy buses and the inclusion of vehicles running on hydrogen and other new technologies and amending Regulation (EU) No 582/2011 as regards the applicable rules on t…",
       "date": "2025-02-07",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR official-journal-act dated 2025-02-07. Recorded entry-into-force date: 2026-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR legislation secondary dated 2025-02-07. Recorded entry-into-force date: 2026-01-01. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "3c9fa2a768bed1fcfecd",
+      "contentHash": "a73601ddd0fbf86bc1ec",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "25ee5b2dffcc4b8f4900",
@@ -1010,7 +1010,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "202796b9cbebc1b09ea7",
@@ -1031,7 +1031,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8d750276898f1167ab8a",
@@ -1042,17 +1042,17 @@
       "title": "Commission Implementing Regulation (EU) 2025/1706 of 25 July 2025 laying down rules, procedures and testing methodologies for the application of Regulation (EU) 2024/1257 as regards exhaust and evaporative emission type-approval of vehicles of categories M1 and N1 and amending Implementing Regulation (EU) 2020/683",
       "date": "2025-07-25",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR official-journal-act dated 2025-07-25. Recorded entry-into-force date: 2026-11-29. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
+      "summary": "EUR-Lex/CELLAR legislation secondary dated 2025-07-25. Recorded entry-into-force date: 2026-11-29. Included in the IAMTS EU in-force regulatory baseline covering relevant acts from 1 January 2022.",
       "relevance": "May affect homologation, certification or conformity assessment; May require adapted validation, simulation, scenario-based or physical test methods.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "a2d492de2cad829bf7a8",
+      "contentHash": "cf40d681b3d2e1879a3f",
       "historicalBaseline": true,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "Updated"
     },
     {
       "id": "5c2930af55dcf9082a67",
@@ -1084,17 +1084,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Presidency compromise",
       "date": "2025-08-29",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-08-29.",
+      "summary": "EUR-Lex/CELLAR act preparatory council dated 2025-08-29.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "4e8992db372167d8e0e2",
+      "contentHash": "b80271180eaeee9685ad",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "d9e0ecdac4e68ab28593",
@@ -1115,7 +1115,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f3acca5dd84381e7dd4c",
@@ -1136,7 +1136,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "86d8016536f34511a657",
@@ -1157,7 +1157,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7ef0ae58859de120bceb",
@@ -1168,17 +1168,17 @@
       "title": "Commission Implementing Regulation (EU) 2025/1706 of 25 July 2025 laying down rules, procedures and testing methodologies for the application of Regulation (EU) 2024/1257 as regards exhaust and evaporative emission type-approval of vehicles of categories M1 and N1 and amending Implementing Regulation (EU) 2020/683 (Text with EEA relevance)",
       "date": "2025-09-05",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2025-09-05. Recorded entry-into-force date: 2025-09-05.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-09-05. Recorded entry-into-force date: 2025-09-05.",
       "relevance": "May affect homologation, certification or conformity assessment; May require adapted validation, simulation, scenario-based or physical test methods.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "5e65fbbc5c1e02376f05",
+      "contentHash": "09ab4759672d63e1dc22",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "9ab48928be7430ef4c25",
@@ -1189,17 +1189,17 @@
       "title": "Commission Implementing Regulation (EU) 2025/1706 of 25 July 2025 laying down rules, procedures and testing methodologies for the application of Regulation (EU) 2024/1257 as regards exhaust and evaporative emission type-approval of vehicles of categories M1 and N1 and amending Implementing Regulation (EU) 2020/683 (Text with EEA relevance)",
       "date": "2025-09-05",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2025-09-05. Recorded entry-into-force date: 2025-09-05.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-09-05. Recorded entry-into-force date: 2025-09-05.",
       "relevance": "May affect homologation, certification or conformity assessment; May require adapted validation, simulation, scenario-based or physical test methods.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "5e65fbbc5c1e02376f05",
+      "contentHash": "09ab4759672d63e1dc22",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "338bc4ffb31e17f42e85",
@@ -1220,7 +1220,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ce4bf77ade627d3f66b7",
@@ -1241,7 +1241,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "49fa06d566c3a8a2f63e",
@@ -1262,7 +1262,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "71d7760872d7f3cab61c",
@@ -1283,7 +1283,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "00c8ce3f36e313808fec",
@@ -1304,7 +1304,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ed174ee5230375a5baf5",
@@ -1315,17 +1315,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Presidency compromise",
       "date": "2025-09-08",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-08.",
+      "summary": "EUR-Lex/CELLAR act preparatory council dated 2025-09-08.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "bc14d5a5d235f8480ca2",
+      "contentHash": "1f80892cab7bda136dff",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "eecf920fa864fbbc4040",
@@ -1346,7 +1346,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5fdb09c381cb0ccbe41c",
@@ -1357,17 +1357,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Comments from Portugal",
       "date": "2025-09-09",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-09.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-09.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "9f36dd3127dd4af1dbc0",
+      "contentHash": "102e55b79a1a12155ea9",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "26536f8f617919452e8f",
@@ -1378,17 +1378,17 @@
       "title": "Impact assessment support study on the Directives of the Roadworthiness package : executive summary.",
       "date": "2025-09-11",
       "status": "Status unclear",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-11.",
+      "summary": "EUR-Lex/CELLAR publication general dated 2025-09-11.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "b3e376bedd814441c787",
+      "contentHash": "bfaa6100f21e619e013b",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 1,
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "e53481d90ca8e1e59bb6",
@@ -1399,17 +1399,17 @@
       "title": "Impact assessment support study on the Directives of the Roadworthiness package : final report.",
       "date": "2025-09-11",
       "status": "Status unclear",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-11.",
+      "summary": "EUR-Lex/CELLAR publication general dated 2025-09-11.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "8f60ce998d0649694285",
+      "contentHash": "04bc9518cb1107c7e26d",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 1,
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "62bc9be6fa3af29ceeea",
@@ -1430,7 +1430,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8516f6269ffac0c4f725",
@@ -1451,7 +1451,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "dfd8eaa31044fefa5679",
@@ -1472,7 +1472,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "154a85484067ad5958b0",
@@ -1493,7 +1493,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a92e3ec67b5eacfe974d",
@@ -1514,7 +1514,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2adc7baf3a3cf01c4a81",
@@ -1525,17 +1525,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Comments from Finland",
       "date": "2025-09-16",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-16.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-16.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "7e63072994dbb385ad8b",
+      "contentHash": "f962f936ed6776eeabba",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "abcaa5d8d940f16c7afa",
@@ -1556,7 +1556,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "de6c7a328c4a2ba5728a",
@@ -1577,7 +1577,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "dd14b5aeaecefd17faf2",
@@ -1588,17 +1588,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Comments from Belgium",
       "date": "2025-09-17",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-17.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-17.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "9aaf2f94978fa647b5c9",
+      "contentHash": "9c68b7fa8e1567f89062",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "7e5bb2b6e9f991d6a09b",
@@ -1619,7 +1619,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e572cbc75aa49c442539",
@@ -1630,17 +1630,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Comments from Slovakia",
       "date": "2025-09-17",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-17.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-17.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "a542d08ec5ae7f49d4a6",
+      "contentHash": "59bc371f7dd3b12c5dda",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "34f823c4875dca14868c",
@@ -1651,17 +1651,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Comments from Croatia",
       "date": "2025-09-17",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-17.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-09-17.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "0917e6c1f29b8915e272",
+      "contentHash": "1caf0d77a82d40f4c4fb",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "6f0cef0e3172d091bd94",
@@ -1682,7 +1682,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "24a60dcb7727e1101e9d",
@@ -1693,17 +1693,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Comments from Finland",
       "date": "2025-09-17",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-17.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-09-17.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "9807565130991c0a72be",
+      "contentHash": "10a0d802524158823c34",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "95e8c3d9e6f217351419",
@@ -1724,7 +1724,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e1b4e18375d3bf3aeb5c",
@@ -1735,17 +1735,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Comments from Sweden",
       "date": "2025-09-17",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-17.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-09-17.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "4f44cd3f4ed7b148f577",
+      "contentHash": "546a5fd2b77a88ce7cad",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "c4c168aad5fb4b2e3cbe",
@@ -1766,7 +1766,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "abd019662b10eb909ba8",
@@ -1777,17 +1777,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Further revised presidency compromise",
       "date": "2025-09-19",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-09-19.",
+      "summary": "EUR-Lex/CELLAR act preparatory council dated 2025-09-19.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "97e6adff8a024cefbae3",
+      "contentHash": "001126588d0cbe3a2f90",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "7a24da197cbb4c0e14a0",
@@ -1808,7 +1808,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "82c72a48442bd5ca186e",
@@ -1819,17 +1819,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Comments from Spain",
       "date": "2025-09-22",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-22.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-09-22.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "6489aed341abaaaae679",
+      "contentHash": "67a431fecd42b678192b",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "edde4b1ca682bc53df4a",
@@ -1850,7 +1850,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b60081ab46e1f6b1790d",
@@ -1871,7 +1871,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "bd9c8b10817496280ff4",
@@ -1892,7 +1892,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "582e223be173f63a4584",
@@ -1913,7 +1913,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ddd8ced41df2136f0de5",
@@ -1934,7 +1934,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7cf428234d11449394aa",
@@ -1955,7 +1955,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "39945fafca2b4484828d",
@@ -1966,17 +1966,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Revised Presidency compromise - Comments from Belgium",
       "date": "2025-10-01",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-01.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-10-01.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "c586100bff8ec4499b5e",
+      "contentHash": "03f4781dc7a30028feaf",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "e851054f30029c2536ed",
@@ -1987,17 +1987,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Revised Presidency compromise - Comments from Finland",
       "date": "2025-10-01",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-01.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-10-01.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "040d2a5426284f8ece84",
+      "contentHash": "3d20ef7af8a5ab5ca21d",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "a7833630e0f399b85b68",
@@ -2018,7 +2018,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b51af4e26696628ebef1",
@@ -2039,7 +2039,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "38b45f16a792edc17967",
@@ -2060,7 +2060,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "695bf09deca2c23171e4",
@@ -2081,7 +2081,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "81829fcf0766de2df628",
@@ -2102,7 +2102,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "65bbac865b4eb9dbf150",
@@ -2123,7 +2123,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "85bfb55f31b1e65e5abd",
@@ -2144,7 +2144,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8182ede3a264a5d657be",
@@ -2165,7 +2165,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a57f8f019c79bfef24bf",
@@ -2186,7 +2186,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3c4db09886fe7b908ceb",
@@ -2197,17 +2197,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Revised Presidency compromise - Comments from Ireland",
       "date": "2025-10-07",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-07.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-10-07.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "aad913881929f2e86acd",
+      "contentHash": "3abe3196422221cd0910",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "0ed103dbabc927730d23",
@@ -2228,7 +2228,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "10aaa42f05ab41c9cc5d",
@@ -2249,7 +2249,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "06ac981811a1ce0cc546",
@@ -2270,7 +2270,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a896ea0ef1bc5fcca5cd",
@@ -2291,7 +2291,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f8deb5e055635b2bf852",
@@ -2312,7 +2312,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9c46bf8e51e8851fb42e",
@@ -2333,7 +2333,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "6d3da3b2cb21819cb9a0",
@@ -2354,7 +2354,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d924c3d9791794c64736",
@@ -2365,17 +2365,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Further revised presidency compromise = Comments from…",
       "date": "2025-10-15",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-10-15.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-15.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "79972607dbe1ed79a4ef",
+      "contentHash": "f0fd60b4a4b97f18de28",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "836e2c8d14db66d37015",
@@ -2396,7 +2396,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "fe32f2af5c05668dda65",
@@ -2407,17 +2407,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Further revised presidency compromise = Comments from…",
       "date": "2025-10-15",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-15.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-10-15.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "44254b027080fa808a05",
+      "contentHash": "8c56897f86dd99667f10",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "13ac81c4bbe5ba931c87",
@@ -2438,7 +2438,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c7f4cb06ee1312f46fe5",
@@ -2449,17 +2449,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Further revised presidency compromise = Comments from…",
       "date": "2025-10-15",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-15.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-10-15.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "9b767c8e35a4f8704eb8",
+      "contentHash": "3eaa4716ac74f0abb69f",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "0575b975970e1c9e754b",
@@ -2480,7 +2480,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8c287733a3c394408868",
@@ -2501,7 +2501,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8ed912242d05398c7fad",
@@ -2522,7 +2522,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f9a12283cb0bf5e87033",
@@ -2533,17 +2533,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Revised Presidency compromise - Comments from the Netherlands",
       "date": "2025-10-16",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-10-16.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-16.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "100148b39d850e2f5fd5",
+      "contentHash": "f93f30c7f5f90c6c0441",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "3db6facd60bf6ce56fe8",
@@ -2564,7 +2564,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f0f2217b60f1d5792486",
@@ -2585,7 +2585,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "77120501506abfa1a780",
@@ -2606,7 +2606,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "234270fa53b92d25105f",
@@ -2627,7 +2627,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e9fc69bcb0bd25ec8879",
@@ -2648,7 +2648,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "86d59267d7ae9603ced5",
@@ -2659,17 +2659,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Further revised presidency compromise = Comments from…",
       "date": "2025-10-22",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-22.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-10-22.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "c2e3cb188472759e79bd",
+      "contentHash": "ae895a6d3d7cc4467833",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "70623b7f6a45d5d33e0b",
@@ -2680,17 +2680,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union - Further revised presidency compromise = Comments from…",
       "date": "2025-10-22",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-10-22.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-22.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "1120df8ff420572fddde",
+      "contentHash": "24b4874a609d27e0819e",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "cf3ebdb5a94c18fccae0",
@@ -2711,7 +2711,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0487c4ef5146cfbecae9",
@@ -2732,7 +2732,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "acad4886813696a7730e",
@@ -2753,7 +2753,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ae0bd0863de193df883c",
@@ -2774,7 +2774,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "94fb169fcaa9bfe3e86b",
@@ -2795,7 +2795,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "27685cd57a8f8ed2f529",
@@ -2816,7 +2816,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "35690f47747da3e5a14c",
@@ -2837,7 +2837,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "81f0d45ddd0101c61d56",
@@ -2858,7 +2858,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "fa775f376bc67b359c48",
@@ -2879,7 +2879,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9d9bcbd92633c3b3ead7",
@@ -2900,7 +2900,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "256610e01eceb05a1f9c",
@@ -2921,7 +2921,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ca7567411d97cdc41eaa",
@@ -2932,17 +2932,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Revised Presidency compromise - Comments from Finland",
       "date": "2025-11-05",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-11-05.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-11-05.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "85d4b9a7b29980d12eb1",
+      "contentHash": "b1b0a711718a327b3c9c",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "acab191ec5e1ffe19e5a",
@@ -2963,7 +2963,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a5ccfbfdf984090ec760",
@@ -2984,7 +2984,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2f362d22a756f154a15c",
@@ -3005,7 +3005,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "cdc19fd31ad3018eec5a",
@@ -3016,17 +3016,17 @@
       "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Revised Presidency compromise on Annex II",
       "date": "2025-11-07",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-11-07.",
+      "summary": "EUR-Lex/CELLAR act preparatory council dated 2025-11-07.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "c64764c99c4f6c7169cc",
+      "contentHash": "1aa634b2bb7066e4d28b",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "0065bc7faba26eb44c37",
@@ -3047,7 +3047,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d8c41358b6db2338a4cf",
@@ -3068,7 +3068,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "aaae46763cb03d830a35",
@@ -3089,7 +3089,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8b97433c11511b354db2",
@@ -3110,7 +3110,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "bf146de8a3a8eaddd60c",
@@ -3131,7 +3131,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "4c3105eb84f9ae994282",
@@ -3152,7 +3152,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "94c3b2ab0cd55da025f9",
@@ -3173,7 +3173,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "73853b4734d21e27edab",
@@ -3194,7 +3194,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f496caf68c5cc39c7669",
@@ -3215,7 +3215,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "cbc52723f818488856fe",
@@ -3236,7 +3236,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0f70c33ea74fd9af6b8e",
@@ -3247,17 +3247,17 @@
       "title": "Roadworthiness Package: Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - General approach",
       "date": "2025-11-27",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-11-27.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-11-27.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "10ad53834d2f496bb863",
+      "contentHash": "c968d4fb6a1d922302da",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "b500bb6577aedc9c5ac5",
@@ -3268,17 +3268,17 @@
       "title": "Roadworthiness Package: Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - General approach",
       "date": "2025-11-27",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR work dated 2025-11-27.",
+      "summary": "EUR-Lex/CELLAR act other council dated 2025-11-27.",
       "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "10ad53834d2f496bb863",
+      "contentHash": "c968d4fb6a1d922302da",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "4e2cd0c9fe7f7f548171",
@@ -3299,7 +3299,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f0f30f17bbf3b582c516",
@@ -3320,7 +3320,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "21cbdf8b169ab8bae3fd",
@@ -3341,7 +3341,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "22c0b9ee56688abf4deb",
@@ -3362,7 +3362,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "47ddfa909eea3d0f8fe7",
@@ -3383,28 +3383,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
-    },
-    {
-      "id": "adcf9ac87170509ca2a9",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/dbd906f1-d454-11f0-8da2-01aa75ed71a1",
-      "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Outcome of proceedings",
-      "date": "2025-12-08",
-      "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-12-08.",
-      "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "80c3c64e510ec6b07c79",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 2,
-      "total": 6,
-      "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "794a2858572b04e26258",
@@ -3425,7 +3404,28 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
+    },
+    {
+      "id": "adcf9ac87170509ca2a9",
+      "region": "EU",
+      "sourceId": "eu-eurlex-legislation",
+      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
+      "sourceUrl": "http://publications.europa.eu/resource/cellar/dbd906f1-d454-11f0-8da2-01aa75ed71a1",
+      "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Outcome of proceedings",
+      "date": "2025-12-08",
+      "status": "Draft",
+      "summary": "EUR-Lex/CELLAR work dated 2025-12-08.",
+      "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
+      "contentHash": "e61550fa7484dc990c45",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 2,
+      "total": 6,
+      "priority": "High",
+      "change": "Updated"
     },
     {
       "id": "090fd5df8f96ebbf23d5",
@@ -3446,7 +3446,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "dd78fabcf7aec56feb7f",
@@ -3509,7 +3509,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b4b1090ebc7f11fbff2c",
@@ -3530,7 +3530,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0628bd6cb5499381b073",
@@ -3551,7 +3551,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5c983310884772468ec2",
@@ -3614,7 +3614,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "aa2af4c856e6bd2bdf53",
@@ -3698,7 +3698,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "1f76531eafadae8f42bf",
@@ -3719,7 +3719,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f151dde33898076713f8",
@@ -3730,17 +3730,17 @@
       "title": "Commission Implementing Regulation (EU) 2022/1426 of 5 August 2022 laying down rules for the application of Regulation (EU) 2019/2144 of the European Parliament and of the Council as regards uniform procedures and technical specifications for the type-approval of the automated driving system (ADS) of fully automated vehicles (Text with EEA relevance)",
       "date": "2026-03-24",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2026-03-24. Recorded entry-into-force date: 2026-03-24.",
+      "summary": "EUR-Lex/CELLAR work dated 2026-03-24. Recorded entry-into-force date: 2026-03-24.",
       "relevance": "May affect homologation, certification or conformity assessment; May influence automated-driving or driver-assistance test procedures.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "d5504e902312242e973a",
+      "contentHash": "702a18e91a13211ba573",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "1cdf37137ae3374900b0",
@@ -3751,17 +3751,17 @@
       "title": "Commission Implementing Regulation (EU) 2022/1426 of 5 August 2022 laying down rules for the application of Regulation (EU) 2019/2144 of the European Parliament and of the Council as regards uniform procedures and technical specifications for the type-approval of the automated driving system (ADS) of fully automated vehicles (Text with EEA relevance)",
       "date": "2026-03-24",
       "status": "In force",
-      "summary": "EUR-Lex/CELLAR act consolidated dated 2026-03-24. Recorded entry-into-force date: 2026-03-24.",
+      "summary": "EUR-Lex/CELLAR work dated 2026-03-24. Recorded entry-into-force date: 2026-03-24.",
       "relevance": "May affect homologation, certification or conformity assessment; May influence automated-driving or driver-assistance test procedures.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "d5504e902312242e973a",
+      "contentHash": "702a18e91a13211ba573",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "86c49a9a594149a846aa",
@@ -3824,7 +3824,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b7954b420ce2baf4fee0",
@@ -3845,7 +3845,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c8084c77ed33d197551c",
@@ -3866,7 +3866,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d1e78c723ab0f7782e1a",
@@ -3887,7 +3887,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3d1f298d9ac59a69a3b1",
@@ -3929,7 +3929,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "1907fe59951ed8300909",
@@ -3950,7 +3950,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8e7549ac8ccc516c4c4b",
@@ -3971,7 +3971,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f2a24ac19e7baa7c6639",
@@ -3992,7 +3992,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "65642fdec86aa01f147a",
@@ -4013,7 +4013,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2caff5d3fb711f112802",
@@ -4034,7 +4034,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2ec9bbdd6cadc3548010",
@@ -4055,7 +4055,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0fd78a118a479acc50a9",
@@ -4108,17 +4108,17 @@
       "title": "Corrigendum to Commission Implementing Regulation (EU) 2025/1706 of 25 July 2025 laying down rules, procedures and testing methodologies for the application of Regulation (EU) 2024/1257 as regards exhaust and evaporative emission type-approval of vehicles of categories M1 and N1 and amending Implementing Regulation (EU) 2020/683 (OJ L, 2025/1706, 5.9.2025)",
       "date": "2026-06-25",
       "status": "Status unclear",
-      "summary": "EUR-Lex/CELLAR resource legal dated 2026-06-25.",
+      "summary": "EUR-Lex/CELLAR official-journal-act dated 2026-06-25.",
       "relevance": "May affect homologation, certification or conformity assessment; May require adapted validation, simulation, scenario-based or physical test methods.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "4ad79bc0555df28f7850",
+      "contentHash": "8a32077d04a662068416",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "3794937194dfdaed882d",
@@ -8413,17 +8413,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Comments from Spain",
       "date": "2025-09-11",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-09-11.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-09-11.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
-      "contentHash": "2fa34d7e51c033439f2a",
+      "contentHash": "730840acd965dd551b09",
       "historicalBaseline": false,
       "tc": 1,
       "urgency": 2,
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "8e1fd58cbee0293e6396",
@@ -8444,7 +8444,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "696430f5648ad73c693e",
@@ -8455,17 +8455,17 @@
       "title": "Proposal for a Directive of the European Parliament and of the Council on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC - Revised Presidency compromise - Comments from Spain",
       "date": "2025-10-28",
       "status": "Draft",
-      "summary": "EUR-Lex/CELLAR act other council dated 2025-10-28.",
+      "summary": "EUR-Lex/CELLAR work dated 2025-10-28.",
       "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
-      "contentHash": "4d21a1bb984ea6bc29a9",
+      "contentHash": "d6b69804a618c773174a",
       "historicalBaseline": false,
       "tc": 1,
       "urgency": 2,
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "Updated"
     },
     {
       "id": "72f3383534420b4c708b",
@@ -8486,7 +8486,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b3a7e14d1fbf105589e0",
@@ -9023,9 +9023,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 37,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 19034
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 15772
     },
     {
       "id": "unece-wp29",
@@ -9035,9 +9035,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 140,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 48626
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 43530
     },
     {
       "id": "unece-media-documents",
@@ -9047,9 +9047,9 @@
       "status": "success",
       "message": "Covered by official GRVA/WP.29 UN ODS monitoring; Media / Documents HTML blocks automated access",
       "count": 0,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 2020
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 1830
     },
     {
       "id": "unece-iwg-ai",
@@ -9059,9 +9059,9 @@
       "status": "success",
       "message": "Covered via official GRVA UN ODS monitoring; IWG AI Wiki blocks automated access",
       "count": 0,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 1342
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 1371
     },
     {
       "id": "eu-grow-publications",
@@ -9071,9 +9071,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 1345
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 2548
     },
     {
       "id": "eu-dg-move",
@@ -9083,9 +9083,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 33,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 1324
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 7730
     },
     {
       "id": "eu-dg-connect",
@@ -9095,9 +9095,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 9,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 1267
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 2602
     },
     {
       "id": "eu-oeil",
@@ -9107,9 +9107,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 2344
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 2778
     },
     {
       "id": "eu-eurlex-legislation",
@@ -9119,9 +9119,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 182,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 26406
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 27115
     },
     {
       "id": "eu-eurlex-oj",
@@ -9131,9 +9131,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 1899
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 1830
     },
     {
       "id": "usa-nhtsa",
@@ -9143,9 +9143,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 2043
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 2443
     },
     {
       "id": "usa-usdot",
@@ -9155,9 +9155,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 1972
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 2344
     },
     {
       "id": "china-miit",
@@ -9167,9 +9167,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 1429
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 1330
     },
     {
       "id": "china-samr",
@@ -9179,9 +9179,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T19:11:18Z",
-      "lastSuccessfulCheck": "2026-08-28T19:11:18Z",
-      "elapsedMs": 6618
+      "checkedAt": "2026-08-28T19:19:20Z",
+      "lastSuccessfulCheck": "2026-08-28T19:19:20Z",
+      "elapsedMs": 6566
     }
   ],
   "regionalSignals": {
