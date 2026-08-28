@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T18:32:05Z",
-  "previousMonitoringRun": "2026-08-28T17:02:29Z",
+  "updatedAt": "2026-08-28T18:35:27Z",
+  "previousMonitoringRun": "2026-08-28T18:32:05Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -582,7 +582,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "Updated"
+      "change": "No change"
     },
     {
       "id": "50a684015cca26a665bc",
@@ -4134,9 +4134,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 37,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 26816
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 22308
     },
     {
       "id": "unece-wp29",
@@ -4146,9 +4146,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 140,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 50723
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 59655
     },
     {
       "id": "eu-grow-publications",
@@ -4158,9 +4158,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 1257
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 1948
     },
     {
       "id": "eu-ccam",
@@ -4170,9 +4170,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 1705
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 2254
     },
     {
       "id": "eu-eurlex-oj",
@@ -4182,9 +4182,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 1564
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 2176
     },
     {
       "id": "usa-nhtsa",
@@ -4194,9 +4194,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 721
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 2013
     },
     {
       "id": "usa-usdot",
@@ -4206,9 +4206,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 700
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 2239
     },
     {
       "id": "china-miit",
@@ -4218,9 +4218,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 1787
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 1324
     },
     {
       "id": "china-samr",
@@ -4230,9 +4230,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T18:32:05Z",
-      "lastSuccessfulCheck": "2026-08-28T18:32:05Z",
-      "elapsedMs": 6391
+      "checkedAt": "2026-08-28T18:35:27Z",
+      "lastSuccessfulCheck": "2026-08-28T18:35:27Z",
+      "elapsedMs": 5948
     }
   ],
   "regionalSignals": {
