@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sources": {
     "eu-grow-publications": {
-      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
       "entries": [
         {
           "id": "3d1f298d9ac59a69a3b1",
@@ -45,7 +45,7 @@
       ]
     },
     "eu-ccam": {
-      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
       "entries": [
         {
           "id": "8ccb87f9495dcae9ee2d",
@@ -1005,11 +1005,11 @@
       ]
     },
     "china-miit": {
-      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
       "entries": []
     },
     "china-samr": {
-      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
       "entries": [
         {
           "id": "c67cebdd2afbf4e2f8b2",
@@ -1316,7 +1316,192 @@
           "priority": "High"
         }
       ]
+    },
+    "eu-eurlex-oj": {
+      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
+      "entries": []
+    },
+    "usa-nhtsa": {
+      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
+      "entries": [
+        {
+          "id": "7405e79216059cc2687d",
+          "region": "USA",
+          "sourceId": "usa-nhtsa",
+          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15486/robomart-inc-receipt-of-application-for-temporary-exemption-from-various-requirements-of-the-federal",
+          "title": "Robomart, Inc.-Receipt of Application for Temporary Exemption From Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
+          "date": "2026-07-31",
+          "status": "Draft",
+          "summary": "NHTSA has received an application from Robomart, Inc. (\"Robomart\") for a temporary exemption from several requirements of Federal Motor Vehicle Safety Standard (\"FMVSS\") No. 500 applicable to its low-speed vehicle (LSV) with an automated driving system (\"ADS\"). NHTSA is reviewing Robomart's application and will publish a subsequent notice seeking public comment on the merits of the application after the agency conducts its initial review.",
+          "relevance": "May influence automated-driving or driver-assistance test procedures.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "a3c7a798998497ea000c",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
+          "id": "9ed472057c236fc99923",
+          "region": "USA",
+          "sourceId": "usa-nhtsa",
+          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15485/zoox-grant-of-temporary-exemption-from-portions-of-various-requirements-of-the-federal-motor-vehicle",
+          "title": "Zoox-Grant of Temporary Exemption From Portions of Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
+          "date": "2026-07-31",
+          "status": "In progress",
+          "summary": "NHTSA is granting an exemption to Zoox, Inc. (Zoox) to allow it to manufacture and deploy commercially a passenger car, which is equipped with an Automated Driving System (ADS), that does not comply with certain requirements in the Federal Motor Vehicle Safety Standards (FMVSS). Specifically, NHTSA grants Zoox an exemption for its Zoox sedan from certain requirements in eight FMVSS: FMVSS No. 103, Windshield defrosting and defogging systems; FMVSS No. 104, Windshield wiping and washing systems; FMVSS No. 108, Lamps, reflective devices, and associated equipment; FMVSS No. 111, Rear visibility; FMVSS No. 135, Light vehicle brake systems; FMVSS No. 201, Occupant protection in interior impact; FMVSS No. 205, Glazing materials; and FMVSS No. 208, Occupant crash protection. NHTSA is granting Zoox's application on the basis that compliance with these requirements would prevent Zoox from sellin…",
+          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "917e5c5dbb67e7c13a38",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
+          "id": "8868f99f40c20ef87dcc",
+          "region": "USA",
+          "sourceId": "usa-nhtsa",
+          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15484/updating-and-expanding-guidance-on-safe-development-and-deployment-of-automated-driving-systems",
+          "title": "Updating and Expanding Guidance on Safe Development and Deployment of Automated Driving Systems",
+          "date": "2026-07-31",
+          "status": "Draft",
+          "summary": "NHTSA intends to issue comprehensive, updated guidance supporting the safe development and deployment of automated driving systems. The last agency guidance was published in 2017, titled Automated Driving Systems 2.0: A Vision for Safety (ADS 2.0). For this initiative, NHTSA will draw on its internal expertise and public feedback gathered through ongoing stakeholder engagement. NHTSA intends to release draft guidance documents on individual topics (or chapters) as they are available. The public is invited to comment on each chapter through this open docket. After reviewing public comments, the agency plans to consolidate all chapters into a final updated guidance document. The public comment period is open for one year and may be extended as necessary.",
+          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "42b4ada9d8609cfc60b4",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
+          "id": "fbe5b07cca54b4c8619c",
+          "region": "USA",
+          "sourceId": "usa-nhtsa",
+          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15483/av-framework-updates-and-request-for-comments-on-interim-guidance",
+          "title": "AV Framework Updates and Request for Comments on Interim Guidance",
+          "date": "2026-07-31",
+          "status": "Draft",
+          "summary": "In April 2025, DOT and NHTSA announced a new automated vehicle framework designed to prioritize safety, promote innovation, foster American ingenuity, and remove regulatory barriers to the advancement of automated driving system technologies. This notice furthers NHTSA's implementation of this framework by requesting public comment on interim guidance for commercial deployment exemptions for automated vehicles. This notice also summarizes NHTSA's other recent activity relating to the AV Framework.",
+          "relevance": "May influence automated-driving or driver-assistance test procedures.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "0eff069b63bf16201f78",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        }
+      ]
+    },
+    "usa-usdot": {
+      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
+      "entries": [
+        {
+          "id": "67486797e13031ae9575",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15486/robomart-inc-receipt-of-application-for-temporary-exemption-from-various-requirements-of-the-federal",
+          "title": "Robomart, Inc.-Receipt of Application for Temporary Exemption From Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
+          "date": "2026-07-31",
+          "status": "Draft",
+          "summary": "NHTSA has received an application from Robomart, Inc. (\"Robomart\") for a temporary exemption from several requirements of Federal Motor Vehicle Safety Standard (\"FMVSS\") No. 500 applicable to its low-speed vehicle (LSV) with an automated driving system (\"ADS\"). NHTSA is reviewing Robomart's application and will publish a subsequent notice seeking public comment on the merits of the application after the agency conducts its initial review.",
+          "relevance": "May influence automated-driving or driver-assistance test procedures.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "a3c7a798998497ea000c",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
+          "id": "70e9dc1c09a15fb14330",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15485/zoox-grant-of-temporary-exemption-from-portions-of-various-requirements-of-the-federal-motor-vehicle",
+          "title": "Zoox-Grant of Temporary Exemption From Portions of Various Requirements of the Federal Motor Vehicle Safety Standards for an Automated Driving System-Equipped Vehicle",
+          "date": "2026-07-31",
+          "status": "In progress",
+          "summary": "NHTSA is granting an exemption to Zoox, Inc. (Zoox) to allow it to manufacture and deploy commercially a passenger car, which is equipped with an Automated Driving System (ADS), that does not comply with certain requirements in the Federal Motor Vehicle Safety Standards (FMVSS). Specifically, NHTSA grants Zoox an exemption for its Zoox sedan from certain requirements in eight FMVSS: FMVSS No. 103, Windshield defrosting and defogging systems; FMVSS No. 104, Windshield wiping and washing systems; FMVSS No. 108, Lamps, reflective devices, and associated equipment; FMVSS No. 111, Rear visibility; FMVSS No. 135, Light vehicle brake systems; FMVSS No. 201, Occupant protection in interior impact; FMVSS No. 205, Glazing materials; and FMVSS No. 208, Occupant crash protection. NHTSA is granting Zoox's application on the basis that compliance with these requirements would prevent Zoox from sellin…",
+          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "917e5c5dbb67e7c13a38",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
+          "id": "ab8db9ebdf70dac9826b",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15484/updating-and-expanding-guidance-on-safe-development-and-deployment-of-automated-driving-systems",
+          "title": "Updating and Expanding Guidance on Safe Development and Deployment of Automated Driving Systems",
+          "date": "2026-07-31",
+          "status": "Draft",
+          "summary": "NHTSA intends to issue comprehensive, updated guidance supporting the safe development and deployment of automated driving systems. The last agency guidance was published in 2017, titled Automated Driving Systems 2.0: A Vision for Safety (ADS 2.0). For this initiative, NHTSA will draw on its internal expertise and public feedback gathered through ongoing stakeholder engagement. NHTSA intends to release draft guidance documents on individual topics (or chapters) as they are available. The public is invited to comment on each chapter through this open docket. After reviewing public comments, the agency plans to consolidate all chapters into a final updated guidance document. The public comment period is open for one year and may be extended as necessary.",
+          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "42b4ada9d8609cfc60b4",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
+          "id": "53731e041478956e35ee",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/07/31/2026-15483/av-framework-updates-and-request-for-comments-on-interim-guidance",
+          "title": "AV Framework Updates and Request for Comments on Interim Guidance",
+          "date": "2026-07-31",
+          "status": "Draft",
+          "summary": "In April 2025, DOT and NHTSA announced a new automated vehicle framework designed to prioritize safety, promote innovation, foster American ingenuity, and remove regulatory barriers to the advancement of automated driving system technologies. This notice furthers NHTSA's implementation of this framework by requesting public comment on interim guidance for commercial deployment exemptions for automated vehicles. This notice also summarizes NHTSA's other recent activity relating to the AV Framework.",
+          "relevance": "May influence automated-driving or driver-assistance test procedures.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "0eff069b63bf16201f78",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
+          "id": "de09e6f8aeaf4756f7da",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/04/2026-15819/hazardous-materials-adoption-of-department-of-transportation-special-permit-14175",
+          "title": "Hazardous Materials: Adoption of Department of Transportation Special Permit 14175",
+          "date": "2026-08-04",
+          "status": "In force",
+          "summary": "This final rule removes undue regulatory burdens by adopting the provisions of U.S. Department of Transportation (DOT) special permit (SP) 14175 to authorize a 10-year requalification period and the ultrasonic examination (UE) testing method for DOT specification 3A and 3AA cylinders in flammable and non-flammable, nonpoisonous gas service. This adoption reflects advances in testing technology and will relieve stakeholders of the burden of performing more frequent cylinder requalification.",
+          "relevance": "May require adapted validation, simulation, scenario-based or physical test methods.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "c29e33a084212445bdee",
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        }
+      ]
     }
   },
-  "lastRun": "2026-08-28T10:44:04Z"
+  "lastRun": "2026-08-28T11:29:41Z"
 }
