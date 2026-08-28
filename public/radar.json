@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T11:29:41Z",
-  "previousMonitoringRun": "2026-08-28T10:44:04Z",
+  "updatedAt": "2026-08-28T11:31:22Z",
+  "previousMonitoringRun": "2026-08-28T11:29:41Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -382,7 +382,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "53731e041478956e35ee",
@@ -402,7 +402,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7405e79216059cc2687d",
@@ -422,7 +422,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "67486797e13031ae9575",
@@ -442,7 +442,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8868f99f40c20ef87dcc",
@@ -462,7 +462,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ab8db9ebdf70dac9826b",
@@ -482,7 +482,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9ed472057c236fc99923",
@@ -502,7 +502,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "70e9dc1c09a15fb14330",
@@ -522,7 +522,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "de09e6f8aeaf4756f7da",
@@ -542,7 +542,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "4d6b411021c37ffc110b",
@@ -594,9 +594,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official UN machine-readable sources could not be retrieved. digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2 | digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2 | wiki.unece.org/spaces/trans/pages/63310525/Wor…",
       "count": 0,
-      "checkedAt": "2026-08-28T11:29:41Z",
+      "checkedAt": "2026-08-28T11:31:22Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 1574
+      "elapsedMs": 1185
     },
     {
       "id": "unece-wp29",
@@ -606,9 +606,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official UN machine-readable sources could not be retrieved. digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2 | digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2",
       "count": 0,
-      "checkedAt": "2026-08-28T11:29:41Z",
+      "checkedAt": "2026-08-28T11:31:22Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 951
+      "elapsedMs": 706
     },
     {
       "id": "eu-grow-publications",
@@ -618,9 +618,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T11:29:41Z",
-      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
-      "elapsedMs": 1500
+      "checkedAt": "2026-08-28T11:31:22Z",
+      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
+      "elapsedMs": 1588
     },
     {
       "id": "eu-ccam",
@@ -630,9 +630,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T11:29:41Z",
-      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
-      "elapsedMs": 1762
+      "checkedAt": "2026-08-28T11:31:22Z",
+      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
+      "elapsedMs": 1315
     },
     {
       "id": "eu-eurlex-oj",
@@ -642,9 +642,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T11:29:41Z",
-      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
-      "elapsedMs": 3172
+      "checkedAt": "2026-08-28T11:31:22Z",
+      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
+      "elapsedMs": 1809
     },
     {
       "id": "usa-nhtsa",
@@ -654,9 +654,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-08-28T11:29:41Z",
-      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
-      "elapsedMs": 2221
+      "checkedAt": "2026-08-28T11:31:22Z",
+      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
+      "elapsedMs": 644
     },
     {
       "id": "usa-usdot",
@@ -666,9 +666,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T11:29:41Z",
-      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
-      "elapsedMs": 2181
+      "checkedAt": "2026-08-28T11:31:22Z",
+      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
+      "elapsedMs": 952
     },
     {
       "id": "china-miit",
@@ -678,9 +678,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T11:29:41Z",
-      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
-      "elapsedMs": 3553
+      "checkedAt": "2026-08-28T11:31:22Z",
+      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
+      "elapsedMs": 1667
     },
     {
       "id": "china-samr",
@@ -690,9 +690,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T11:29:41Z",
-      "lastSuccessfulCheck": "2026-08-28T11:29:41Z",
-      "elapsedMs": 6379
+      "checkedAt": "2026-08-28T11:31:22Z",
+      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
+      "elapsedMs": 7092
     }
   ],
   "regionalSignals": {
