@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sources": {
     "eu-grow-publications": {
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
       "entries": [
         {
           "id": "3d1f298d9ac59a69a3b1",
@@ -45,7 +45,7 @@
       ]
     },
     "eu-ccam": {
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
       "entries": [
         {
           "id": "8ccb87f9495dcae9ee2d",
@@ -88,7 +88,7 @@
       ]
     },
     "usa-federal-register": {
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
       "entries": [
         {
           "id": "79a29f373059c85db4ab",
@@ -1005,11 +1005,11 @@
       ]
     },
     "china-miit": {
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
       "entries": []
     },
     "china-samr": {
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
       "entries": [
         {
           "id": "c67cebdd2afbf4e2f8b2",
@@ -1318,5 +1318,5 @@
       ]
     }
   },
-  "lastRun": "2026-08-28T10:41:58Z"
+  "lastRun": "2026-08-28T10:44:04Z"
 }

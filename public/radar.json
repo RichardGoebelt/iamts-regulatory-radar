@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T10:41:58Z",
-  "previousMonitoringRun": "2026-08-28T10:01:23Z",
+  "updatedAt": "2026-08-28T10:44:04Z",
+  "previousMonitoringRun": "2026-08-28T10:41:58Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -1322,7 +1322,7 @@
       "impact": 1,
       "total": 3,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9463715eab14f2d01921",
@@ -1374,9 +1374,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: UNECE official pages could not be retrieved. unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/transport/vehicle-regulations: unece.org retrieval failed — urllib…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:41:58Z",
+      "checkedAt": "2026-08-28T10:44:04Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 786
+      "elapsedMs": 927
     },
     {
       "id": "unece-wp29",
@@ -1386,9 +1386,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: UNECE official pages could not be retrieved. unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/media/documents: unece.org retrieval failed — urllib #1: HTTP 403 Forbidden · <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" conte… | unece.org/transport/vehicle-regulations: unece.org retrieval failed — urllib…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:41:58Z",
+      "checkedAt": "2026-08-28T10:44:04Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 652
+      "elapsedMs": 717
     },
     {
       "id": "eu-grow-publications",
@@ -1398,9 +1398,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T10:41:58Z",
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
-      "elapsedMs": 1997
+      "checkedAt": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "elapsedMs": 1884
     },
     {
       "id": "eu-ccam",
@@ -1410,9 +1410,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T10:41:58Z",
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
-      "elapsedMs": 2209
+      "checkedAt": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "elapsedMs": 1895
     },
     {
       "id": "usa-federal-register",
@@ -1422,9 +1422,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 48,
-      "checkedAt": "2026-08-28T10:41:58Z",
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
-      "elapsedMs": 2243
+      "checkedAt": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "elapsedMs": 1321
     },
     {
       "id": "usa-nhtsa",
@@ -1434,9 +1434,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved. www.nhtsa.gov/vehicle-safety/automated-vehicle-safety: www.nhtsa.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;vehicle&#45;s… | www.nhtsa.gov/automated-vehicle-safety/resources: www.nhtsa.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;nhtsa&#46;gov&#47;automated&#45… | www.nhtsa.gov/vehicle-ma…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:41:58Z",
+      "checkedAt": "2026-08-28T10:44:04Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 233
+      "elapsedMs": 402
     },
     {
       "id": "usa-usdot",
@@ -1446,9 +1446,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved. www.transportation.gov/AV: www.transportation.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;transportation&#46;gov… | www.transportation.gov/taxonomy/term/12981: www.transportation.gov retrieval failed — urllib #1: HTTP 403 Forbidden · <HTML><HEAD> <TITLE>Access Denied</TITLE> </HEAD><BODY> <H1>Access Denied</H1> You don't have permission to access \"http&#58;&#47;&#47;www&#46;transportation&#46;gov… | www.transportation.gov/tags/automated-vehicles: www.transp…",
       "count": 0,
-      "checkedAt": "2026-08-28T10:41:58Z",
+      "checkedAt": "2026-08-28T10:44:04Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 265
+      "elapsedMs": 382
     },
     {
       "id": "china-miit",
@@ -1458,9 +1458,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T10:41:58Z",
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
-      "elapsedMs": 1554
+      "checkedAt": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "elapsedMs": 2602
     },
     {
       "id": "china-samr",
@@ -1470,9 +1470,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T10:41:58Z",
-      "lastSuccessfulCheck": "2026-08-28T10:41:58Z",
-      "elapsedMs": 6042
+      "checkedAt": "2026-08-28T10:44:04Z",
+      "lastSuccessfulCheck": "2026-08-28T10:44:04Z",
+      "elapsedMs": 8772
     }
   ],
   "regionalSignals": {
