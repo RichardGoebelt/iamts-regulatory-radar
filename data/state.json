@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sources": {
     "eu-grow-publications": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": [
         {
           "id": "3d1f298d9ac59a69a3b1",
@@ -45,7 +45,7 @@
       ]
     },
     "eu-ccam": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": [
         {
           "id": "8ccb87f9495dcae9ee2d",
@@ -1005,11 +1005,11 @@
       ]
     },
     "china-miit": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": []
     },
     "china-samr": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": [
         {
           "id": "c67cebdd2afbf4e2f8b2",
@@ -1318,11 +1318,11 @@
       ]
     },
     "eu-eurlex-oj": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": []
     },
     "usa-nhtsa": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": [
         {
           "id": "7405e79216059cc2687d",
@@ -1422,7 +1422,7 @@
       ]
     },
     "usa-usdot": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": [
         {
           "id": "67486797e13031ae9575",
@@ -1522,7 +1522,7 @@
       ]
     },
     "unece-grva": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": [
         {
           "id": "8883b5aacd3c759823a6",
@@ -2230,7 +2230,7 @@
       ]
     },
     "unece-wp29": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": [
         {
           "id": "7220e2eddd6a6a0a7fea",
@@ -4895,9 +4895,9 @@
       ]
     },
     "eu-oeil": {
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
       "entries": []
     }
   },
-  "lastRun": "2026-08-28T17:00:09Z"
+  "lastRun": "2026-08-28T17:02:29Z"
 }

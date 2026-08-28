@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T17:00:09Z",
-  "previousMonitoringRun": "2026-08-28T11:57:51Z",
+  "updatedAt": "2026-08-28T17:02:29Z",
+  "previousMonitoringRun": "2026-08-28T17:00:09Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -562,7 +562,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "10289e00740d92c8f6c8",
@@ -582,7 +582,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "50a684015cca26a665bc",
@@ -602,7 +602,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "971f0fdc07c235564ee3",
@@ -622,7 +622,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "1a142cba667565318d34",
@@ -642,7 +642,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "674139d1f83e9c1cb9e7",
@@ -662,7 +662,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "1030c72ea9f6d6139fd3",
@@ -682,7 +682,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "78cb208f1445ced2de14",
@@ -702,7 +702,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e23b1b9d1205893a97d1",
@@ -722,7 +722,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "26dbc257fa4df3899de7",
@@ -742,7 +742,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e1b290c8f20ed775c020",
@@ -762,7 +762,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d4dd040114dc8201b0c2",
@@ -782,7 +782,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "cb544196caa74ca7ab34",
@@ -802,7 +802,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f25c91215f50b0cb690a",
@@ -822,7 +822,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f9ff73b42db07537c7e5",
@@ -842,7 +842,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ad559b2da0f07120d296",
@@ -862,7 +862,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "80710db5f895df87f3fb",
@@ -882,7 +882,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c0d49a25f99c495a2d86",
@@ -902,7 +902,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b01d71cd65d8c8e987c0",
@@ -922,7 +922,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ad5360cbbbc6ed0f0997",
@@ -942,7 +942,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c51a597797bed6e542b6",
@@ -962,7 +962,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "6b5991f03b36ae57f2c0",
@@ -982,7 +982,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "4ca6f728a333796c8ff3",
@@ -1002,7 +1002,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c134b92ae7e579216e56",
@@ -1022,7 +1022,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e859cfcf54f2baafd9d1",
@@ -1042,7 +1042,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "580cacf7479a046985b3",
@@ -1062,7 +1062,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "35fac5300447f95919d1",
@@ -1082,7 +1082,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "49e0a920a2c466e4ef05",
@@ -1102,7 +1102,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "92e8af755599fef840bc",
@@ -1122,7 +1122,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9b00ec1c18e14ff38af9",
@@ -1142,7 +1142,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "4a7ef970e5dd989134c9",
@@ -1162,7 +1162,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8f4724d09bcc291e6646",
@@ -1182,7 +1182,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e3d91ce0be05bbed0ba0",
@@ -1202,7 +1202,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2207d42735b130679b93",
@@ -1222,7 +1222,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "59cc72ee40de834ef4eb",
@@ -1242,7 +1242,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f53a9f872ea9329bf00f",
@@ -1262,7 +1262,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3b3ff7fb3a68c2b76629",
@@ -1282,7 +1282,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "4280b4188169e8bc9d72",
@@ -1302,7 +1302,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2103dd8edd40141ee877",
@@ -1322,7 +1322,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "79a3101eb0cd9d01db2d",
@@ -1342,7 +1342,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c5b5fdf8fb3c9ab3ffbb",
@@ -1362,7 +1362,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "78271ac98b03b10270a5",
@@ -1382,7 +1382,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "edfaea12d6a506bcbc9f",
@@ -1402,7 +1402,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "aebf5c058a4753031a75",
@@ -1422,7 +1422,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "70511fea37fdf0f19a9f",
@@ -1442,7 +1442,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "bc46d7d0c132821f080c",
@@ -1462,7 +1462,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "772383ab4234ef455ed1",
@@ -1482,7 +1482,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "75151de395b16cb09909",
@@ -1502,7 +1502,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "395afc9f30ea35e9dd65",
@@ -1522,7 +1522,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a097f2ea0c875f9b8312",
@@ -1542,7 +1542,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9d3b9e9780ba117c6473",
@@ -1562,7 +1562,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c917c8b0d2ee6a0489d8",
@@ -1582,7 +1582,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b5cb9879c2e0426ea582",
@@ -1602,7 +1602,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "eba69297202c2ac50897",
@@ -1622,7 +1622,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d6a78a27e38b816b3c4c",
@@ -1642,7 +1642,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "93dfd6d0e13c8bbf59a9",
@@ -1662,7 +1662,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "19facc080d95eb127bb3",
@@ -1682,7 +1682,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7771e59331ddc16af5d3",
@@ -1702,7 +1702,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "40a05240ae6280bf05c3",
@@ -1722,7 +1722,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e059a66c1d5a7ab003df",
@@ -1742,7 +1742,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "88023a6cab0f3c888135",
@@ -1762,7 +1762,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "dab1ef62a5ba4abf3f3e",
@@ -1782,7 +1782,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c6f6730d1c11051e7679",
@@ -1802,7 +1802,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3078e57c08d97db750d7",
@@ -1822,7 +1822,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "88cd897d31b9645ad99c",
@@ -1842,7 +1842,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f234f7db7c6c73640c3f",
@@ -1862,7 +1862,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "dbb503ee815eb4876b42",
@@ -1882,7 +1882,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "648d20bb778f616ece4a",
@@ -1902,7 +1902,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "04e86558b4e56a99ca76",
@@ -1922,7 +1922,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "91be2f777d8c0cb0f30f",
@@ -1942,7 +1942,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8fc13e1a96c6bd13891d",
@@ -1962,7 +1962,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "523bd4f8649b95a7844e",
@@ -1982,7 +1982,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "1610830114f4ca364182",
@@ -2002,7 +2002,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "bc93cc9b03b6d11d7360",
@@ -2022,7 +2022,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5c29d8b05e2d9ff331a0",
@@ -2042,7 +2042,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ee59cc8967252f1c99e8",
@@ -2062,7 +2062,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0412092e7b138b7c8510",
@@ -2082,7 +2082,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "807c8bf58b8359eb1458",
@@ -2102,7 +2102,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7787bc54af542f5c8a75",
@@ -2122,7 +2122,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "348f0a38aa9fcfb9d846",
@@ -2142,7 +2142,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0cc28e272bdc8c27fc3e",
@@ -2162,7 +2162,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f83243e95e989654e8f7",
@@ -2182,7 +2182,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ee9e6645045f92a59e57",
@@ -2202,7 +2202,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5b231860d83b5f00b57f",
@@ -2222,7 +2222,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3d119f4987c68ade74ec",
@@ -2242,7 +2242,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "818426d9a5f00a966a2e",
@@ -2262,7 +2262,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a4798d653fa39e14c3f8",
@@ -2282,7 +2282,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ba46a7b3c6bfd933d98c",
@@ -2302,7 +2302,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "625c19793ee9708ada25",
@@ -2322,7 +2322,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0c837157a79c2d77db1e",
@@ -2342,7 +2342,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ec663f8a78364d89de0c",
@@ -2362,7 +2362,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "88fceb5bcdae93451a03",
@@ -2382,7 +2382,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "518db9fcae39e3e87d58",
@@ -2402,7 +2402,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "01fd49d297d2c0767c16",
@@ -2422,7 +2422,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5cd413f72735b6fa0cee",
@@ -2442,7 +2442,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "996922431e79e25465c4",
@@ -2462,7 +2462,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0af17f6fe80ceacf48d2",
@@ -2482,7 +2482,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c87e0b3c0ff7e0cc2834",
@@ -2502,7 +2502,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "32e9367b62d8051996d9",
@@ -2522,7 +2522,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "cf301aa4a308d42415e4",
@@ -2542,7 +2542,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ebffc94c8ea8ce00d0ee",
@@ -2562,7 +2562,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "89bba60139dd782a56ad",
@@ -2582,7 +2582,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0c7e3c97481d0c8f338d",
@@ -2602,7 +2602,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "62ad63e0a8f5ef48ff06",
@@ -2622,7 +2622,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a5528e00fc9e0657454e",
@@ -2642,7 +2642,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "cde970d6c235eea4dc0d",
@@ -2662,7 +2662,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ea5ca3ccfee4047e6340",
@@ -2682,7 +2682,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3b7f95f17bce033bff50",
@@ -2702,7 +2702,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b36c3315fb7f5925a930",
@@ -2722,7 +2722,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "aa527a467c2727f14327",
@@ -2742,7 +2742,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e916ad2e71b5a2fe30ef",
@@ -2762,7 +2762,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5ba8df05f74ebad67456",
@@ -2782,7 +2782,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d38678054dc85742bbed",
@@ -2802,7 +2802,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "81ddf12a966e6853e769",
@@ -2822,7 +2822,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "12ff654c320fc3ce78bf",
@@ -2842,7 +2842,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "26c4d6191d86b67b1577",
@@ -2862,7 +2862,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a415a84022ed3b408e7c",
@@ -2882,7 +2882,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "60f1454d99858f37621d",
@@ -2902,7 +2902,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5e2d10b8415384fcc318",
@@ -2922,7 +2922,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d159446a7e0260b603f2",
@@ -2942,7 +2942,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b102851a80d211f35a6c",
@@ -2962,7 +2962,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "92dc7f11c9169c12c6cd",
@@ -2982,7 +2982,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "40f1cea1fe1937880803",
@@ -3002,7 +3002,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e50d1e1971b5940c3275",
@@ -3022,7 +3022,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0eaf0f7440cc3dcd838e",
@@ -3042,7 +3042,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f30564aa9173ce93ea09",
@@ -3062,7 +3062,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e405c557c42e9114ec3e",
@@ -3082,7 +3082,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3fa6487a80436f890fc6",
@@ -3102,7 +3102,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f0235d9dcbb104c94260",
@@ -3122,7 +3122,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7220e2eddd6a6a0a7fea",
@@ -3142,7 +3142,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c683283194fd2e27b921",
@@ -3162,7 +3162,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "859803d7a696be794c96",
@@ -3182,7 +3182,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "130a3c76e9f0bd94fcdc",
@@ -3202,7 +3202,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c09552be806e1b301e06",
@@ -3222,7 +3222,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3cc7af1128e7b1e38abe",
@@ -3242,7 +3242,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e413bd8f022aeb3a4f79",
@@ -3262,7 +3262,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c1c78fbd4ab3683464e5",
@@ -3282,7 +3282,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "114676db2794a0c87431",
@@ -3302,7 +3302,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9f4021dad1d5489081cb",
@@ -3322,7 +3322,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "549d34ec09ce74bc4211",
@@ -3342,7 +3342,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "fe0f6649c139019aafd6",
@@ -3362,7 +3362,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ef341aa7b6110400e02e",
@@ -3382,7 +3382,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3147a2507871e91d4b60",
@@ -3402,7 +3402,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9d979bd8019076f985d3",
@@ -3422,7 +3422,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c5b11bfc87ca41b53fa5",
@@ -3442,7 +3442,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "20b944df86c8ef7a6bdd",
@@ -3462,7 +3462,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "be05be7ec40682678f08",
@@ -3482,7 +3482,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "667eb10cd2f13de4dcca",
@@ -3502,7 +3502,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "69524d8eb0a71d8c5f0b",
@@ -3522,7 +3522,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8883b5aacd3c759823a6",
@@ -3542,7 +3542,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2c85fa2c4345e1075c48",
@@ -3562,7 +3562,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2a0498ddf2de72bf8beb",
@@ -3582,7 +3582,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "48f6fcc9e3edf05de541",
@@ -3602,7 +3602,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "da6f13fd9d47db94f269",
@@ -3622,7 +3622,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "303c7da30abf4455293a",
@@ -3642,7 +3642,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3934a16fe2750044e02c",
@@ -3662,7 +3662,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "463ffbd7cba657f16fe8",
@@ -3682,7 +3682,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8fc6718b6135788ff367",
@@ -3702,7 +3702,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "505e28d370e84121e1a2",
@@ -3722,7 +3722,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "63dca62ac45db007cbf8",
@@ -3742,7 +3742,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "30082d23e158c161cbb3",
@@ -3762,7 +3762,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "14ab4f1072545caae742",
@@ -3782,7 +3782,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "fd135ec4c951fc165751",
@@ -3802,7 +3802,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d22e96037bc87b051bb6",
@@ -3822,7 +3822,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c18cdf73d373c790df0a",
@@ -3842,7 +3842,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "fc8148ed91d3e5e5dad3",
@@ -3862,7 +3862,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3d50f42fafe3423b0ee8",
@@ -3882,7 +3882,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0946ed7ad901c7e5a663",
@@ -3902,7 +3902,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "6f2fad7b1201bd6a8c3f",
@@ -3922,7 +3922,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f75c4fd49d6c9a74d18c",
@@ -3942,7 +3942,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2e8dd19367f85b22f60a",
@@ -3962,7 +3962,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "bf6bebd76eb52d37a220",
@@ -3982,7 +3982,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "285609a5328e3679c589",
@@ -4002,7 +4002,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b374070fa4a11016e104",
@@ -4022,7 +4022,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "6198e02f99de382e6142",
@@ -4042,7 +4042,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "fb880738b62b1bbaebd1",
@@ -4062,7 +4062,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "4d6b411021c37ffc110b",
@@ -4102,7 +4102,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "81379dd21864a3d2eddd",
@@ -4122,7 +4122,7 @@
       "impact": 1,
       "total": 3,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8ccb87f9495dcae9ee2d",
@@ -4154,9 +4154,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 37,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 20262
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 29941
     },
     {
       "id": "unece-wp29",
@@ -4166,9 +4166,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 140,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 42465
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 71498
     },
     {
       "id": "eu-grow-publications",
@@ -4178,9 +4178,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 1505
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 1321
     },
     {
       "id": "eu-ccam",
@@ -4190,9 +4190,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 1648
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 611
     },
     {
       "id": "eu-oeil",
@@ -4202,9 +4202,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 1727
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 2614
     },
     {
       "id": "eu-eurlex-oj",
@@ -4214,9 +4214,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 1331
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 1574
     },
     {
       "id": "usa-nhtsa",
@@ -4226,9 +4226,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 583
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 2171
     },
     {
       "id": "usa-usdot",
@@ -4238,9 +4238,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 989
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 2003
     },
     {
       "id": "china-miit",
@@ -4250,9 +4250,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 1778
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 1369
     },
     {
       "id": "china-samr",
@@ -4262,9 +4262,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T17:00:09Z",
-      "lastSuccessfulCheck": "2026-08-28T17:00:09Z",
-      "elapsedMs": 6953
+      "checkedAt": "2026-08-28T17:02:29Z",
+      "lastSuccessfulCheck": "2026-08-28T17:02:29Z",
+      "elapsedMs": 5569
     }
   ],
   "regionalSignals": {
