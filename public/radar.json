@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T09:52:36Z",
-  "previousMonitoringRun": "",
+  "updatedAt": "2026-08-28T10:01:23Z",
+  "previousMonitoringRun": "2026-08-28T09:52:36Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -22,7 +22,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5674f29cd822496dbaaa",
@@ -42,7 +42,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "074eb5d4c5643a4ed2b6",
@@ -62,7 +62,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b7b011e19b3536895c85",
@@ -82,7 +82,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5ca6b9b5a99839f8558a",
@@ -102,7 +102,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5c131ba3299a93501a5f",
@@ -122,7 +122,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "472ed73c7ba794a61edc",
@@ -142,7 +142,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "89f54078c7339ac1504b",
@@ -162,7 +162,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3f73566e6de7115cbe83",
@@ -182,7 +182,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "23b3c660aa948589a4e1",
@@ -202,7 +202,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "913a671e0da9aa26c482",
@@ -222,7 +222,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a83b46661657905b817a",
@@ -242,7 +242,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "db8bd55d2f6e87a74c34",
@@ -262,7 +262,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ce305860cf524182450c",
@@ -282,7 +282,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "eecadb948a9b633e49ec",
@@ -302,7 +302,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "0892e0311d2228408475",
@@ -322,7 +322,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "98db49bbc37d4ddbaa4f",
@@ -342,7 +342,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8b996f9cefa918260483",
@@ -362,7 +362,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "61bd062127e8e38aa7d3",
@@ -382,7 +382,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b9d6b9badb51ddffa934",
@@ -402,7 +402,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b87bfc88298f0304749d",
@@ -422,7 +422,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f247bec97979c1f4fd21",
@@ -442,7 +442,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "b5cd0a8c631cd10fcbaf",
@@ -462,7 +462,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "1e7acc247d1ea620aceb",
@@ -482,7 +482,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a5f9a603624a57e347a0",
@@ -502,7 +502,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "67b725bfb17c2db59997",
@@ -522,7 +522,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "04364cdbcab1fa81013f",
@@ -542,7 +542,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "cd3f8f37f35b699ff55e",
@@ -562,7 +562,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "25ee5b2dffcc4b8f4900",
@@ -582,7 +582,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "52e9479ff520a277b96e",
@@ -602,7 +602,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5c2930af55dcf9082a67",
@@ -622,7 +622,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "687c5a5c5e1b600c31f5",
@@ -642,7 +642,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ae21aab17d1df0c35009",
@@ -662,7 +662,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "752e911535ba61bee1d5",
@@ -682,7 +682,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "dd78fabcf7aec56feb7f",
@@ -702,7 +702,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a88d2460ab0fa09cb6b0",
@@ -722,7 +722,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e7fb322ebe5c04b4011d",
@@ -742,7 +742,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5c983310884772468ec2",
@@ -762,7 +762,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9bb0e8d65ec56477770f",
@@ -782,7 +782,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3ef93c896503773bf68c",
@@ -802,7 +802,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "66b8966d0cc579a3881f",
@@ -822,7 +822,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "393b8f9ab5cc9db98d85",
@@ -842,7 +842,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a3f3adec4d5f11407f71",
@@ -862,7 +862,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e07530acdf0b163cc5a1",
@@ -882,7 +882,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7da07316015494618f4b",
@@ -902,7 +902,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "66b1e4c18209066c307e",
@@ -922,7 +922,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "182be852d6dcb0e13821",
@@ -942,7 +942,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "86c49a9a594149a846aa",
@@ -962,7 +962,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "93717fb65acd9d5beb75",
@@ -982,7 +982,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "6038d9b9debfd256194e",
@@ -1002,7 +1002,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c7fdaeca4d5bb3622edd",
@@ -1022,7 +1022,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2f6b0fcd698efc6cbe76",
@@ -1042,7 +1042,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f4e3a7ba205cf166bd3c",
@@ -1062,7 +1062,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3d1f298d9ac59a69a3b1",
@@ -1082,7 +1082,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "92b7ac0b454bddb9e1c1",
@@ -1102,7 +1102,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c38f6231e3f9a70abbcb",
@@ -1122,7 +1122,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3794937194dfdaed882d",
@@ -1142,7 +1142,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "d809d89801e2df2ce1d4",
@@ -1162,7 +1162,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "eab56f266f0cd8259f70",
@@ -1182,7 +1182,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c67cebdd2afbf4e2f8b2",
@@ -1202,7 +1202,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "a20de459243c2e55e2d8",
@@ -1222,7 +1222,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "79a29f373059c85db4ab",
@@ -1242,7 +1242,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "426fdda198472a191469",
@@ -1262,7 +1262,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "267ac3d1af2e002554b4",
@@ -1282,7 +1282,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8bedee3055b0589a0f7f",
@@ -1302,7 +1302,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9463715eab14f2d01921",
@@ -1322,7 +1322,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "8ccb87f9495dcae9ee2d",
@@ -1342,7 +1342,7 @@
       "impact": 2,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     }
   ],
   "sources": [
@@ -1354,9 +1354,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: UNECE event and document pages could not be retrieved",
       "count": 0,
-      "checkedAt": "2026-08-28T09:52:36Z",
+      "checkedAt": "2026-08-28T10:01:23Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 136
+      "elapsedMs": 72
     },
     {
       "id": "unece-wp29",
@@ -1366,9 +1366,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: UNECE event and document pages could not be retrieved",
       "count": 0,
-      "checkedAt": "2026-08-28T09:52:36Z",
+      "checkedAt": "2026-08-28T10:01:23Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 62
+      "elapsedMs": 38
     },
     {
       "id": "eu-grow-publications",
@@ -1378,9 +1378,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T09:52:36Z",
-      "lastSuccessfulCheck": "2026-08-28T09:52:36Z",
-      "elapsedMs": 1130
+      "checkedAt": "2026-08-28T10:01:23Z",
+      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
+      "elapsedMs": 1671
     },
     {
       "id": "eu-ccam",
@@ -1390,9 +1390,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 1,
-      "checkedAt": "2026-08-28T09:52:36Z",
-      "lastSuccessfulCheck": "2026-08-28T09:52:36Z",
-      "elapsedMs": 3389
+      "checkedAt": "2026-08-28T10:01:23Z",
+      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
+      "elapsedMs": 800
     },
     {
       "id": "usa-federal-register",
@@ -1402,9 +1402,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 48,
-      "checkedAt": "2026-08-28T09:52:36Z",
-      "lastSuccessfulCheck": "2026-08-28T09:52:36Z",
-      "elapsedMs": 922
+      "checkedAt": "2026-08-28T10:01:23Z",
+      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
+      "elapsedMs": 1597
     },
     {
       "id": "usa-nhtsa",
@@ -1414,9 +1414,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved",
       "count": 0,
-      "checkedAt": "2026-08-28T09:52:36Z",
+      "checkedAt": "2026-08-28T10:01:23Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 102
+      "elapsedMs": 197
     },
     {
       "id": "usa-usdot",
@@ -1426,9 +1426,9 @@
       "status": "unavailable",
       "message": "Currently unavailable · RuntimeError: Official source pages could not be retrieved",
       "count": 0,
-      "checkedAt": "2026-08-28T09:52:36Z",
+      "checkedAt": "2026-08-28T10:01:23Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 148
+      "elapsedMs": 120
     },
     {
       "id": "china-miit",
@@ -1438,9 +1438,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T09:52:36Z",
-      "lastSuccessfulCheck": "2026-08-28T09:52:36Z",
-      "elapsedMs": 1883
+      "checkedAt": "2026-08-28T10:01:23Z",
+      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
+      "elapsedMs": 1428
     },
     {
       "id": "china-samr",
@@ -1450,9 +1450,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T09:52:36Z",
-      "lastSuccessfulCheck": "2026-08-28T09:52:36Z",
-      "elapsedMs": 8682
+      "checkedAt": "2026-08-28T10:01:23Z",
+      "lastSuccessfulCheck": "2026-08-28T10:01:23Z",
+      "elapsedMs": 7264
     }
   ],
   "regionalSignals": {
