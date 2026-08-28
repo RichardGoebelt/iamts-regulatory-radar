@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T11:31:22Z",
-  "previousMonitoringRun": "2026-08-28T11:29:41Z",
+  "updatedAt": "2026-08-28T11:56:35Z",
+  "previousMonitoringRun": "2026-08-28T11:31:22Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -589,26 +589,26 @@
     {
       "id": "unece-grva",
       "region": "UNECE",
-      "name": "UNECE GRVA – UN Digital Library",
+      "name": "UNECE GRVA – UN Official Document System",
       "url": "https://unece.org/transport/vehicle-regulations/working-party-automatedautonomous-and-connected-vehicles-introduction",
       "status": "unavailable",
-      "message": "Currently unavailable · RuntimeError: Official UN machine-readable sources could not be retrieved. digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2 | digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2 | wiki.unece.org/spaces/trans/pages/63310525/Wor…",
+      "message": "Currently unavailable · RuntimeError: Official UNECE/UN document systems could not be retrieved. UN Digital Library (ECE/TRANS/WP.29/GRVA/2026): UN Digital Library search failed — JSON: UN Digital Library JSON response could not be parsed: Expecting value: line 1 column 1 (char 0) | MARCXML: UN Digital Library returned invalid XML: mismatched tag: line 21, …",
       "count": 0,
-      "checkedAt": "2026-08-28T11:31:22Z",
+      "checkedAt": "2026-08-28T11:56:35Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 1185
+      "elapsedMs": 8933
     },
     {
       "id": "unece-wp29",
       "region": "UNECE",
-      "name": "UNECE WP.29 – UN Digital Library",
+      "name": "UNECE WP.29 – UN Official Document System",
       "url": "https://unece.org/transport/vehicle-regulations",
       "status": "unavailable",
-      "message": "Currently unavailable · RuntimeError: Official UN machine-readable sources could not be retrieved. digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2 | digitallibrary.un.org/search: UN Digital Library returned invalid XML: mismatched tag: line 21, column 2",
+      "message": "Currently unavailable · RuntimeError: Official UNECE/UN document systems could not be retrieved. UN Digital Library (ECE/TRANS/WP.29/2026): UN Digital Library search failed — JSON: UN Digital Library JSON response could not be parsed: Expecting value: line 1 column 1 (char 0) | MARCXML: UN Digital Library returned invalid XML: mismatched tag: line 21, colum…",
       "count": 0,
-      "checkedAt": "2026-08-28T11:31:22Z",
+      "checkedAt": "2026-08-28T11:56:35Z",
       "lastSuccessfulCheck": "",
-      "elapsedMs": 706
+      "elapsedMs": 1753
     },
     {
       "id": "eu-grow-publications",
@@ -618,9 +618,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T11:31:22Z",
-      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
-      "elapsedMs": 1588
+      "checkedAt": "2026-08-28T11:56:35Z",
+      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
+      "elapsedMs": 1143
     },
     {
       "id": "eu-ccam",
@@ -630,9 +630,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-08-28T11:31:22Z",
-      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
-      "elapsedMs": 1315
+      "checkedAt": "2026-08-28T11:56:35Z",
+      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
+      "elapsedMs": 742
     },
     {
       "id": "eu-eurlex-oj",
@@ -642,9 +642,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T11:31:22Z",
-      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
-      "elapsedMs": 1809
+      "checkedAt": "2026-08-28T11:56:35Z",
+      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
+      "elapsedMs": 1358
     },
     {
       "id": "usa-nhtsa",
@@ -654,9 +654,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-08-28T11:31:22Z",
-      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
-      "elapsedMs": 644
+      "checkedAt": "2026-08-28T11:56:35Z",
+      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
+      "elapsedMs": 1147
     },
     {
       "id": "usa-usdot",
@@ -666,9 +666,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-08-28T11:31:22Z",
-      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
-      "elapsedMs": 952
+      "checkedAt": "2026-08-28T11:56:35Z",
+      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
+      "elapsedMs": 799
     },
     {
       "id": "china-miit",
@@ -678,9 +678,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-08-28T11:31:22Z",
-      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
-      "elapsedMs": 1667
+      "checkedAt": "2026-08-28T11:56:35Z",
+      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
+      "elapsedMs": 1762
     },
     {
       "id": "china-samr",
@@ -690,9 +690,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-08-28T11:31:22Z",
-      "lastSuccessfulCheck": "2026-08-28T11:31:22Z",
-      "elapsedMs": 7092
+      "checkedAt": "2026-08-28T11:56:35Z",
+      "lastSuccessfulCheck": "2026-08-28T11:56:35Z",
+      "elapsedMs": 7294
     }
   ],
   "regionalSignals": {
