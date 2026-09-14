@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T07:31:14Z",
-  "previousMonitoringRun": "2026-08-31T07:23:50Z",
+  "updatedAt": "2026-09-14T07:31:17Z",
+  "previousMonitoringRun": "2026-09-07T07:31:14Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -584,48 +584,6 @@
       "relevance": "May influence automated-driving or driver-assistance test procedures.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
       "contentHash": "5653b591929b4836bade",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 1,
-      "total": 5,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
-      "id": "a48878b0756d21f88229",
-      "region": "EU",
-      "sourceId": "eu-eurlex-oj",
-      "sourceName": "EUR-Lex – Official Journal of the European Union",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/575c1d84-a4d5-11f1-b25c-01aa75ed71a1",
-      "title": "Case C-67/25, Traugott Ickeroth: Judgment of the Court (Fourth Chamber) of 2 July 2026 (request for a preliminary ruling from the Landgericht Saarbrücken – Germany) – Criminal proceedings against R, N, K (Reference for a preliminary ruling – Common foreign and security policy – Restrictive measures in view of the Russian Federation’s actions destabilising t…",
-      "date": "2026-08-31",
-      "status": "Status unclear",
-      "summary": "Official Journal act published on 2026-08-31.",
-      "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "f0a603c9f37b97ae6ea6",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 1,
-      "total": 5,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
-      "id": "404c456dd5a87c3f3002",
-      "region": "EU",
-      "sourceId": "eu-eurlex-oj",
-      "sourceName": "EUR-Lex – Official Journal of the European Union",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/f40276bb-a4d4-11f1-b25c-01aa75ed71a1",
-      "title": "Case T-427/26: Action brought on 7 July 2026 – Digital Broadcasting v Commission",
-      "date": "2026-08-31",
-      "status": "Status unclear",
-      "summary": "Official Journal act published on 2026-08-31.",
-      "relevance": "May influence automated-driving or driver-assistance test procedures.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "be88d984c5dfc7ac7a15",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
@@ -3827,6 +3785,27 @@
       "change": "No change"
     },
     {
+      "id": "9587121dc43d30cafa64",
+      "region": "UNECE",
+      "sourceId": "unece-grva",
+      "sourceName": "UNECE GRVA – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/GRVA/2026/24",
+      "title": "Proposal for Guidance and Interpretation document on Global Technical Regulation and UN Regulation on Automated Driving System",
+      "date": "",
+      "status": "Draft",
+      "summary": "Working Party on Automated/Autonomous and Connected Vehicles Automated/autonomous and connected vehicles:",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "0b28200b5250d2da8561",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 2,
+      "total": 6,
+      "priority": "High",
+      "change": "New"
+    },
+    {
       "id": "2c85fa2c4345e1075c48",
       "region": "UNECE",
       "sourceId": "unece-wp29",
@@ -4664,7 +4643,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "57322b9c3a7da9ea739c",
@@ -5179,10 +5158,10 @@
       "url": "https://unece.org/transport/vehicle-regulations/working-party-automatedautonomous-and-connected-vehicles-introduction",
       "status": "success",
       "message": "Successfully checked",
-      "count": 37,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 9741
+      "count": 38,
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 10556
     },
     {
       "id": "unece-wp29",
@@ -5192,9 +5171,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 140,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 26810
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 31998
     },
     {
       "id": "unece-media-documents",
@@ -5204,9 +5183,9 @@
       "status": "success",
       "message": "Covered by official GRVA/WP.29 UN ODS monitoring; Media / Documents HTML blocks automated access",
       "count": 0,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 771
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 841
     },
     {
       "id": "unece-iwg-ai",
@@ -5216,9 +5195,9 @@
       "status": "success",
       "message": "Covered via official GRVA UN ODS monitoring; IWG AI Wiki blocks automated access",
       "count": 0,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 483
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 539
     },
     {
       "id": "eu-grow-publications",
@@ -5228,9 +5207,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 1479
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 1436
     },
     {
       "id": "eu-dg-move",
@@ -5240,9 +5219,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 33,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 5926
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 4122
     },
     {
       "id": "eu-dg-connect",
@@ -5252,9 +5231,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 9,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 2349
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 4262
     },
     {
       "id": "eu-oeil",
@@ -5264,9 +5243,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 3726
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 1680
     },
     {
       "id": "eu-eurlex-legislation",
@@ -5276,9 +5255,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 57377
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 56377
     },
     {
       "id": "eu-eurlex-oj",
@@ -5287,10 +5266,10 @@
       "url": "https://eur-lex.europa.eu/oj/direct-access.html",
       "status": "success",
       "message": "Successfully checked",
-      "count": 2,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 2020
+      "count": 0,
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 2282
     },
     {
       "id": "usa-nhtsa",
@@ -5300,9 +5279,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 965
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 989
     },
     {
       "id": "usa-usdot",
@@ -5312,9 +5291,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 1,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 1007
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 1062
     },
     {
       "id": "china-miit",
@@ -5324,9 +5303,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 6492
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 3169
     },
     {
       "id": "china-samr",
@@ -5336,20 +5315,20 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-09-07T07:31:14Z",
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "elapsedMs": 8449
+      "checkedAt": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "elapsedMs": 18972
     }
   ],
   "regionalSignals": {
     "UNECE": {
-      "developments": 177,
-      "highPriority": 176,
+      "developments": 178,
+      "highPriority": 177,
       "dominantTopic": "Automated Driving Regulation"
     },
     "EU": {
-      "developments": 50,
-      "highPriority": 17,
+      "developments": 48,
+      "highPriority": 15,
       "dominantTopic": "Automated Driving Regulation"
     },
     "USA": {

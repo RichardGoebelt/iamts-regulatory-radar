@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sources": {
     "eu-grow-publications": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "3d1f298d9ac59a69a3b1",
@@ -1007,11 +1007,11 @@
       ]
     },
     "china-miit": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": []
     },
     "china-samr": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "c67cebdd2afbf4e2f8b2",
@@ -1336,52 +1336,11 @@
       ]
     },
     "eu-eurlex-oj": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
-      "entries": [
-        {
-          "id": "404c456dd5a87c3f3002",
-          "region": "EU",
-          "sourceId": "eu-eurlex-oj",
-          "sourceName": "EUR-Lex – Official Journal of the European Union",
-          "sourceUrl": "http://publications.europa.eu/resource/cellar/f40276bb-a4d4-11f1-b25c-01aa75ed71a1",
-          "title": "Case T-427/26: Action brought on 7 July 2026 – Digital Broadcasting v Commission",
-          "date": "2026-08-31",
-          "status": "Status unclear",
-          "summary": "Official Journal act published on 2026-08-31.",
-          "relevance": "May influence automated-driving or driver-assistance test procedures.",
-          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-          "contentHash": "be88d984c5dfc7ac7a15",
-          "historicalBaseline": false,
-          "tc": 2,
-          "urgency": 2,
-          "impact": 1,
-          "total": 5,
-          "priority": "High"
-        },
-        {
-          "id": "a48878b0756d21f88229",
-          "region": "EU",
-          "sourceId": "eu-eurlex-oj",
-          "sourceName": "EUR-Lex – Official Journal of the European Union",
-          "sourceUrl": "http://publications.europa.eu/resource/cellar/575c1d84-a4d5-11f1-b25c-01aa75ed71a1",
-          "title": "Case C-67/25, Traugott Ickeroth: Judgment of the Court (Fourth Chamber) of 2 July 2026 (request for a preliminary ruling from the Landgericht Saarbrücken – Germany) – Criminal proceedings against R, N, K (Reference for a preliminary ruling – Common foreign and security policy – Restrictive measures in view of the Russian Federation’s actions destabilising t…",
-          "date": "2026-08-31",
-          "status": "Status unclear",
-          "summary": "Official Journal act published on 2026-08-31.",
-          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
-          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-          "contentHash": "f0a603c9f37b97ae6ea6",
-          "historicalBaseline": false,
-          "tc": 2,
-          "urgency": 2,
-          "impact": 1,
-          "total": 5,
-          "priority": "High"
-        }
-      ]
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "entries": []
     },
     "usa-nhtsa": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "269fb7214149628af211",
@@ -1426,7 +1385,7 @@
       ]
     },
     "usa-usdot": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "95fc9c87b159a6761d96",
@@ -1451,7 +1410,7 @@
       ]
     },
     "unece-grva": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "8883b5aacd3c759823a6",
@@ -1874,6 +1833,26 @@
           "priority": "High"
         },
         {
+          "id": "9587121dc43d30cafa64",
+          "region": "UNECE",
+          "sourceId": "unece-grva",
+          "sourceName": "UNECE GRVA – UN Official Document System",
+          "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/GRVA/2026/24",
+          "title": "Proposal for Guidance and Interpretation document on Global Technical Regulation and UN Regulation on Automated Driving System",
+          "date": "",
+          "status": "Draft",
+          "summary": "Working Party on Automated/Autonomous and Connected Vehicles Automated/autonomous and connected vehicles:",
+          "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+          "contentHash": "0b28200b5250d2da8561",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
+        {
           "id": "114676db2794a0c87431",
           "region": "UNECE",
           "sourceId": "unece-grva",
@@ -2196,7 +2175,7 @@
       ]
     },
     "unece-wp29": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "7220e2eddd6a6a0a7fea",
@@ -5001,11 +4980,11 @@
       ]
     },
     "eu-oeil": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": []
     },
     "eu-dg-move": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "1ef7c2391f6196f3f2a1",
@@ -5670,7 +5649,7 @@
       ]
     },
     "eu-dg-connect": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "5d1bcb1e6796f9070bce",
@@ -5855,7 +5834,7 @@
       ]
     },
     "eu-eurlex-legislation": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": [
         {
           "id": "74361f54543a2a3539b8",
@@ -5940,13 +5919,13 @@
       ]
     },
     "unece-media-documents": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": []
     },
     "unece-iwg-ai": {
-      "lastSuccessfulCheck": "2026-09-07T07:31:14Z",
+      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
       "entries": []
     }
   },
-  "lastRun": "2026-09-07T07:31:14Z"
+  "lastRun": "2026-09-14T07:31:17Z"
 }
