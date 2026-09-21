@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sources": {
     "eu-grow-publications": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
         {
           "id": "3d1f298d9ac59a69a3b1",
@@ -1007,11 +1007,11 @@
       ]
     },
     "china-miit": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": []
     },
     "china-samr": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
         {
           "id": "c67cebdd2afbf4e2f8b2",
@@ -1336,12 +1336,53 @@
       ]
     },
     "eu-eurlex-oj": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
-      "entries": []
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
+      "entries": [
+        {
+          "id": "f153dbd06534ebdfbe0e",
+          "region": "EU",
+          "sourceId": "eu-eurlex-oj",
+          "sourceName": "EUR-Lex – Official Journal of the European Union",
+          "sourceUrl": "http://publications.europa.eu/resource/cellar/99667756-b556-11f1-81de-01aa75ed71a1",
+          "title": "Joined Cases C-258/23 to C-260/23, Imagens Médicas Integradas and Others: Judgment of the Court (Grand Chamber) of 16 July 2026 (request for a preliminary ruling from the Tribunal da Concorrência, Regulação e Supervisão – Portugal) – IMI – Imagens Médicas Integradas S. A. (C-258/23), Synlabhealth II S. A. (C-259/23), SIBS – Sociedade Gestora de Participaçõe…",
+          "date": "2026-09-21",
+          "status": "Status unclear",
+          "summary": "Official Journal act published on 2026-09-21.",
+          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+          "contentHash": "9a31392d301a3805dfbd",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 2,
+          "impact": 1,
+          "total": 5,
+          "priority": "High"
+        }
+      ]
     },
     "usa-nhtsa": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
+        {
+          "id": "5500bb2470ac45407bc7",
+          "region": "USA",
+          "sourceId": "usa-nhtsa",
+          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
+          "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
+          "date": "2026-09-21",
+          "status": "Draft",
+          "summary": "This document denies the September 11, 2025, petition for rulemaking submitted by Eric Dauster (\"petitioner\"). The petitioner requested that the agency initiate rulemaking to establish new standards for a centralized National Map Database (NMD) containing static roadway information and requiring global mapping providers to conform to these standards. The petitioner stated that the NMD standards should apply to entities responsible for the installation and maintenance of road infrastructure, including local municipalities, state transportation agencies, and private contractors. NHTSA is denying the petition based on a lack of information necessary for the agency to take action under the National Traffic and Motor Vehicle Safety Act, as well as the agency's view concerning the efficient allocation of agency resources.",
+          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
+          "contentHash": "475318f91bb0d9c15ce8",
+          "historicalBaseline": false,
+          "tc": 1,
+          "urgency": 2,
+          "impact": 1,
+          "total": 4,
+          "priority": "Medium"
+        },
         {
           "id": "269fb7214149628af211",
           "region": "USA",
@@ -1361,6 +1402,26 @@
           "impact": 1,
           "total": 5,
           "priority": "High"
+        },
+        {
+          "id": "c434aad55645fe110c44",
+          "region": "USA",
+          "sourceId": "usa-nhtsa",
+          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19256/ford-motor-company-receipt-of-petition-for-decision-of-inconsequential-noncompliance",
+          "title": "Ford Motor Company, Receipt of Petition for Decision of Inconsequential Noncompliance",
+          "date": "2026-09-21",
+          "status": "In progress",
+          "summary": "Ford Motor Company (Ford) has determined that certain model year (MY) 2024-2025 Ford Ranger motor vehicles do not fully comply with Federal Motor Vehicle Safety Standard (FMVSS) No. 101, Controls And Displays. Ford filed a noncompliance report dated September 11, 2025, and subsequently petitioned NHTSA (the \"Agency\") on October 3, 2025, for a decision that the subject noncompliance is inconsequential as it relates to motor vehicle safety. This document announces receipt of Ford's petition.",
+          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Does this create a need for cross-regional harmonization? Should IAMTS engage in this regulatory or standardization process?",
+          "contentHash": "c94c7366b057946ae485",
+          "historicalBaseline": false,
+          "tc": 1,
+          "urgency": 2,
+          "impact": 1,
+          "total": 4,
+          "priority": "Medium"
         },
         {
           "id": "affcb29d9f106d81945b",
@@ -1385,8 +1446,28 @@
       ]
     },
     "usa-usdot": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
+        {
+          "id": "ed7731fbb903a308f054",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
+          "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
+          "date": "2026-09-21",
+          "status": "Draft",
+          "summary": "This document denies the September 11, 2025, petition for rulemaking submitted by Eric Dauster (\"petitioner\"). The petitioner requested that the agency initiate rulemaking to establish new standards for a centralized National Map Database (NMD) containing static roadway information and requiring global mapping providers to conform to these standards. The petitioner stated that the NMD standards should apply to entities responsible for the installation and maintenance of road infrastructure, including local municipalities, state transportation agencies, and private contractors. NHTSA is denying the petition based on a lack of information necessary for the agency to take action under the National Traffic and Motor Vehicle Safety Act, as well as the agency's view concerning the efficient allocation of agency resources.",
+          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
+          "contentHash": "475318f91bb0d9c15ce8",
+          "historicalBaseline": false,
+          "tc": 1,
+          "urgency": 2,
+          "impact": 1,
+          "total": 4,
+          "priority": "Medium"
+        },
         {
           "id": "95fc9c87b159a6761d96",
           "region": "USA",
@@ -1406,11 +1487,31 @@
           "impact": 1,
           "total": 5,
           "priority": "High"
+        },
+        {
+          "id": "f92b9ebfe0ea11136c42",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19256/ford-motor-company-receipt-of-petition-for-decision-of-inconsequential-noncompliance",
+          "title": "Ford Motor Company, Receipt of Petition for Decision of Inconsequential Noncompliance",
+          "date": "2026-09-21",
+          "status": "In progress",
+          "summary": "Ford Motor Company (Ford) has determined that certain model year (MY) 2024-2025 Ford Ranger motor vehicles do not fully comply with Federal Motor Vehicle Safety Standard (FMVSS) No. 101, Controls And Displays. Ford filed a noncompliance report dated September 11, 2025, and subsequently petitioned NHTSA (the \"Agency\") on October 3, 2025, for a decision that the subject noncompliance is inconsequential as it relates to motor vehicle safety. This document announces receipt of Ford's petition.",
+          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Does this create a need for cross-regional harmonization? Should IAMTS engage in this regulatory or standardization process?",
+          "contentHash": "c94c7366b057946ae485",
+          "historicalBaseline": false,
+          "tc": 1,
+          "urgency": 2,
+          "impact": 1,
+          "total": 4,
+          "priority": "Medium"
         }
       ]
     },
     "unece-grva": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
         {
           "id": "8883b5aacd3c759823a6",
@@ -2175,7 +2276,7 @@
       ]
     },
     "unece-wp29": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
         {
           "id": "7220e2eddd6a6a0a7fea",
@@ -3550,6 +3651,26 @@
           "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
           "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
           "contentHash": "17f61e32f41006628951",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 1,
+          "impact": 2,
+          "total": 5,
+          "priority": "High"
+        },
+        {
+          "id": "37948e8abd06d06f74a0",
+          "region": "UNECE",
+          "sourceId": "unece-wp29",
+          "sourceName": "UNECE WP.29 – UN Official Document System",
+          "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/181",
+          "title": "ECE/TRANS/WP.29/2026/181",
+          "date": "",
+          "status": "In progress",
+          "summary": "\"22.33.5.Notwithstanding paragraphs 22.33.2. and 22.33.4., Contracting Parties applying this Regulation shall continue to accept type approvals issued according to the 04, 05 and 06 series of amendments to this Regulation, for the vehicles and devices for indirect vision which are not affected by the changes introduced by the 07 series of amendments.\"",
+          "relevance": "May affect homologation, certification or conformity assessment.",
+          "questions": "Does this create a new certification or homologation service opportunity? Should IAMTS engage in this regulatory or standardization process?",
+          "contentHash": "9b7c38319a52d6f096bf",
           "historicalBaseline": false,
           "tc": 2,
           "urgency": 1,
@@ -4980,11 +5101,11 @@
       ]
     },
     "eu-oeil": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": []
     },
     "eu-dg-move": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
         {
           "id": "1ef7c2391f6196f3f2a1",
@@ -5649,7 +5770,7 @@
       ]
     },
     "eu-dg-connect": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
         {
           "id": "5d1bcb1e6796f9070bce",
@@ -5834,7 +5955,7 @@
       ]
     },
     "eu-eurlex-legislation": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": [
         {
           "id": "74361f54543a2a3539b8",
@@ -5919,13 +6040,13 @@
       ]
     },
     "unece-media-documents": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": []
     },
     "unece-iwg-ai": {
-      "lastSuccessfulCheck": "2026-09-14T07:31:17Z",
+      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
       "entries": []
     }
   },
-  "lastRun": "2026-09-14T07:31:17Z"
+  "lastRun": "2026-09-21T07:31:05Z"
 }
