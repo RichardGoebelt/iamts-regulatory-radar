@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T07:31:05Z",
-  "previousMonitoringRun": "2026-09-14T07:31:17Z",
+  "updatedAt": "2026-09-28T07:32:31Z",
+  "previousMonitoringRun": "2026-09-21T07:31:05Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -611,7 +611,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2aac62de3cc04f544715",
@@ -2000,6 +2000,27 @@
       "change": "No change"
     },
     {
+      "id": "7e62b1fc47fb7526234a",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/175",
+      "title": "ECE/TRANS/WP.29/2026/175",
+      "date": "",
+      "status": "In progress",
+      "summary": "This Regulation applies to the type approval of vehicles of categories M11 with a reference mass not exceeding 2,610 kg and vehicles of categories M2 and N11 with a reference mass not exceeding 2,610 kg and a technical permissible maximum laden mass not exceeding 3,500 kg with regard to their Real Driving Emissions. \"3.3.5.\"Odometer\" means an instrument indicating the total distance driven by the vehicle since its production to the driver and/or sends a signal to the ADS1.\"",
+      "relevance": "May affect homologation, certification or conformity assessment; May affect cybersecurity and software-update assessment.",
+      "questions": "Does this create a new certification or homologation service opportunity? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "577d22a93060b6d01145",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
       "id": "88cd897d31b9645ad99c",
       "region": "UNECE",
       "sourceId": "unece-wp29",
@@ -2039,6 +2060,90 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
+      "change": "No change"
+    },
+    {
+      "id": "3d0dc6c2a75c449876e0",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/186",
+      "title": "ECE/TRANS/WP.29/2026/186",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 47). It is based on ECE/TRANS/WP.29/GRVA/2026/19 as amended by GRVA-25-53/Rev.1. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "24ebde3935b0d90da569",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "9706da59959d17a1f363",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/187",
+      "title": "ECE/TRANS/WP.29/2026/187",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 47). It is based on ECE/TRANS/WP.29/GRVA/2026/19 as amended by GRVA-25-53/Rev.1. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "0ac87df3b809049b7bb6",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "7d39d39ef2bec93f4b65",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/188",
+      "title": "ECE/TRANS/WP.29/2026/188",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 47). It is based on ECE/TRANS/WP.29/GRVA/2026/19 as amended by GRVA-25-53/Rev.1. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "d2bc895632c827621d92",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "15a7d7733183be852d7d",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/189",
+      "title": "ECE/TRANS/WP.29/2026/189",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 70). It is based on informal document GRVA-25-06. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "404aa2462a528cd2104a",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
       "change": "New"
     },
     {
@@ -2061,6 +2166,69 @@
       "total": 5,
       "priority": "High",
       "change": "No change"
+    },
+    {
+      "id": "fd2e4a90b1cf52b87f43",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/190",
+      "title": "ECE/TRANS/WP.29/2026/190",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 70). It is based on informal document GRVA-25-06. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "a3f9e76caed347a47069",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "3f0223894ad778acd6f4",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/191",
+      "title": "ECE/TRANS/WP.29/2026/191",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 59). It is based on document ECE/TRANS/WP.29/GRVA/2026/22. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "8a03c2e184cfc80f4583",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "abb5089f81fee575dea0",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/192",
+      "title": "ECE/TRANS/WP.29/2026/192",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 59). It is based on document ECE/TRANS/WP.29/GRVA/2026/22. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "c0d467ca2469e3a294a3",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
     },
     {
       "id": "dbb503ee815eb4876b42",
@@ -3932,6 +4100,48 @@
       "change": "No change"
     },
     {
+      "id": "873b05e99926e03af7ab",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/193",
+      "title": "Proposal for Supplement 6 to the 01 series of amendments to UN Regulation No. 157 (ALKS)",
+      "date": "",
+      "status": "Draft",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 24). It is based on document ECE/TRANS/WP.29/GRVA/2026/13 as amended by informal document GRVA-25-29. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "a7b7166c939a86f8e5eb",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 2,
+      "total": 6,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "2d49d659fa609aafa615",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/170",
+      "title": "Proposal for Supplement 7 to the original version of UN Regulation No. 157 (ALKS)",
+      "date": "",
+      "status": "Draft",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 24). It is based on document ECE/TRANS/WP.29/GRVA/2026/13 as amended by informal document GRVA-25-29. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "b6f5ecbbaa4aa7f55fd2",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 2,
+      "total": 6,
+      "priority": "High",
+      "change": "New"
+    },
+    {
       "id": "34941c26a981dc93a62d",
       "region": "EU",
       "sourceId": "eu-dg-move",
@@ -4706,7 +4916,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "ed7731fbb903a308f054",
@@ -4727,7 +4937,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "c434aad55645fe110c44",
@@ -4748,7 +4958,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f92b9ebfe0ea11136c42",
@@ -4769,7 +4979,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "57322b9c3a7da9ea739c",
@@ -5285,9 +5495,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 38,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 11423
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 10928
     },
     {
       "id": "unece-wp29",
@@ -5296,10 +5506,10 @@
       "url": "https://unece.org/transport/vehicle-regulations",
       "status": "success",
       "message": "Successfully checked",
-      "count": 141,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 34048
+      "count": 151,
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 31193
     },
     {
       "id": "unece-media-documents",
@@ -5309,9 +5519,9 @@
       "status": "success",
       "message": "Covered by official GRVA/WP.29 UN ODS monitoring; Media / Documents HTML blocks automated access",
       "count": 0,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 1171
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 729
     },
     {
       "id": "unece-iwg-ai",
@@ -5321,9 +5531,9 @@
       "status": "success",
       "message": "Covered via official GRVA UN ODS monitoring; IWG AI Wiki blocks automated access",
       "count": 0,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 782
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 528
     },
     {
       "id": "eu-grow-publications",
@@ -5333,9 +5543,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 5114
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 1367
     },
     {
       "id": "eu-dg-move",
@@ -5345,9 +5555,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 33,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 4671
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 3929
     },
     {
       "id": "eu-dg-connect",
@@ -5357,9 +5567,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 9,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 5348
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 4680
     },
     {
       "id": "eu-oeil",
@@ -5369,9 +5579,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 2407
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 1710
     },
     {
       "id": "eu-eurlex-legislation",
@@ -5381,9 +5591,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 77736
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 57033
     },
     {
       "id": "eu-eurlex-oj",
@@ -5393,9 +5603,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 1,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 1610
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 1857
     },
     {
       "id": "usa-nhtsa",
@@ -5405,9 +5615,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 1307
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 891
     },
     {
       "id": "usa-usdot",
@@ -5417,9 +5627,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 3,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 1382
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 785
     },
     {
       "id": "china-miit",
@@ -5429,9 +5639,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 1591
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 3870
     },
     {
       "id": "china-samr",
@@ -5441,15 +5651,15 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-09-21T07:31:05Z",
-      "lastSuccessfulCheck": "2026-09-21T07:31:05Z",
-      "elapsedMs": 10905
+      "checkedAt": "2026-09-28T07:32:31Z",
+      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
+      "elapsedMs": 11068
     }
   ],
   "regionalSignals": {
     "UNECE": {
-      "developments": 179,
-      "highPriority": 178,
+      "developments": 189,
+      "highPriority": 188,
       "dominantTopic": "Automated Driving Regulation"
     },
     "EU": {
