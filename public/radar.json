@@ -1,30 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T07:32:31Z",
-  "previousMonitoringRun": "2026-09-21T07:31:05Z",
+  "updatedAt": "2026-10-05T16:05:11Z",
+  "previousMonitoringRun": "2026-09-28T07:32:31Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
-    {
-      "id": "74361f54543a2a3539b8",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R1426",
-      "title": "Commission Implementing Regulation (EU) 2022/1426 of 5 August 2022 laying down rules for the application of Regulation (EU) 2019/2144 of the European Parliament and of the Council as regards uniform procedures and technical specifications for the type-approval of the automated driving system (ADS) of fully automated vehicles (Text with EEA relevance)",
-      "date": "2022-08-05",
-      "status": "In force",
-      "summary": "Direct EUR-Lex/CELLAR CELEX verification for 32022R1426. Recorded entry-into-force date: 2022-09-15. Included in the IAMTS EU in-force regulatory baseline from 1 January 2022.",
-      "relevance": "May affect homologation, certification or conformity assessment; May require adapted validation, simulation, scenario-based or physical test methods.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "da579fb342030f4ac766",
-      "historicalBaseline": true,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 2,
-      "total": 6,
-      "priority": "High",
-      "change": "No change"
-    },
     {
       "id": "8b996f9cefa918260483",
       "region": "China",
@@ -143,48 +122,6 @@
       "relevance": "May influence automated-driving or driver-assistance test procedures.",
       "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
       "contentHash": "f1f0490f625891310ad0",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 2,
-      "total": 6,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
-      "id": "b0399aa83f70d5cafa9d",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0180",
-      "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2014/45/EU on periodic roadworthiness tests for motor vehicles and their trailers and Directive 2014/47/EU on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union",
-      "date": "2025-04-24",
-      "status": "Draft",
-      "summary": "Direct EUR-Lex/CELLAR CELEX verification for 52025PC0180.",
-      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "7608b97cd5c52be571d7",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 2,
-      "total": 6,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
-      "id": "202796b9cbebc1b09ea7",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0179",
-      "title": "Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the registration documents for vehicles and vehicle registration data recorded in national vehicle registers and repealing Council Directive 1999/37/EC",
-      "date": "2025-04-24",
-      "status": "Draft",
-      "summary": "Direct EUR-Lex/CELLAR CELEX verification for 52025PC0179.",
-      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
-      "contentHash": "1daa1ac9fb3f4a716076",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
@@ -362,27 +299,6 @@
       "change": "No change"
     },
     {
-      "id": "1f76531eafadae8f42bf",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0481",
-      "title": "Commission Implementing Regulation (EU) 2026/481 of 3 March 2026 amending Implementing Regulation (EU) 2022/1426 laying down rules for the application of Regulation (EU) 2019/2144 of the European Parliament and of the Council as regards uniform procedures and technical specifications for the type-approval of the automated driving system of fully automated v…",
-      "date": "2026-03-03",
-      "status": "In force",
-      "summary": "Direct EUR-Lex/CELLAR CELEX verification for 32026R0481. Recorded entry-into-force date: 2026-03-24.",
-      "relevance": "May affect homologation, certification or conformity assessment; May require adapted validation, simulation, scenario-based or physical test methods.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "f3894c222feff2ea977c",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 2,
-      "total": 6,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
       "id": "86c49a9a594149a846aa",
       "region": "China",
       "sourceId": "china-samr",
@@ -439,9 +355,9 @@
       "contentHash": "1ab1e5d8721a688267ff",
       "historicalBaseline": false,
       "tc": 2,
-      "urgency": 2,
+      "urgency": 1,
       "impact": 2,
-      "total": 6,
+      "total": 5,
       "priority": "High",
       "change": "No change"
     },
@@ -551,67 +467,67 @@
       "change": "No change"
     },
     {
-      "id": "269fb7214149628af211",
+      "id": "2d862a7aac6f3e8c4b65",
       "region": "USA",
       "sourceId": "usa-nhtsa",
       "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/31/2026-17741/av-framework-updates-and-request-for-comments-on-interim-guidance-extension-of-comment-period",
-      "title": "AV Framework Updates and Request for Comments on Interim Guidance; Extension of Comment Period",
-      "date": "2026-08-31",
-      "status": "Draft",
-      "summary": "In response to a request from the Alliance for Automotive Innovation (Auto Innovators), NHTSA is announcing a 30-day extension of the public comment period for the notice published on July 31, 2026 summarizing NHTSA's recent activity relating to the AV Framework and requesting comment on interim guidance for commercial deployment exemptions for automated vehicles. The comment period for the notice was originally scheduled to end on August 31, 2026. It will now end on September 30, 2026.",
-      "relevance": "May influence automated-driving or driver-assistance test procedures.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "5653b591929b4836bade",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19962/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Consolidated Labeling Requirements for Motor Vehicles (Except the VIN)",
+      "date": "2026-09-30",
+      "status": "In progress",
+      "summary": "In compliance with the Paperwork Reduction Act of 1995 (PRA), this notice announces that the Information Collection Request (ICR) summarized below will be submitted to the Office of Management and Budget (OMB) for review and approval. The ICR describes the nature of the information collection and its expected burden. This document describes a collection of labeling information on nine Federal Motor Vehicle Safety Standards (FMVSS) for which NHTSA intends to seek OMB approval. The labeling requirements include brake fluid warning for vehicles with a GVWR greater than 3,500 kilograms (7,716 pounds), brake fluid warning for vehicles with a GVWR of 3,500 kilograms (7,716 pounds) or less, glazing labeling, air bag warning labels, seat belt labeling, compressed natural gas (CNG) vehicle fuel label, CNG fuel container labels, hydrogen fueled vehicle fueling label, and hydrogen fuel container l…",
+      "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
+      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
+      "contentHash": "ab59f3395089f90689a8",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
-      "impact": 1,
-      "total": 5,
+      "impact": 2,
+      "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "New"
     },
     {
-      "id": "95fc9c87b159a6761d96",
+      "id": "0480bbd74cf0ac9ae15b",
       "region": "USA",
       "sourceId": "usa-usdot",
       "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/31/2026-17741/av-framework-updates-and-request-for-comments-on-interim-guidance-extension-of-comment-period",
-      "title": "AV Framework Updates and Request for Comments on Interim Guidance; Extension of Comment Period",
-      "date": "2026-08-31",
-      "status": "Draft",
-      "summary": "In response to a request from the Alliance for Automotive Innovation (Auto Innovators), NHTSA is announcing a 30-day extension of the public comment period for the notice published on July 31, 2026 summarizing NHTSA's recent activity relating to the AV Framework and requesting comment on interim guidance for commercial deployment exemptions for automated vehicles. The comment period for the notice was originally scheduled to end on August 31, 2026. It will now end on September 30, 2026.",
-      "relevance": "May influence automated-driving or driver-assistance test procedures.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "5653b591929b4836bade",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19962/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Consolidated Labeling Requirements for Motor Vehicles (Except the VIN)",
+      "date": "2026-09-30",
+      "status": "In progress",
+      "summary": "In compliance with the Paperwork Reduction Act of 1995 (PRA), this notice announces that the Information Collection Request (ICR) summarized below will be submitted to the Office of Management and Budget (OMB) for review and approval. The ICR describes the nature of the information collection and its expected burden. This document describes a collection of labeling information on nine Federal Motor Vehicle Safety Standards (FMVSS) for which NHTSA intends to seek OMB approval. The labeling requirements include brake fluid warning for vehicles with a GVWR greater than 3,500 kilograms (7,716 pounds), brake fluid warning for vehicles with a GVWR of 3,500 kilograms (7,716 pounds) or less, glazing labeling, air bag warning labels, seat belt labeling, compressed natural gas (CNG) vehicle fuel label, CNG fuel container labels, hydrogen fueled vehicle fueling label, and hydrogen fuel container l…",
+      "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
+      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
+      "contentHash": "ab59f3395089f90689a8",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
-      "impact": 1,
-      "total": 5,
+      "impact": 2,
+      "total": 6,
       "priority": "High",
-      "change": "No change"
+      "change": "New"
     },
     {
-      "id": "f153dbd06534ebdfbe0e",
+      "id": "811dbcac77e0d8ca3350",
       "region": "EU",
       "sourceId": "eu-eurlex-oj",
       "sourceName": "EUR-Lex – Official Journal of the European Union",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/99667756-b556-11f1-81de-01aa75ed71a1",
-      "title": "Joined Cases C-258/23 to C-260/23, Imagens Médicas Integradas and Others: Judgment of the Court (Grand Chamber) of 16 July 2026 (request for a preliminary ruling from the Tribunal da Concorrência, Regulação e Supervisão – Portugal) – IMI – Imagens Médicas Integradas S. A. (C-258/23), Synlabhealth II S. A. (C-259/23), SIBS – Sociedade Gestora de Participaçõe…",
-      "date": "2026-09-21",
+      "sourceUrl": "http://publications.europa.eu/resource/cellar/b62531ef-c055-11f1-988f-01aa75ed71a1",
+      "title": "Case C-401/25, Elettronica Industriale II: Judgment of the Court (Third Chamber) of 16 July 2026 (request for a preliminary ruling from the Consiglio di Stato – Italy) – Elettronica Industriale SpA v Ministero delle Imprese e del Made in Italy (Reference for a preliminary ruling – Electronic communications networks and services – Directive 2002/21/EC – Arti…",
+      "date": "2026-10-05",
       "status": "Status unclear",
-      "summary": "Official Journal act published on 2026-09-21.",
-      "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
-      "contentHash": "9a31392d301a3805dfbd",
+      "summary": "Official Journal act published on 2026-10-05.",
+      "relevance": "May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+      "contentHash": "48e20f2689926f1bbad9",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "No change"
+      "change": "New"
     },
     {
       "id": "2aac62de3cc04f544715",
@@ -2000,6 +1916,48 @@
       "change": "No change"
     },
     {
+      "id": "416019c2b370374c5898",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/171",
+      "title": "ECE/TRANS/WP.29/2026/171",
+      "date": "",
+      "status": "In progress",
+      "summary": "Development of the International Whole Vehicle Type Approval (IWVTA) system Submitted by the Informal Working Group on the International Whole Vehicle Type Approval*",
+      "relevance": "May affect homologation, certification or conformity assessment.",
+      "questions": "Does this create a new certification or homologation service opportunity? Should IAMTS engage in this regulatory or standardization process?",
+      "contentHash": "784d8a5917506854042b",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "f92c013e3eb620a9818b",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/172",
+      "title": "ECE/TRANS/WP.29/2026/172",
+      "date": "",
+      "status": "In progress",
+      "summary": "Development of the International Whole Vehicle Type Approval (IWVTA) system: Submitted by the Informal Working Group on the International Whole Vehicle Type Approval*",
+      "relevance": "May affect homologation, certification or conformity assessment.",
+      "questions": "Does this create a new certification or homologation service opportunity? Should IAMTS engage in this regulatory or standardization process?",
+      "contentHash": "4dd9b3cfc985504365bd",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
       "id": "7e62b1fc47fb7526234a",
       "region": "UNECE",
       "sourceId": "unece-wp29",
@@ -2018,7 +1976,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "88cd897d31b9645ad99c",
@@ -2063,6 +2021,27 @@
       "change": "No change"
     },
     {
+      "id": "15f8637fff5d710a2df4",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/185",
+      "title": "ECE/TRANS/WP.29/2026/185",
+      "date": "",
+      "status": "In progress",
+      "summary": "Type approval photometric requirements concerning the adaptation of the driving beam",
+      "relevance": "May affect homologation, certification or conformity assessment.",
+      "questions": "Does this create a new certification or homologation service opportunity? Should IAMTS engage in this regulatory or standardization process?",
+      "contentHash": "0ab7950e0945fb6ddea9",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
       "id": "3d0dc6c2a75c449876e0",
       "region": "UNECE",
       "sourceId": "unece-wp29",
@@ -2081,7 +2060,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "9706da59959d17a1f363",
@@ -2102,7 +2081,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7d39d39ef2bec93f4b65",
@@ -2123,7 +2102,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "15a7d7733183be852d7d",
@@ -2144,7 +2123,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "f234f7db7c6c73640c3f",
@@ -2186,7 +2165,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "3f0223894ad778acd6f4",
@@ -2207,7 +2186,7 @@
       "impact": 2,
       "total": 5,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "abb5089f81fee575dea0",
@@ -2222,6 +2201,48 @@
       "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
       "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
       "contentHash": "c0d467ca2469e3a294a3",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "No change"
+    },
+    {
+      "id": "cf782f3684ffa13f7e67",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/195",
+      "title": "ECE/TRANS/WP.29/2026/195",
+      "date": "",
+      "status": "In progress",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 53). It is based on document ECE/TRANS/WP.29/GRVA/2026/20 as amended by informal document GRVA-25-55/Rev.1. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "712b6c5fd210759d4b47",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "63d7328685afdc18f560",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/197",
+      "title": "ECE/TRANS/WP.29/2026/197",
+      "date": "",
+      "status": "In progress",
+      "summary": "0.2.1.It concerns the transposition of UN GTR No. 9, Amendment 3 (ECE/TRANS/WP.29/2024/77) on the test procedure for Deployable Pedestrian Protection Systems (DPPS) and the procedure for the head impact time (HIT) determination simulation into UN Regulation No. 127. 0.2.4. Numerical simulations with Human Body Models (HBM) are employed in the procedure to estimate HIT as described in Annex 8 of this Regulation.",
+      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Should IAMTS engage in this regulatory or standardization process?",
+      "contentHash": "887b40bd8d4f6d6d5be8",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 1,
@@ -2271,6 +2292,90 @@
       "total": 5,
       "priority": "High",
       "change": "No change"
+    },
+    {
+      "id": "c9f9439a0f0f37d69f2b",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/203",
+      "title": "ECE/TRANS/WP.29/2026/203",
+      "date": "",
+      "status": "In progress",
+      "summary": "(g)Post-crash REESS safety assessment and stabilization procedures; 6.Phase 2 efforts and discussions focused primarily on single-cell thermal runaway and propagation due to an internal short-circuit. Canada, China, France, Germany, Japan, Republic of Korea, Netherland (Kingdom of the), the United Kingdom of Great Britain and Northern Ireland, the United States of America, the European Union and OICA shared progress in thermal propagation research and field data. In October 2021, the informal working group established the thermal propagation task force, led by China, Japan, and Canada, and a thermal propagation documentation sub-group, led by the United States of America. Between 2023 and 2…",
+      "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
+      "questions": "Are new competencies, tools or testing infrastructure required? Should IAMTS engage in this regulatory or standardization process?",
+      "contentHash": "05dc8839ffac0381db79",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "ddbab4964ddccc392235",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/206",
+      "title": "ECE/TRANS/WP.29/2026/206",
+      "date": "",
+      "status": "Draft",
+      "summary": "18.The drafting group initially focused on converting the draft ISO standard, which was nearing finalization, into an Annex to UN GTR No. 15. The group made substantial progress on converting the document into the proper format and harmonizing its technical details with UN GTR No. 15 where necessary. The IWG also initiated and completed a first phase of validation testing to further evaluate the harmonized procedure as it was developed. (b)Third-party verification of the power ratings developed by the method, and of any manufacturer-provided inputs to the procedure, should be readily possible.",
+      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods; May require evidence and assessment methods for AI-based vehicle functions.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Should IAMTS engage in this regulatory or standardization process?",
+      "contentHash": "f042976816b7567b736a",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 2,
+      "total": 6,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "3c33946f9b7aea016ec6",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/208",
+      "title": "ECE/TRANS/WP.29/2026/208",
+      "date": "",
+      "status": "In progress",
+      "summary": "17.The main discussions on the development of the UN GTR commenced at the 34th session of the IWG on EVE and focussed on the format and content of the UN GTR. A framework for the UN GTR was soon developed that centred around the concepts of a minimum performance requirement (MPR) for the in-vehicle battery, a readable on-board battery health monitor, an in-use verification procedure for assessment of the health monitor and a data collection process for assessment of durability against the MPR. 18.The framework established also provided the means by which to collect data for ongoing development of the UN GTR in a phase 2, together with negating the need to conduct validation testing in the c…",
+      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods; May require evidence and assessment methods for AI-based vehicle functions.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "069982ffb642e2c22ece",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "61be16e44346bf411963",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/210",
+      "title": "ECE/TRANS/WP.29/2026/210",
+      "date": "",
+      "status": "In progress",
+      "summary": "(b)Consider alternative test methods including chassis dynamometer testing. Continue development of alternative test methods including chassis dynamometer testing;",
+      "relevance": "May require adapted validation, simulation, scenario-based or physical test methods.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Should IAMTS engage in this regulatory or standardization process?",
+      "contentHash": "78e3c1a6df1a09ce4aea",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 1,
+      "impact": 2,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
     },
     {
       "id": "04e86558b4e56a99ca76",
@@ -4079,6 +4184,48 @@
       "change": "No change"
     },
     {
+      "id": "87dedf507a4f9abb0443",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/182",
+      "title": "Proposal for Supplement 2 to the Original Version of UN Regulation No. 169 (Event Data Recorder for Heavy Duty Vehicles)",
+      "date": "",
+      "status": "Draft",
+      "summary": "(c)the EDR triggering performance of the vehicle type is equivalent to that of the M1/N1 vehicle type specified under (a) above. 4.2.2.The equivalence of the EDR triggering specified under paragraph 4.2.1.(c) shall be demonstrated as follows:",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "e25025e807c1509ef2d3",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 1,
+      "total": 5,
+      "priority": "High",
+      "change": "New"
+    },
+    {
+      "id": "4f544e3b7d7e1d0cbff2",
+      "region": "UNECE",
+      "sourceId": "unece-wp29",
+      "sourceName": "UNECE WP.29 – UN Official Document System",
+      "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/215",
+      "title": "Proposal for Supplement 4 to the original version of UN Regulation No. 171 (DCAS)",
+      "date": "",
+      "status": "Draft",
+      "summary": "Submitted by the Working Party on Automated/Autonomous and Connected Vehicles* The text reproduced below was adopted by the Working Party on Automated/Autonomous and Connected Vehicles (GRVA) at its twenty-fifth session (ECE/TRANS/WP.29/GRVA/25, para. 43). It is based on document ECE/TRANS/WP.29/GRVA/2026/16 as amended by informal document GRVA-25-56. It is submitted to the World Forum for Harmonization of Vehicle Regulations (WP.29) and to the Administrative Committee (AC.1) for consideration at their November 2026 sessions.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "58861f5dad8abb1ff4b2",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 2,
+      "total": 6,
+      "priority": "High",
+      "change": "New"
+    },
+    {
       "id": "da6f13fd9d47db94f269",
       "region": "UNECE",
       "sourceId": "unece-wp29",
@@ -4118,7 +4265,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2d49d659fa609aafa615",
@@ -4139,7 +4286,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "34941c26a981dc93a62d",
@@ -4877,27 +5024,6 @@
       "change": "No change"
     },
     {
-      "id": "affcb29d9f106d81945b",
-      "region": "USA",
-      "sourceId": "usa-nhtsa",
-      "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/03/2026-18063/mercedes-benz-usa-llc-grant-of-petition-for-decision-of-inconsequential-noncompliance",
-      "title": "Mercedes-Benz USA, LLC, Grant of Petition for Decision of Inconsequential Noncompliance",
-      "date": "2026-09-03",
-      "status": "In progress",
-      "summary": "Mercedes-Benz USA, LLC, (Mercedes-Benz) and Daimler Vans USA, LLC, (Daimler Vans), have determined that certain model year (MY) 2020- 2021 VS20 Metris (Platform 447) vans do not fully comply with Federal Motor Vehicle Safety Standard (FMVSS) No. 110, Tire Selection and Rims and Motor Home/Recreation Vehicle Trailer Load Carrying Capacity Information for Motor Vehicles with a GVWR of 4,536 kilograms (10,000 pounds) or less. Daimler Vans filed an original noncompliance report dated March 8, 2022. Mercedes-Benz subsequently petitioned NHTSA on March 31, 2022, for a decision that the subject noncompliance is inconsequential as it relates to motor vehicle safety. This document announces the grant of Mercedes-Benz's petition.",
-      "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Does this create a need for cross-regional harmonization? Should IAMTS engage in this regulatory or standardization process?",
-      "contentHash": "82cdac869e1263f5d1b5",
-      "historicalBaseline": false,
-      "tc": 1,
-      "urgency": 2,
-      "impact": 1,
-      "total": 4,
-      "priority": "Medium",
-      "change": "No change"
-    },
-    {
       "id": "5500bb2470ac45407bc7",
       "region": "USA",
       "sourceId": "usa-nhtsa",
@@ -5255,6 +5381,27 @@
       "change": "No change"
     },
     {
+      "id": "411817b4e5ae43febc2b",
+      "region": "EU",
+      "sourceId": "eu-dg-move",
+      "sourceName": "European Commission DG MOVE – Mobility & Transport",
+      "sourceUrl": "https://transport.ec.europa.eu/news-events/news/portugal-slovakia-and-norway-join-cross-border-initiative-autonomous-vehicle-testbeds-2026-09-29_en",
+      "title": "Portugal, Slovakia and Norway join cross-border initiative on autonomous vehicle testbeds",
+      "date": "",
+      "status": "Status unclear",
+      "summary": "Official European Commission DG MOVE – Mobility & Transport item matching the configured connected and automated driving regulatory scope.",
+      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+      "contentHash": "800798016695940dbdad",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 0,
+      "impact": 2,
+      "total": 4,
+      "priority": "Medium",
+      "change": "New"
+    },
+    {
       "id": "5358c08980e7e22910d5",
       "region": "EU",
       "sourceId": "eu-dg-move",
@@ -5495,9 +5642,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 38,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 10928
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 9198
     },
     {
       "id": "unece-wp29",
@@ -5506,10 +5653,10 @@
       "url": "https://unece.org/transport/vehicle-regulations",
       "status": "success",
       "message": "Successfully checked",
-      "count": 151,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 31193
+      "count": 162,
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 31288
     },
     {
       "id": "unece-media-documents",
@@ -5519,9 +5666,9 @@
       "status": "success",
       "message": "Covered by official GRVA/WP.29 UN ODS monitoring; Media / Documents HTML blocks automated access",
       "count": 0,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 729
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 926
     },
     {
       "id": "unece-iwg-ai",
@@ -5531,9 +5678,9 @@
       "status": "success",
       "message": "Covered via official GRVA UN ODS monitoring; IWG AI Wiki blocks automated access",
       "count": 0,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 528
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 500
     },
     {
       "id": "eu-grow-publications",
@@ -5543,9 +5690,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 1367
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 1720
     },
     {
       "id": "eu-dg-move",
@@ -5554,10 +5701,10 @@
       "url": "https://transport.ec.europa.eu/index_en",
       "status": "success",
       "message": "Successfully checked",
-      "count": 33,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 3929
+      "count": 34,
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 4627
     },
     {
       "id": "eu-dg-connect",
@@ -5567,9 +5714,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 9,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 4680
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 4912
     },
     {
       "id": "eu-oeil",
@@ -5579,21 +5726,21 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 1710
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 1643
     },
     {
       "id": "eu-eurlex-legislation",
       "region": "EU",
       "name": "EUR-Lex – EU Legislation & Preparatory Acts",
       "url": "https://eur-lex.europa.eu/homepage.html",
-      "status": "success",
-      "message": "Successfully checked",
-      "count": 4,
-      "checkedAt": "2026-09-28T07:32:31Z",
+      "status": "unavailable",
+      "message": "Currently unavailable · RuntimeError: EUR-Lex legislation monitoring failed — CELLAR SPARQL request failed — urllib POST: The read operation timed out | curl POST: Command '['curl', '--location', '--silent', '--show-error', '--fail-with-body', '--retry', '2', '--retry-delay', '2', '--connect-timeout', '12', '--max-time', '20', '--user-agent', 'Mozilla/5.0 (…",
+      "count": 0,
+      "checkedAt": "2026-10-05T16:05:11Z",
       "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 57033
+      "elapsedMs": 100957
     },
     {
       "id": "eu-eurlex-oj",
@@ -5603,9 +5750,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 1,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 1857
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 1477
     },
     {
       "id": "usa-nhtsa",
@@ -5614,10 +5761,10 @@
       "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety",
       "status": "success",
       "message": "Successfully checked",
-      "count": 4,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 891
+      "count": 3,
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 1016
     },
     {
       "id": "usa-usdot",
@@ -5627,9 +5774,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 3,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 785
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 962
     },
     {
       "id": "china-miit",
@@ -5639,9 +5786,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 3870
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 2103
     },
     {
       "id": "china-samr",
@@ -5651,24 +5798,24 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-09-28T07:32:31Z",
-      "lastSuccessfulCheck": "2026-09-28T07:32:31Z",
-      "elapsedMs": 11068
+      "checkedAt": "2026-10-05T16:05:11Z",
+      "lastSuccessfulCheck": "2026-10-05T16:05:11Z",
+      "elapsedMs": 9166
     }
   ],
   "regionalSignals": {
     "UNECE": {
-      "developments": 189,
-      "highPriority": 188,
+      "developments": 200,
+      "highPriority": 199,
       "dominantTopic": "Automated Driving Regulation"
     },
     "EU": {
-      "developments": 49,
-      "highPriority": 16,
-      "dominantTopic": "Automated Driving Regulation"
+      "developments": 46,
+      "highPriority": 12,
+      "dominantTopic": "Vehicle Connectivity & Data"
     },
     "USA": {
-      "developments": 7,
+      "developments": 6,
       "highPriority": 2,
       "dominantTopic": "AI-based Vehicle Functions"
     },
