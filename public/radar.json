@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T16:46:08Z",
-  "previousMonitoringRun": "2026-10-05T16:05:11Z",
+  "updatedAt": "2026-10-19T14:43:11Z",
+  "previousMonitoringRun": "2026-10-12T16:46:08Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -485,7 +485,7 @@
       "impact": 1,
       "total": 5,
       "priority": "High",
-      "change": "Updated"
+      "change": "No change"
     },
     {
       "id": "3794937194dfdaed882d",
@@ -593,48 +593,6 @@
       "change": "No change"
     },
     {
-      "id": "811dbcac77e0d8ca3350",
-      "region": "EU",
-      "sourceId": "eu-eurlex-oj",
-      "sourceName": "EUR-Lex – Official Journal of the European Union",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/b62531ef-c055-11f1-988f-01aa75ed71a1",
-      "title": "Case C-401/25, Elettronica Industriale II: Judgment of the Court (Third Chamber) of 16 July 2026 (request for a preliminary ruling from the Consiglio di Stato – Italy) – Elettronica Industriale SpA v Ministero delle Imprese e del Made in Italy (Reference for a preliminary ruling – Electronic communications networks and services – Directive 2002/21/EC – Arti…",
-      "date": "2026-10-05",
-      "status": "Status unclear",
-      "summary": "Official Journal act published on 2026-10-05.",
-      "relevance": "May influence automated-driving or driver-assistance test procedures.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "48e20f2689926f1bbad9",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 1,
-      "total": 5,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
-      "id": "a771b578cf9ffc529508",
-      "region": "EU",
-      "sourceId": "eu-dg-connect",
-      "sourceName": "European Commission DG CONNECT – Digital & Connected Mobility",
-      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news",
-      "title": "News article 09 October 2026 ECAVA brings Europe’s connected and autonomous vehicle ambitions to Paris On 12 October, the technology roadmaps of the European Connected and Autonomous Vehicle Alliance (ECAVA) will be presented at a session in Paris, held alongside the Paris Motor…",
-      "date": "2026-10-05",
-      "status": "Status unclear",
-      "summary": "Official European Commission DG CONNECT – Digital & Connected Mobility page content matching the monitoring scope.",
-      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
-      "contentHash": "a03188330c30e58dbc5f",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 2,
-      "total": 6,
-      "priority": "High",
-      "change": "New"
-    },
-    {
       "id": "7d84f572041e5174542b",
       "region": "USA",
       "sourceId": "usa-nhtsa",
@@ -653,7 +611,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e2cc5ec0a4aee46bbae6",
@@ -674,7 +632,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "908af34d0c87d7d5602a",
@@ -695,7 +653,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "2aac62de3cc04f544715",
@@ -5003,48 +4961,6 @@
       "change": "No change"
     },
     {
-      "id": "4f9d0a7481bf444b955d",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32007R0715&qid=1791823686504&rid=1",
-      "title": "Regulation (EC) No 715/2007 of the European Parliament and of the Council of 20 June 2007 on type approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information (Text with EEA relevance)",
-      "date": "2007-06-20",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "681d4738b9512e526980",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
-      "id": "8d03d595b55cfce1a21c",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32007R0715&qid=1791823688472&rid=1",
-      "title": "Regulation (EC) No 715/2007 of the European Parliament and of the Council of 20 June 2007 on type approval of motor vehicles with respect to emissions from light passenger and commercial vehicles (Euro 5 and Euro 6) and on access to vehicle repair and maintenance information (Text with EEA relevance)",
-      "date": "2007-06-20",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "681d4738b9512e526980",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
       "id": "10556311c13d3962976e",
       "region": "EU",
       "sourceId": "eu-dg-move",
@@ -5087,48 +5003,6 @@
       "change": "No change"
     },
     {
-      "id": "71bc96b781333f0f793f",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0168&qid=1791823686504&rid=10",
-      "title": "Regulation (EU) No 168/2013 of the European Parliament and of the Council of 15 January 2013 on the approval and market surveillance of two- or three-wheel vehicles and quadricycles Text with EEA relevance",
-      "date": "2013-01-15",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "282705ecc3473951c563",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
-      "id": "d6dd68adfd7ddcabfa22",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0168&qid=1791823688472&rid=6",
-      "title": "Regulation (EU) No 168/2013 of the European Parliament and of the Council of 15 January 2013 on the approval and market surveillance of two- or three-wheel vehicles and quadricycles Text with EEA relevance",
-      "date": "2013-01-15",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "282705ecc3473951c563",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
       "id": "046c3939fa5223d3e421",
       "region": "EU",
       "sourceId": "eu-dg-move",
@@ -5148,48 +5022,6 @@
       "total": 4,
       "priority": "Medium",
       "change": "No change"
-    },
-    {
-      "id": "99176303d3d0b9e0c7d8",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0167&qid=1791823686504&rid=9",
-      "title": "Regulation (EU) No 167/2013 of the European Parliament and of the Council of 5 February 2013 on the approval and market surveillance of agricultural and forestry vehicles Text with EEA relevance",
-      "date": "2013-02-05",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "652a5b9b96cab11ee67d",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
-      "id": "b7735384a841d66e3491",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0167&qid=1791823688472&rid=4",
-      "title": "Regulation (EU) No 167/2013 of the European Parliament and of the Council of 5 February 2013 on the approval and market surveillance of agricultural and forestry vehicles Text with EEA relevance",
-      "date": "2013-02-05",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "652a5b9b96cab11ee67d",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
     },
     {
       "id": "3defb5c420441667ab20",
@@ -5234,48 +5066,6 @@
       "change": "No change"
     },
     {
-      "id": "4ffcaf6c50f021fdbd4f",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0045&qid=1791823684644&rid=1",
-      "title": "Directive 2014/45/EU of the European Parliament and of the Council of 3 April 2014 on periodic roadworthiness tests for motor vehicles and their trailers and repealing Directive 2009/40/EC Text with EEA relevance",
-      "date": "2014-04-03",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "d4fd72791cd62f0e4e4b",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 1,
-      "total": 3,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
-      "id": "636b8a1e62acd3fc5350",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0047&qid=1791823684644&rid=2",
-      "title": "Directive 2014/47/EU of the European Parliament and of the Council of 3 April 2014 on the technical roadside inspection of the roadworthiness of commercial vehicles circulating in the Union and repealing Directive 2000/30/EC Text with EEA relevance",
-      "date": "2014-04-03",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "Potential Testing & Certification relevance identified from the connected and automated driving scope; detailed implications require source review.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
-      "contentHash": "44d0d89a93b1657ea13d",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
       "id": "b8996ff0792c0600c956",
       "region": "EU",
       "sourceId": "eu-dg-move",
@@ -5295,48 +5085,6 @@
       "total": 4,
       "priority": "Medium",
       "change": "No change"
-    },
-    {
-      "id": "b7d5d358cef2e7a4ea55",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32018R0858&qid=1791823686504&rid=8",
-      "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles , amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA r…",
-      "date": "2018-05-30",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "04e22758654c3ed1c311",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
-      "id": "3d9caab0cb7f23da4229",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32018R0858&qid=1791823688472&rid=7",
-      "title": "Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles , amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (Text with EEA r…",
-      "date": "2018-05-30",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
-      "contentHash": "04e22758654c3ed1c311",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
     },
     {
       "id": "9f48da5aeeefd7113166",
@@ -5381,27 +5129,6 @@
       "change": "No change"
     },
     {
-      "id": "e0e4d23fe578656b27bb",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32022L2555&qid=1791823694339&rid=2",
-      "title": "Directive (EU) 2022/2555 of the European Parliament and of the Council of 14 December 2022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No 910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS 2 Directive) (Text with EEA relevance)",
-      "date": "2022-12-14",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect cybersecurity and software-update assessment.",
-      "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
-      "contentHash": "4104a990dcbdab4857fe",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
-    },
-    {
       "id": "e6053348f7ac505feb90",
       "region": "EU",
       "sourceId": "eu-dg-connect",
@@ -5421,27 +5148,6 @@
       "total": 4,
       "priority": "Medium",
       "change": "No change"
-    },
-    {
-      "id": "014c15633dc6a162d1e4",
-      "region": "EU",
-      "sourceId": "eu-eurlex-legislation",
-      "sourceName": "EUR-Lex – EU Legislation & Preparatory Acts",
-      "sourceUrl": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R2847&qid=1791823694339&rid=1",
-      "title": "Regulation (EU) 2024/2847 of the European Parliament and of the Council of 23 October 2024 on horizontal cybersecurity requirements for products with digital elements and amending Regulations (EU) No 168/2013 and (EU) 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act) (Text with EEA relevance)",
-      "date": "2024-10-23",
-      "status": "Status unclear",
-      "summary": "Relevant EU legal or preparatory document identified through the official EUR-Lex search.",
-      "relevance": "May affect cybersecurity and software-update assessment.",
-      "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
-      "contentHash": "c3b0366bfc4b35a1df12",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "New"
     },
     {
       "id": "5500bb2470ac45407bc7",
@@ -5540,27 +5246,6 @@
       "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
       "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
       "contentHash": "478582219217dfc7463b",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 0,
-      "impact": 2,
-      "total": 4,
-      "priority": "Medium",
-      "change": "No change"
-    },
-    {
-      "id": "5d1bcb1e6796f9070bce",
-      "region": "EU",
-      "sourceId": "eu-dg-connect",
-      "sourceName": "European Commission DG CONNECT – Digital & Connected Mobility",
-      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news/autonomous-drive-ambition-cities-adacities-initiative-bring-autonomous-driving-technology-cities",
-      "title": "Autonomous Drive Ambition Cities (ADACities) Initiative to bring autonomous driving technology to cities across the EU",
-      "date": "",
-      "status": "Status unclear",
-      "summary": "Official European Commission DG CONNECT – Digital & Connected Mobility item matching the configured connected and automated driving regulatory scope.",
-      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements; May influence automated-driving or driver-assistance test procedures.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
-      "contentHash": "ffc6f06ffb25660bf6b6",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 0,
@@ -6062,9 +5747,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 38,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 11904
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 9667
     },
     {
       "id": "unece-wp29",
@@ -6074,9 +5759,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 162,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 37442
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 34554
     },
     {
       "id": "unece-media-documents",
@@ -6086,9 +5771,9 @@
       "status": "success",
       "message": "Covered by official GRVA/WP.29 UN ODS monitoring; Media / Documents HTML blocks automated access",
       "count": 0,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 2321
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 873
     },
     {
       "id": "unece-iwg-ai",
@@ -6098,9 +5783,9 @@
       "status": "success",
       "message": "Covered via official GRVA UN ODS monitoring; IWG AI Wiki blocks automated access",
       "count": 0,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 1649
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 632
     },
     {
       "id": "eu-grow-publications",
@@ -6110,9 +5795,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 2,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 1520
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 1753
     },
     {
       "id": "eu-dg-move",
@@ -6122,9 +5807,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 34,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 5773
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 5548
     },
     {
       "id": "eu-dg-connect",
@@ -6133,10 +5818,10 @@
       "url": "https://digital-strategy.ec.europa.eu/en/policies/connected-and-automated-mobility",
       "status": "success",
       "message": "Successfully checked",
-      "count": 10,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 2669
+      "count": 8,
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 21078
     },
     {
       "id": "eu-oeil",
@@ -6146,9 +5831,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 2197
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 1615
     },
     {
       "id": "eu-eurlex-legislation",
@@ -6157,10 +5842,10 @@
       "url": "https://eur-lex.europa.eu/homepage.html",
       "status": "success",
       "message": "Successfully checked",
-      "count": 16,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 70957
+      "count": 4,
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 98062
     },
     {
       "id": "eu-eurlex-oj",
@@ -6169,10 +5854,10 @@
       "url": "https://eur-lex.europa.eu/oj/direct-access.html",
       "status": "success",
       "message": "Successfully checked",
-      "count": 1,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 1467
+      "count": 0,
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 1468
     },
     {
       "id": "usa-nhtsa",
@@ -6182,9 +5867,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 1573
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 1100
     },
     {
       "id": "usa-usdot",
@@ -6194,9 +5879,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 5,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 1404
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 975
     },
     {
       "id": "china-miit",
@@ -6206,9 +5891,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 1866
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 2589
     },
     {
       "id": "china-samr",
@@ -6218,9 +5903,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-10-12T16:46:08Z",
-      "lastSuccessfulCheck": "2026-10-12T16:46:08Z",
-      "elapsedMs": 5923
+      "checkedAt": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "elapsedMs": 6145
     }
   ],
   "regionalSignals": {
@@ -6230,8 +5915,8 @@
       "dominantTopic": "Automated Driving Regulation"
     },
     "EU": {
-      "developments": 63,
-      "highPriority": 17,
+      "developments": 48,
+      "highPriority": 15,
       "dominantTopic": "Automated Driving Regulation"
     },
     "USA": {
