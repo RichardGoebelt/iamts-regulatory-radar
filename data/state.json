@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sources": {
     "eu-grow-publications": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
         {
           "id": "3d1f298d9ac59a69a3b1",
@@ -1007,12 +1007,52 @@
       ]
     },
     "china-miit": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": []
     },
     "china-samr": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
+        {
+          "id": "790a1fc752a603fe4366",
+          "region": "China",
+          "sourceId": "china-samr",
+          "sourceName": "China SAMR / SAC – National Standards",
+          "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p2=%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6&p.p90=circulation_date&p.p91=desc",
+          "title": "GB 48319-2026 – Chinese national standard on intelligent and connected vehicles",
+          "date": "2026-09-28",
+          "status": "In progress",
+          "summary": "Chinese national standard published and scheduled for implementation on 2027-10-01.",
+          "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+          "contentHash": "2bdc89cfae29ad88e9f2",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 2,
+          "impact": 1,
+          "total": 5,
+          "priority": "High"
+        },
+        {
+          "id": "cd077f31020d5320528b",
+          "region": "China",
+          "sourceId": "china-samr",
+          "sourceName": "China SAMR / SAC – National Standards",
+          "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p2=%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6&p.p90=circulation_date&p.p91=desc",
+          "title": "GB 48320-2026 – Chinese national standard on intelligent and connected vehicles",
+          "date": "2026-09-28",
+          "status": "In progress",
+          "summary": "Chinese national standard published and scheduled for implementation on 2027-10-01.",
+          "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
+          "contentHash": "7b8cff587905becc915e",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 2,
+          "impact": 1,
+          "total": 5,
+          "priority": "High"
+        },
         {
           "id": "c67cebdd2afbf4e2f8b2",
           "region": "China",
@@ -1048,10 +1088,10 @@
           "contentHash": "1333708e963dbc15a4d8",
           "historicalBaseline": false,
           "tc": 2,
-          "urgency": 2,
+          "urgency": 1,
           "impact": 1,
-          "total": 5,
-          "priority": "High"
+          "total": 4,
+          "priority": "Medium"
         },
         {
           "id": "86c49a9a594149a846aa",
@@ -1151,46 +1191,6 @@
           "urgency": 2,
           "impact": 2,
           "total": 6,
-          "priority": "High"
-        },
-        {
-          "id": "67b725bfb17c2db59997",
-          "region": "China",
-          "sourceId": "china-samr",
-          "sourceName": "China SAMR / SAC – National Standards",
-          "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p2=%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6&p.p90=circulation_date&p.p91=desc",
-          "title": "GB/T 43758.2-2024 – Chinese national standard on intelligent and connected vehicles",
-          "date": "2024-12-31",
-          "status": "In force",
-          "summary": "Chinese national standard in force (implementation date: 2025-07-01).",
-          "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements.",
-          "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
-          "contentHash": "20493c4790bce93f0e4f",
-          "historicalBaseline": false,
-          "tc": 2,
-          "urgency": 2,
-          "impact": 1,
-          "total": 5,
-          "priority": "High"
-        },
-        {
-          "id": "b5cd0a8c631cd10fcbaf",
-          "region": "China",
-          "sourceId": "china-samr",
-          "sourceName": "China SAMR / SAC – National Standards",
-          "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p2=%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6&p.p90=circulation_date&p.p91=desc",
-          "title": "GB/T 44850-2024 – Chinese national standard on intelligent and connected vehicles",
-          "date": "2024-10-26",
-          "status": "In force",
-          "summary": "Chinese national standard in force (implementation date: 2025-05-01).",
-          "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements.",
-          "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
-          "contentHash": "4077e7cf97e4cbe63117",
-          "historicalBaseline": false,
-          "tc": 2,
-          "urgency": 2,
-          "impact": 1,
-          "total": 5,
           "priority": "High"
         },
         {
@@ -1336,12 +1336,32 @@
       ]
     },
     "eu-eurlex-oj": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": []
     },
     "usa-nhtsa": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
+        {
+          "id": "80ae7c9539995f4b1f6e",
+          "region": "USA",
+          "sourceId": "usa-nhtsa",
+          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+          "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+          "date": "2026-10-26",
+          "status": "Draft",
+          "summary": "NHTSA is proposing to amend Federal Motor Vehicle Safety Standard (FMVSS) No. 108, \"Lamps, reflective devices, and associated equipment.\" The proposed updates to the standard are intended to remove unnecessary requirements and to provide design flexibility without impact on vehicle safety. The first two proposed changes would amend the test voltage specification for integral beam type headlamps and remove requirements that apply to vertical headlamp arrangements. Further proposed changes address vehicles equipped with Automated Driving Systems (ADS) that do not have manually operated driving controls. Those modifications would limit the application of certain requirements for manually operated turn signal, hazard warning signal, and beam switching controls to vehicles with manually operated driving controls. The changes are intended to address regulatory burdens and costs associated wit…",
+          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "0fcbdf6f3986ba7e1522",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
         {
           "id": "7d84f572041e5174542b",
           "region": "USA",
@@ -1381,52 +1401,32 @@
           "impact": 2,
           "total": 6,
           "priority": "High"
-        },
-        {
-          "id": "5500bb2470ac45407bc7",
-          "region": "USA",
-          "sourceId": "usa-nhtsa",
-          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
-          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
-          "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
-          "date": "2026-09-21",
-          "status": "Draft",
-          "summary": "This document denies the September 11, 2025, petition for rulemaking submitted by Eric Dauster (\"petitioner\"). The petitioner requested that the agency initiate rulemaking to establish new standards for a centralized National Map Database (NMD) containing static roadway information and requiring global mapping providers to conform to these standards. The petitioner stated that the NMD standards should apply to entities responsible for the installation and maintenance of road infrastructure, including local municipalities, state transportation agencies, and private contractors. NHTSA is denying the petition based on a lack of information necessary for the agency to take action under the National Traffic and Motor Vehicle Safety Act, as well as the agency's view concerning the efficient allocation of agency resources.",
-          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-          "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
-          "contentHash": "475318f91bb0d9c15ce8",
-          "historicalBaseline": false,
-          "tc": 1,
-          "urgency": 2,
-          "impact": 1,
-          "total": 4,
-          "priority": "Medium"
-        },
-        {
-          "id": "c434aad55645fe110c44",
-          "region": "USA",
-          "sourceId": "usa-nhtsa",
-          "sourceName": "NHTSA – Regulatory Actions (Federal Register)",
-          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19256/ford-motor-company-receipt-of-petition-for-decision-of-inconsequential-noncompliance",
-          "title": "Ford Motor Company, Receipt of Petition for Decision of Inconsequential Noncompliance",
-          "date": "2026-09-21",
-          "status": "In progress",
-          "summary": "Ford Motor Company (Ford) has determined that certain model year (MY) 2024-2025 Ford Ranger motor vehicles do not fully comply with Federal Motor Vehicle Safety Standard (FMVSS) No. 101, Controls And Displays. Ford filed a noncompliance report dated September 11, 2025, and subsequently petitioned NHTSA (the \"Agency\") on October 3, 2025, for a decision that the subject noncompliance is inconsequential as it relates to motor vehicle safety. This document announces receipt of Ford's petition.",
-          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-          "questions": "Does this create a need for cross-regional harmonization? Should IAMTS engage in this regulatory or standardization process?",
-          "contentHash": "c94c7366b057946ae485",
-          "historicalBaseline": false,
-          "tc": 1,
-          "urgency": 2,
-          "impact": 1,
-          "total": 4,
-          "priority": "Medium"
         }
       ]
     },
     "usa-usdot": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
+        {
+          "id": "d06733a1e80ff6a918c1",
+          "region": "USA",
+          "sourceId": "usa-usdot",
+          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+          "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+          "date": "2026-10-26",
+          "status": "Draft",
+          "summary": "NHTSA is proposing to amend Federal Motor Vehicle Safety Standard (FMVSS) No. 108, \"Lamps, reflective devices, and associated equipment.\" The proposed updates to the standard are intended to remove unnecessary requirements and to provide design flexibility without impact on vehicle safety. The first two proposed changes would amend the test voltage specification for integral beam type headlamps and remove requirements that apply to vertical headlamp arrangements. Further proposed changes address vehicles equipped with Automated Driving Systems (ADS) that do not have manually operated driving controls. Those modifications would limit the application of certain requirements for manually operated turn signal, hazard warning signal, and beam switching controls to vehicles with manually operated driving controls. The changes are intended to address regulatory burdens and costs associated wit…",
+          "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
+          "contentHash": "0fcbdf6f3986ba7e1522",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 2,
+          "impact": 2,
+          "total": 6,
+          "priority": "High"
+        },
         {
           "id": "908af34d0c87d7d5602a",
           "region": "USA",
@@ -1486,51 +1486,11 @@
           "impact": 2,
           "total": 6,
           "priority": "High"
-        },
-        {
-          "id": "ed7731fbb903a308f054",
-          "region": "USA",
-          "sourceId": "usa-usdot",
-          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
-          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19242/federal-motor-vehicle-safety-standards-denial-of-a-petition-for-rulemaking",
-          "title": "Federal Motor Vehicle Safety Standards; Denial of a Petition for Rulemaking",
-          "date": "2026-09-21",
-          "status": "Draft",
-          "summary": "This document denies the September 11, 2025, petition for rulemaking submitted by Eric Dauster (\"petitioner\"). The petitioner requested that the agency initiate rulemaking to establish new standards for a centralized National Map Database (NMD) containing static roadway information and requiring global mapping providers to conform to these standards. The petitioner stated that the NMD standards should apply to entities responsible for the installation and maintenance of road infrastructure, including local municipalities, state transportation agencies, and private contractors. NHTSA is denying the petition based on a lack of information necessary for the agency to take action under the National Traffic and Motor Vehicle Safety Act, as well as the agency's view concerning the efficient allocation of agency resources.",
-          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-          "questions": "Are new competencies, tools or testing infrastructure required? Does this create a need for cross-regional harmonization?",
-          "contentHash": "475318f91bb0d9c15ce8",
-          "historicalBaseline": false,
-          "tc": 1,
-          "urgency": 2,
-          "impact": 1,
-          "total": 4,
-          "priority": "Medium"
-        },
-        {
-          "id": "f92b9ebfe0ea11136c42",
-          "region": "USA",
-          "sourceId": "usa-usdot",
-          "sourceName": "U.S. DOT – Regulatory Actions (Federal Register)",
-          "sourceUrl": "https://www.federalregister.gov/documents/2026/09/21/2026-19256/ford-motor-company-receipt-of-petition-for-decision-of-inconsequential-noncompliance",
-          "title": "Ford Motor Company, Receipt of Petition for Decision of Inconsequential Noncompliance",
-          "date": "2026-09-21",
-          "status": "In progress",
-          "summary": "Ford Motor Company (Ford) has determined that certain model year (MY) 2024-2025 Ford Ranger motor vehicles do not fully comply with Federal Motor Vehicle Safety Standard (FMVSS) No. 101, Controls And Displays. Ford filed a noncompliance report dated September 11, 2025, and subsequently petitioned NHTSA (the \"Agency\") on October 3, 2025, for a decision that the subject noncompliance is inconsequential as it relates to motor vehicle safety. This document announces receipt of Ford's petition.",
-          "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-          "questions": "Does this create a need for cross-regional harmonization? Should IAMTS engage in this regulatory or standardization process?",
-          "contentHash": "c94c7366b057946ae485",
-          "historicalBaseline": false,
-          "tc": 1,
-          "urgency": 2,
-          "impact": 1,
-          "total": 4,
-          "priority": "Medium"
         }
       ]
     },
     "unece-grva": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
         {
           "id": "8883b5aacd3c759823a6",
@@ -2295,7 +2255,7 @@
       ]
     },
     "unece-wp29": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
         {
           "id": "7220e2eddd6a6a0a7fea",
@@ -4078,6 +4038,26 @@
           "priority": "High"
         },
         {
+          "id": "7408c8c4275e2e892459",
+          "region": "UNECE",
+          "sourceId": "unece-wp29",
+          "sourceName": "UNECE WP.29 – UN Official Document System",
+          "sourceUrl": "https://docs.un.org/en/ECE/TRANS/WP.29/2026/174",
+          "title": "ECE/TRANS/WP.29/2026/174",
+          "date": "",
+          "status": "In progress",
+          "summary": "“3.1.1.In the case of an application for type approval of engines operated on hydrogen, hydrogen shall be the fuel the engine is designed to operate on primarily. This shall include dual-fuel engines of Type 1A with hydrogen as a main fuel. Requirements for all other types of dual-fuel hydrogen engines have not yet been established under this regulation.",
+          "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
+          "questions": "Does this create a new certification or homologation service opportunity? Should IAMTS engage in this regulatory or standardization process?",
+          "contentHash": "7019abf53c296c575aca",
+          "historicalBaseline": false,
+          "tc": 2,
+          "urgency": 1,
+          "impact": 2,
+          "total": 5,
+          "priority": "High"
+        },
+        {
           "id": "f92c013e3eb620a9818b",
           "region": "UNECE",
           "sourceId": "unece-wp29",
@@ -5540,11 +5520,11 @@
       ]
     },
     "eu-oeil": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": []
     },
     "eu-dg-move": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
         {
           "id": "411817b4e5ae43febc2b",
@@ -6394,7 +6374,7 @@
       ]
     },
     "eu-eurlex-legislation": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": [
         {
           "id": "74361f54543a2a3539b8",
@@ -6479,13 +6459,13 @@
       ]
     },
     "unece-media-documents": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": []
     },
     "unece-iwg-ai": {
-      "lastSuccessfulCheck": "2026-10-19T14:43:11Z",
+      "lastSuccessfulCheck": "2026-10-26T14:19:40Z",
       "entries": []
     }
   },
-  "lastRun": "2026-10-19T14:43:11Z"
+  "lastRun": "2026-10-26T14:19:40Z"
 }
