@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T17:05:19Z",
-  "previousMonitoringRun": "2026-11-09T17:35:05Z",
+  "updatedAt": "2026-11-23T19:16:37Z",
+  "previousMonitoringRun": "2026-11-16T17:05:19Z",
   "scope": "Connected & Automated Driving – Regulation / Standardization – Testing & Certification",
   "entries": [
     {
@@ -128,7 +128,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "202796b9cbebc1b09ea7",
@@ -149,7 +149,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "5c2930af55dcf9082a67",
@@ -338,7 +338,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "86c49a9a594149a846aa",
@@ -551,48 +551,6 @@
       "change": "No change"
     },
     {
-      "id": "b0561e73d1232c04e049",
-      "region": "EU",
-      "sourceId": "eu-eurlex-oj",
-      "sourceName": "EUR-Lex – Official Journal of the European Union",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/e12279ff-d729-11f1-b0c5-01aa75ed71a1",
-      "title": "Case C-330/25, RTÉ: Judgment of the Court (Ninth Chamber) of 10 September 2026 (request for a preliminary ruling from the High Court – Ireland) – Raidió Teilifís Éireann (RTÉ) v Commissioner for Environmental Information (Reference for a preliminary ruling – Environment – Aarhus Convention – Directive 2003/4/EC – Right of access to environmental information…",
-      "date": "2026-11-03",
-      "status": "Status unclear",
-      "summary": "Official Journal act published on 2026-11-03.",
-      "relevance": "May influence automated-driving or driver-assistance test procedures; May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a need for cross-regional harmonization?",
-      "contentHash": "f909f91d4d684814725b",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 1,
-      "total": 5,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
-      "id": "bb39af688db3adda3fe3",
-      "region": "EU",
-      "sourceId": "eu-eurlex-oj",
-      "sourceName": "EUR-Lex – Official Journal of the European Union",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/fea1d35a-d982-11f1-8501-01aa75ed71a1",
-      "title": "Commission Recommendation (EU) 2026/2394 of 29 October 2026 on non-binding model contractual terms on data access and use and non-binding standard contractual clauses for cloud computing contracts",
-      "date": "2026-11-06",
-      "status": "Status unclear",
-      "summary": "Official Journal act published on 2026-11-06.",
-      "relevance": "May create data-access, data-recording or vehicle-connectivity test requirements.",
-      "questions": "Could IAMTS develop a common testing or validation approach? Are new competencies, tools or testing infrastructure required?",
-      "contentHash": "57f2a552842c61c49c0b",
-      "historicalBaseline": false,
-      "tc": 2,
-      "urgency": 2,
-      "impact": 1,
-      "total": 5,
-      "priority": "High",
-      "change": "No change"
-    },
-    {
       "id": "31369438e688a4e17b7c",
       "region": "EU",
       "sourceId": "eu-grow-publications",
@@ -611,7 +569,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "e47852f35820a92af77f",
@@ -632,7 +590,7 @@
       "impact": 2,
       "total": 6,
       "priority": "High",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "34f6e217e1c9dc5b3789",
@@ -647,6 +605,27 @@
       "relevance": "May affect homologation, certification or conformity assessment; May require evidence and assessment methods for AI-based vehicle functions.",
       "questions": "Does this create a new certification or homologation service opportunity? Does this create a need for cross-regional harmonization?",
       "contentHash": "8571d2ffb14652f08b06",
+      "historicalBaseline": false,
+      "tc": 2,
+      "urgency": 2,
+      "impact": 2,
+      "total": 6,
+      "priority": "High",
+      "change": "No change"
+    },
+    {
+      "id": "ba10f550a1f1a135989b",
+      "region": "EU",
+      "sourceId": "eu-eurlex-oj",
+      "sourceName": "EUR-Lex – Official Journal of the European Union",
+      "sourceUrl": "http://publications.europa.eu/resource/cellar/ab0f3a6c-e3ba-11f1-b745-01aa75ed71a1",
+      "title": "Corrigendum to Commission Implementing Regulation (EU) 2025/1706 of 25 July 2025 laying down rules, procedures and testing methodologies for the application of Regulation (EU) 2024/1257 as regards exhaust and evaporative emission type-approval, in-vehicle battery durability, electric vehicle range at low temperature and electrified vehicle system power of v…",
+      "date": "2026-11-19",
+      "status": "Status unclear",
+      "summary": "Official Journal act published on 2026-11-19.",
+      "relevance": "May affect homologation, certification or conformity assessment; May require adapted validation, simulation, scenario-based or physical test methods.",
+      "questions": "Could IAMTS develop a common testing or validation approach? Does this create a new certification or homologation service opportunity?",
+      "contentHash": "35c783c7ec4dc2da499c",
       "historicalBaseline": false,
       "tc": 2,
       "urgency": 2,
@@ -5360,27 +5339,6 @@
       "change": "No change"
     },
     {
-      "id": "e95bc161ca7d25dd3162",
-      "region": "EU",
-      "sourceId": "eu-eurlex-oj",
-      "sourceName": "EUR-Lex – Official Journal of the European Union",
-      "sourceUrl": "http://publications.europa.eu/resource/cellar/f0e15151-d982-11f1-8501-01aa75ed71a1",
-      "title": "Commission Implementing Decision (EU) 2026/2468 of 5 November 2026 laying down rules for the application of Directive (EU) 2024/2881 of the European Parliament and of the Council as regards technical details for the methodology for determining contributions from the re-suspension of particulates following winter-sanding or winter-salting of roads, as well a…",
-      "date": "2026-11-06",
-      "status": "In progress",
-      "summary": "Official Journal act published on 2026-11-06; recorded entry-into-force date: 2026-11-26.",
-      "relevance": "May require evidence and assessment methods for AI-based vehicle functions.",
-      "questions": "Does this create a need for cross-regional harmonization? Should IAMTS engage in this regulatory or standardization process?",
-      "contentHash": "9a90dcbb91109dc8eb7c",
-      "historicalBaseline": false,
-      "tc": 1,
-      "urgency": 2,
-      "impact": 1,
-      "total": 4,
-      "priority": "Medium",
-      "change": "No change"
-    },
-    {
       "id": "1cb1815fb82247e98d66",
       "region": "USA",
       "sourceId": "usa-nhtsa",
@@ -5399,7 +5357,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "7c5f7b74a561f66f5f9b",
@@ -5420,7 +5378,7 @@
       "impact": 1,
       "total": 4,
       "priority": "Medium",
-      "change": "New"
+      "change": "No change"
     },
     {
       "id": "57322b9c3a7da9ea739c",
@@ -5936,9 +5894,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 38,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 15969
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 14705
     },
     {
       "id": "unece-wp29",
@@ -5948,9 +5906,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 169,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 51706
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 44213
     },
     {
       "id": "unece-media-documents",
@@ -5960,9 +5918,9 @@
       "status": "success",
       "message": "Covered by official GRVA/WP.29 UN ODS monitoring; Media / Documents HTML blocks automated access",
       "count": 0,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 1074
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 1356
     },
     {
       "id": "unece-iwg-ai",
@@ -5972,9 +5930,9 @@
       "status": "success",
       "message": "Covered via official GRVA UN ODS monitoring; IWG AI Wiki blocks automated access",
       "count": 0,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 766
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 863
     },
     {
       "id": "eu-grow-publications",
@@ -5984,9 +5942,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 3,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 2060
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 1460
     },
     {
       "id": "eu-dg-move",
@@ -5996,9 +5954,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 33,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 6362
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 6227
     },
     {
       "id": "eu-dg-connect",
@@ -6008,9 +5966,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 9,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 5087
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 6892
     },
     {
       "id": "eu-oeil",
@@ -6020,9 +5978,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 2389
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 2562
     },
     {
       "id": "eu-eurlex-legislation",
@@ -6032,9 +5990,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 69799
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 68463
     },
     {
       "id": "eu-eurlex-oj",
@@ -6043,10 +6001,10 @@
       "url": "https://eur-lex.europa.eu/oj/direct-access.html",
       "status": "success",
       "message": "Successfully checked",
-      "count": 3,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 1805
+      "count": 1,
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 2459
     },
     {
       "id": "usa-nhtsa",
@@ -6056,9 +6014,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 4,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 2213
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 2180
     },
     {
       "id": "usa-usdot",
@@ -6068,9 +6026,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 3,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 2345
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 2294
     },
     {
       "id": "china-miit",
@@ -6080,9 +6038,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 0,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 2208
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 2044
     },
     {
       "id": "china-samr",
@@ -6092,9 +6050,9 @@
       "status": "success",
       "message": "Successfully checked",
       "count": 16,
-      "checkedAt": "2026-11-16T17:05:19Z",
-      "lastSuccessfulCheck": "2026-11-16T17:05:19Z",
-      "elapsedMs": 5443
+      "checkedAt": "2026-11-23T19:16:37Z",
+      "lastSuccessfulCheck": "2026-11-23T19:16:37Z",
+      "elapsedMs": 6266
     }
   ],
   "regionalSignals": {
@@ -6104,8 +6062,8 @@
       "dominantTopic": "Automated Driving Regulation"
     },
     "EU": {
-      "developments": 52,
-      "highPriority": 16,
+      "developments": 50,
+      "highPriority": 15,
       "dominantTopic": "Automated Driving Regulation"
     },
     "USA": {
